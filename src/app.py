@@ -62,7 +62,7 @@ with tab1:
                 line_opacity=0.2,
                 legend_name="Migration Velocity (Updates per 1k Pop)"
             ).add_to(m)
-            st_folium(m, width="stretch")
+            st_folium(m, width=None, height=400, returned_objects=[], use_container_width=True)
         else:
             st.warning("No geospatial data available for the selected filters.")
             
