@@ -13,70 +13,134 @@ from metrics import calculate_migration_velocity, calculate_dggi, detect_anomali
 st.set_page_config(page_title="Aadhaar-Drishti", layout="wide", page_icon="🇮🇳")
 
 # Custom CSS for Dashboard Styling
+# Custom CSS for Dashboard Styling
 st.markdown("""
 <style>
-    .main-header {
-        background-color: #1E3D59; /* darker blue */
-        padding: 20px;
-        border-radius: 10px;
-        color: white;
-        text-align: left;
+    /* Main Background adjustments if needed */
+    .block-container {
+        padding-top: 1rem;
+        padding-bottom: 2rem;
+    }
+    
+    /* TOP HEADER: White, Logos */
+    .top-header {
+        background-color: white;
+        padding: 10px 20px;
         display: flex;
         justify-content: space-between;
         align-items: center;
-        margin-bottom: 30px;
-        box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        margin-bottom: 0px;
+        border-bottom: 1px solid #eee;
     }
+    .header-logo-text {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+    }
+    .govt-text {
+        color: #333;
+        line-height: 1.4;
+    }
+    .govt-title {
+        font-size: 16px;
+        font-weight: bold;
+    }
+    .govt-subtitle {
+        font-size: 12px;
+    }
+    
+    /* BLUE SUB-HEADER: Title + Button Area */
+    .blue-subheader {
+        background-color: #1E3D59;
+        color: white;
+        padding: 15px 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-radius: 0px 0px 5px 5px; /* Slight rounded bottom */
+        margin-bottom: 20px;
+    }
+    .dashboard-title {
+        font-size: 20px;
+        font-weight: 500;
+        margin: 0;
+    }
+    
+    /* KPI Cards */
     .kpi-card {
         background-color: white;
         padding: 0px;
         border-radius: 10px;
         text-align: center;
-        box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-        margin-bottom: 20px;
-        overflow: hidden; /* for header radius */
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        margin-bottom: 10px;
+        overflow: hidden;
     }
     .kpi-title {
-        font-size: 18px;
+        font-size: 16px;
         font-weight: 600;
         color: white;
-        padding: 15px;
-        margin-bottom: 15px;
+        padding: 12px;
+        margin-bottom: 10px;
     }
     .kpi-value {
-        font-size: 32px;
+        font-size: 28px;
         font-weight: bold;
         color: #2c3e50;
-        margin-bottom: 5px;
+        margin-bottom: 2px;
     }
     .kpi-sub {
-        font-size: 14px;
+        font-size: 12px;
         color: #7f8c8d;
-        padding-bottom: 20px;
+        padding-bottom: 15px;
     }
     .enrol-bg { background-color: #5DADE2; }
     .update-bg { background-color: #F1948A; }
     .auth-bg { background-color: #58D68D; }
     .ekyc-bg { background-color: #F5B041; }
-    
-    /* Chart Card Styling */
+
+    /* Chart Container */
     .chart-container {
         background-color: white;
-        padding: 20px;
-        border-radius: 10px;
-        box-shadow: 0 2px 10px rgba(0,0,0,0.05);
-        margin-bottom: 20px;
+        padding: 15px;
+        border-radius: 8px;
+        box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        margin-bottom: 15px;
     }
 </style>
 
-<div class="main-header">
-    <div>
-        <div style="font-size: 28px; font-weight: bold;">Welcome to AADHAAR Dashboard</div>
-        <div style="font-size: 14px; opacity: 0.9;">Unique Identification Authority of India | Government of India</div>
+<!-- Top Header Section -->
+<div class="top-header">
+    <div class="header-logo-text">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/5/55/Emblem_of_India.svg" style="height: 50px;">
+        <div class="govt-text">
+            <div class="govt-title">Unique Identification Authority of India</div>
+            <div class="govt-subtitle">Government of India</div>
+        </div>
     </div>
-    <div style="font-size: 40px;">🇮🇳</div> 
+    <div>
+        <img src="https://upload.wikimedia.org/wikipedia/en/c/cf/Aadhaar_Logo.svg" style="height: 50px;">
+    </div>
+</div>
+
+<!-- Blue Title Bar Section (Visual only, button is separate Streamlit widget overlay) -->
+<div class="blue-subheader">
+    <div class="dashboard-title">Welcome to AADHAAR Dashboard</div>
+    <!-- Placeholder for alignment, actual button is below via columns -->
+    <div style="width: 150px;"></div> 
 </div>
 """, unsafe_allow_html=True)
+
+# Generate AI Insight Button & Controls Wrapper
+# We use a container to visually overlap or sit near the blue header? 
+# Actually, putting it strictly inside logic:
+col_header_1, col_header_2 = st.columns([6, 1])
+with col_header_2:
+    # This button technically sits below the blue bar in standard flow. 
+    # To make it look "inside", we'd need negative margins or layout hacks. 
+    # For now, we place it cleanly right below or we accept standard flow.
+    # Let's just place the button here for functionality.
+    gen_ai_btn = st.button("✨ Generate AI Insight", type="primary", use_container_width=True)
 
 # Load Data
 with st.spinner("Loading aggregated Aadhaar datasets..."):
@@ -205,11 +269,12 @@ with tab_trends:
         )
         st.plotly_chart(fig_div, width="stretch")
 
-# Sidebar Controls
-# Sidebar Controls (Moved to Main Expander for cleaner UI)
-# st.sidebar.header("Filter Controls") - Removed to save space
+# Sidebar Removal & Controls Relocated
+# 1. Filter Control (Moved to top area)
 with st.expander("🔍 Filter Dashboard Data", expanded=False):
-    selected_state = st.selectbox("Select State Region", ["All"] + list(df_sat['State'].unique()))
+    col_f1, col_f2 = st.columns([1, 4])
+    with col_f1:
+        selected_state = st.selectbox("Select State Region", ["All"] + list(df_sat['State'].unique()))
 
 # Filter logic
 if selected_state != "All":
@@ -218,38 +283,36 @@ if selected_state != "All":
     df_sat = df_sat[df_sat['State'] == selected_state]
     gdf = gdf[gdf['state'] == selected_state]
 
-# AI Analyst Section
-st.sidebar.markdown("---")
-st.sidebar.subheader("🤖 AI Analyst")
-if st.sidebar.button("Generate Smart Insight", key="ai_analyst_btn"):
-    with st.sidebar.chat_message("assistant"):
-        st.write("Analyzing patterns...")
+# AI Analyst Logic (Triggered by main button)
+if gen_ai_btn:
+    st.info("🤖 **AI Analyst Output**")
+    st.write("Analyzing patterns...")
+    
+    # Logic-based "GenAI" for Hackathon (Deterministic but smart)
+    insight_text = []
+    
+    # 1. Saturation Insight
+    avg_sat = df_sat['Saturation_Percentage'].mean()
+    if avg_sat > 100:
+        insight_text.append(f"⚠️ **Anomaly Detected**: Saturation is at {avg_sat:.1f}%, indicating extensive floating population or potential duplication in this region.")
+    elif avg_sat > 90:
+        insight_text.append(f"✅ **High Saturation**: This region has achieved {avg_sat:.1f}% coverage, suggesting a shift to 'Update-Correction' phase is priority.")
         
-        # Logic-based "GenAI" for Hackathon (Deterministic but smart)
-        insight_text = []
+    # 2. Gender Gap
+    male_upd = df_upd[df_upd['Gender']=='Male']['Count'].sum()
+    female_upd = df_upd[df_upd['Gender']=='Female']['Count'].sum()
+    gap = abs(male_upd - female_upd) / (male_upd + female_upd)
+    if gap > 0.2:
+        insight_text.append(f"📉 **Gender Gap Alert**: High disparity ({gap:.1%}) in updates between genders. Targeted camps for women are recommended.")
+    else:
+        insight_text.append(f"⚖️ **Gender Parity**: Excellent balance in digital access between genders.")
         
-        # 1. Saturation Insight
-        avg_sat = df_sat['Saturation_Percentage'].mean()
-        if avg_sat > 100:
-            insight_text.append(f"⚠️ **Anomaly Detected**: Saturation is at {avg_sat:.1f}%, indicating extensive floating population or potential duplication in this region.")
-        elif avg_sat > 90:
-            insight_text.append(f"✅ **High Saturation**: This region has achieved {avg_sat:.1f}% coverage, suggesting a shift to 'Update-Correction' phase is priority.")
-            
-        # 2. Gender Gap
-        male_upd = df_upd[df_upd['Gender']=='Male']['Count'].sum()
-        female_upd = df_upd[df_upd['Gender']=='Female']['Count'].sum()
-        gap = abs(male_upd - female_upd) / (male_upd + female_upd)
-        if gap > 0.2:
-            insight_text.append(f"📉 **Gender Gap Alert**: High disparity ({gap:.1%}) in updates between genders. Targeted camps for women are recommended.")
-        else:
-            insight_text.append(f"⚖️ **Gender Parity**: Excellent balance in digital access between genders.")
-            
-        # 3. Migration
-        addr_upd = df_upd[df_upd['Update_Type']=='Address']['Count'].sum()
-        if addr_upd > 5000: # Arbitrary threshold for mock data
-            insight_text.append(f"🚀 **High Migration Flow**: {addr_upd:,} address updates detected. Infrastructure planning required for new residents.")
-            
-        st.write(" ".join(insight_text))
+    # 3. Migration
+    addr_upd = df_upd[df_upd['Update_Type']=='Address']['Count'].sum()
+    if addr_upd > 5000: # Arbitrary threshold for mock data
+        insight_text.append(f"🚀 **High Migration Flow**: {addr_upd:,} address updates detected. Infrastructure planning required for new residents.")
+        
+    st.success(" ".join(insight_text))
 
 
 
