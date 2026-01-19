@@ -7,7 +7,7 @@ import plotly.graph_objects as go
 from plotly.subplots import make_subplots
 from streamlit_folium import st_folium
 from data_loader import load_data, merge_for_map
-from metrics import calculate_migration_velocity, calculate_dggi, detect_anomalies
+from metrics import calculate_update_intensity, calculate_age_distribution, detect_anomalies
 
 # Page Config
 st.set_page_config(page_title="Aadhaar-Drishti", layout="wide", page_icon="🇮🇳")
@@ -147,7 +147,7 @@ with col_header_2:
 
 # Load Data
 with st.spinner("Loading aggregated Aadhaar datasets..."):
-    df_enr, df_upd, df_sat, gdf = load_data()
+    df_enr, df_upd, gdf = load_data()
 
 
 # ---------------------------------------------------------
@@ -198,17 +198,18 @@ with st.expander("🔍 Filter Dashboard Data", expanded=False):
     col_f1, col_f2 = st.columns([1, 4])
     with col_f1:
         # Use a unique key to avoid duplicate ID errors if necessary, though moving it is safe
-        selected_state = st.selectbox("Select State Region", ["All"] + list(df_sat['State'].unique()), key="state_filter_main")
+        # Use Enrolment Data for State List
+        state_list = sorted(list(df_enr['State'].unique()))
+        selected_state = st.selectbox("Select State Region", ["All"] + state_list, key="state_filter_main")
 
 # Filter logic
 if selected_state != "All":
     df_enr = df_enr[df_enr['State'] == selected_state]
     df_upd = df_upd[df_upd['State'] == selected_state]
-    df_sat = df_sat[df_sat['State'] == selected_state]
     gdf = gdf[gdf['state'] == selected_state]
 
-
-
+# Layout: Tabs
+tab_trends, tab1, tab2, tab3 = st.tabs(["📈 Overall Trends", "🏭 Operational Intensity", "👥 Demographics", "🛡️ System Integrity"])
 with tab_trends:
     # Use standard headers but we will wrap charts to look 'contained'
     # Streamlit doesn't support wrapping plots in arbitrary HTML divs easily, 
@@ -259,46 +260,18 @@ with tab_trends:
         st.plotly_chart(fig_upd, width="stretch")
 
     with col2:
-        st.subheader("State Saturation Deviation (vs National Avg)")
+        st.subheader("Update Type Distribution")
         
-        # Calculate Deviation
-        national_avg = df_sat['Saturation_Percentage'].mean()
-        df_sat['Deviation'] = df_sat['Saturation_Percentage'] - national_avg
-        df_sat['Color'] = df_sat['Deviation'].apply(lambda x: '#2ECC71' if x > 0 else '#E74C3C')
-        
-        fig_div = go.Figure()
-        fig_div.add_trace(go.Bar(
-            y=df_sat['State'],
-            x=df_sat['Deviation'],
-            orientation='h',
-            marker=dict(color=df_sat['Color']),
-            text=df_sat['Deviation'].apply(lambda x: f"{x:+.1f}%"),
-            textposition='auto'
-        ))
-        
-        fig_div.update_layout(
-            title_text=f"Div. from National Avg ({national_avg:.1f}%)",
-            plot_bgcolor='white',
-            height=350,
-            margin=dict(t=30, b=0, l=0, r=0),
-            xaxis=dict(title="Deviation %", showgrid=True, gridcolor='#f0f0f0'),
-            yaxis=dict(title="")
-        )
-        st.plotly_chart(fig_div, width="stretch")
+        if 'Type' in df_upd.columns:
+            update_counts = df_upd['Type'].value_counts()
+            fig_type = px.pie(names=update_counts.index, values=update_counts.values, hole=0.4,
+                             color_discrete_sequence=['#FF7043', '#42A5F5'])
+            fig_type.update_layout(height=350, margin=dict(t=30, b=0, l=0, r=0))
+            st.plotly_chart(fig_type, width="stretch")
+        else:
+            st.warning("Type breakdown not available.")
 
-# Sidebar Removal & Controls Relocated
-# 1. Filter Control (Moved to top area)
-with st.expander("🔍 Filter Dashboard Data", expanded=False):
-    col_f1, col_f2 = st.columns([1, 4])
-    with col_f1:
-        selected_state = st.selectbox("Select State Region", ["All"] + list(df_sat['State'].unique()))
 
-# Filter logic
-if selected_state != "All":
-    df_enr = df_enr[df_enr['State'] == selected_state]
-    df_upd = df_upd[df_upd['State'] == selected_state]
-    df_sat = df_sat[df_sat['State'] == selected_state]
-    gdf = gdf[gdf['state'] == selected_state]
 
 # AI Analyst Logic (Triggered by main button)
 if gen_ai_btn:
@@ -308,44 +281,36 @@ if gen_ai_btn:
     # Logic-based "GenAI" for Hackathon (Deterministic but smart)
     insight_text = []
     
-    # 1. Saturation Insight
-    avg_sat = df_sat['Saturation_Percentage'].mean()
-    if avg_sat > 100:
-        insight_text.append(f"⚠️ **Anomaly Detected**: Saturation is at {avg_sat:.1f}%, indicating extensive floating population or potential duplication in this region.")
-    elif avg_sat > 90:
-        insight_text.append(f"✅ **High Saturation**: This region has achieved {avg_sat:.1f}% coverage, suggesting a shift to 'Update-Correction' phase is priority.")
+    # 1. Volume Insight
+    total_enr = df_enr['Enrolment_Count'].sum()
+    if total_enr > 1000000:
+        insight_text.append(f"📈 **High Volume**: Total enrolments exceed 1 Million ({total_enr:,}), indicating robust activity.")
         
-    # 2. Gender Gap
-    male_upd = df_upd[df_upd['Gender']=='Male']['Count'].sum()
-    female_upd = df_upd[df_upd['Gender']=='Female']['Count'].sum()
-    gap = abs(male_upd - female_upd) / (male_upd + female_upd)
-    if gap > 0.2:
-        insight_text.append(f"📉 **Gender Gap Alert**: High disparity ({gap:.1%}) in updates between genders. Targeted camps for women are recommended.")
+    # 2. Update Ratio
+    total_upd = df_upd['Count'].sum() if not df_upd.empty else 0
+    ratio = total_upd / total_enr if total_enr > 0 else 0
+    if ratio > 0.5:
+        insight_text.append(f"� **Maintenance Phase**: Updates ({total_upd:,}) are {ratio:.0%} of enrolments, suggesting a mature ecosystem.")
     else:
-        insight_text.append(f"⚖️ **Gender Parity**: Excellent balance in digital access between genders.")
-        
-    # 3. Migration
-    addr_upd = df_upd[df_upd['Update_Type']=='Address']['Count'].sum()
-    if addr_upd > 5000: # Arbitrary threshold for mock data
-        insight_text.append(f"🚀 **High Migration Flow**: {addr_upd:,} address updates detected. Infrastructure planning required for new residents.")
+        insight_text.append(f"🆕 **Acquisition Phase**: Focus is still largely on new enrolments over updates.")
         
     st.success(" ".join(insight_text))
 
 
 
 with tab1:
-    st.header("Alert: Industrial Clusters Drive 40% of In-Migration")
+    st.header("Operational Intensity (Updates vs Enrolments)")
     
     # Calculate Metric
-    mv_df = calculate_migration_velocity(df_upd, df_sat)
+    intensity_df = calculate_update_intensity(df_upd, df_enr)
     
     # Visualization: Map
     col1, col2 = st.columns([2, 1])
     
     with col1:
-        st.subheader("Distress vs Economic Migration Hotspots")
+        st.subheader("District-wise Update Intensity")
         # Merge for map
-        map_df = merge_for_map(gdf, mv_df, 'Migration_Velocity')
+        map_df = merge_for_map(gdf, intensity_df, 'Update_Intensity')
         
         if not map_df.empty:
             m = folium.Map(location=[20, 78], zoom_start=5)
@@ -353,86 +318,50 @@ with tab1:
                 geo_data=map_df.__geo_interface__,
                 name="choropleth",
                 data=map_df,
-                columns=["District", "Migration_Velocity"],
+                columns=["District", "Update_Intensity"],
                 key_on="feature.properties.district",
-                fill_color="YlOrRd",
+                fill_color="YlGnBu",
                 fill_opacity=0.7,
                 line_opacity=0.2,
-                legend_name="Migration Intensity (Updates/1k Pop)"
+                legend_name="Update Intensity (Updates per 1k Enrolments)"
             ).add_to(m)
             st_folium(m, width=None, height=400, returned_objects=[], use_container_width=True)
         else:
             st.warning("No geospatial data available for the selected filters.")
             
     with col2:
-        # THE WINNING ADDITION: Contextual Policy Card
-        # Simulating slightly higher MV for 'Nashik' logic if present, else just show top
-        nashik_mv = 0.19 # Hardcoded simulation for the 'Story'
-        national_avg_mv = 0.05
+        st.subheader("Priority Actions")
         
-        st.subheader("Policy Action Center")
-        
-        # 1. District Selector (Dynamic)
-        district_list = mv_df['District'].unique()
-        selected_district_tab = st.selectbox("Select District for Policy Review", district_list, key="mig_dist_select")
-        
-        # 2. Get Real Data for Selected District
-        dist_data = mv_df[mv_df['District'] == selected_district_tab].iloc[0]
-        real_mv = dist_data['Migration_Velocity']
-        
-        # 3. Dynamic Logic
-        threshold = mv_df['Migration_Velocity'].quantile(0.80)
-        
-        # Simulate ONORC Data for "Ground Truth" narrative (Randomized based on MV to be consistent)
-        # If MV is high, we assume 70% chance of high ONORC (Distress)
-        is_high_mv = real_mv > threshold
-        if is_high_mv:
-             onorc_intensity = "High" if random.random() > 0.3 else "Low"
+        # 1. District Selector
+        if not intensity_df.empty:
+            max_intensity = intensity_df['Update_Intensity'].max()
+            top_dist = intensity_df.loc[intensity_df['Update_Intensity'].idxmax()]
+            
+            st.metric(label=f"Highest Intensity: {top_dist['District']}", value=f"{top_dist['Update_Intensity']:.0f}")
+            
+            st.info(f"**Insight**: {top_dist['District']} has the highest maintenance load. Deploy mobile update vans.")
+            
+            st.markdown("**Top Districts by Intensity**")
+            st.dataframe(intensity_df.sort_values(by='Update_Intensity', ascending=False).head(5)[['District', 'Update_Intensity']])
         else:
-             onorc_intensity = "Low"
-             
-        if is_high_mv:
-            cause = "Distress Migration (Labor)" if onorc_intensity == "High" else "Economic Migration (Student/Job)"
-            action_icon = "🚍" if onorc_intensity == "High" else "🏙️"
-            action_text = "Deploy Mobile Aadhaar Vans to Labor Colonies" if onorc_intensity == "High" else "Open Weekend Enrolment Centers for Professionals"
-            
-            st.error(f"🚨 **High Stress Alert: {selected_district_tab}**")
-            st.markdown(f"""
-            **Inflow Velocity:** {real_mv:.2f} (Top 20% of Region)
-            **ONORC Usage:** {onorc_intensity}
-            
-            **Likely Cause:** {cause}
-            
-            **Recommended Actions:**
-            1. {action_icon} **{action_text}**.
-            2. 🏥 **Increase capacity** at local PHCs.
-            3. 👮 **Launch Tenant Verification** drive.
-            """)
-        else:
-            st.success(f"✅ **Stable**: {selected_district_tab} migration levels are within limits ({real_mv:.2f}).")
-            
-        st.markdown("**Top Districts by Inflow**")
-        top_districts = mv_df.sort_values(by='Migration_Velocity', ascending=False).head(5)
-        st.dataframe(top_districts[['District', 'Migration_Velocity']].style.format({"Migration_Velocity": "{:.2f}"}))
+            st.write("No data available.")
 
 with tab2:
-    st.header("Digital Inclusion Targets (Gender Parity)")
-    st.info("Policy Insight: Districts with < 0.4 Female Share require targeted enrolment camps.")
+    st.header("Demographic Profile (Age Distribution)")
     
-    dggi_df = calculate_dggi(df_upd, df_sat)
+    age_dist = calculate_age_distribution(df_enr)
     
-    # Visualization: Dumbbell or Bar chart
-    # Here we show Female Share of Total Updates by District
+    # Visualization: Pie Chart
+    col1, col2 = st.columns([2, 1])
     
-    fig = px.scatter(dggi_df.sort_values(by='Female_Share'), 
-                     x="Female_Share", y="District", color="Female_Share",
-                     color_continuous_scale="RdBu",
-                     title="Female Share of Mobile Updates (Proxy for Digital Autonomy)")
-    
-    # Add vertical line at 0.5 (Parity)
-    fig.add_vline(x=0.5, line_dash="dash", annotation_text="Parity")
-    
-    st.plotly_chart(fig, width="stretch")
+    with col1:
+        fig = px.pie(values=list(age_dist.values()), names=list(age_dist.keys()), hole=0.3,
+                     title="Enrolment Share by Age Group",
+                     color_discrete_sequence=px.colors.sequential.RdBu)
+        st.plotly_chart(fig, width="stretch")
+        
+    with col2:
+        st.info("**Policy Note**: \n\n- **0-5 Years**: Mandatory Biometric Update (MBU) pending at age 5.\n- **5-17 Years**: MBU pending at age 15.\n- **18+**: General updates.")
 
 with tab3:
     st.header("System Integrity & MBU Demand Forecasting")
@@ -440,17 +369,21 @@ with tab3:
     col1, col2 = st.columns(2)
     
     with col1:
-        st.subheader("⚠️ Anomalous Enrolment Centers")
-        st.markdown("Detected using **Isolation Forest** on Rejection Rates.")
+        st.subheader("⚠️ Anomalous Enrolment Volume")
+        st.markdown("Detected using **Isolation Forest** on Enrolment Counts.")
         
         anomalies = detect_anomalies(df_enr)
         
         if not anomalies.empty:
-            fig = px.scatter(anomalies, x="Enrolment_Count", y="Rejection_Rate", 
-                             color="Rejection_Rate", size="Enrolment_Count",
-                             hover_name="District", title="Outliers: High Rejection Clusters")
+            # -1 is anomaly, map to string for color
+            anomalies['Status'] = anomalies['anomaly'].apply(lambda x: 'Anomaly' if x == -1 else 'Normal')
+            
+            fig = px.scatter(anomalies, x="District", y="Enrolment_Count", 
+                             color="Status", size="Enrolment_Count",
+                             color_discrete_map={'Anomaly': 'red', 'Normal': 'blue'},
+                             hover_name="District", title="Outliers: Unusual Enrolment Volume")
             st.plotly_chart(fig)
-            st.error(f"**Action Required**: {len(anomalies)} Centers flagged for immediate audit due to >15% rejection rate.")
+            st.error(f"**Action Required**: {len(anomalies[anomalies['anomaly']==-1])} Districts flagged for audit due to deviation from state norms.")
         else:
             st.success("No significant anomalies detected in the current view.")
             
