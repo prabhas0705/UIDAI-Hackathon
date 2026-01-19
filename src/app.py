@@ -101,11 +101,31 @@ with tab_trends:
                          color_discrete_sequence=['#ff6c6c'], text_auto='.2s')
         st.plotly_chart(fig_upd, width="stretch")
 
+import plotly.graph_objects as go
+
+# ... (inside tab_trends) ...
+
     with col2:
-        st.subheader("State-wise Saturation Distribution")
-        fig_pie = px.pie(df_sat, values='Projected_Pop_2025', names='State', hole=0.4, 
-                         color_discrete_sequence=px.colors.sequential.RdBu)
-        fig_pie.update_traces(textposition='inside', textinfo='percent+label')
+        st.subheader("State Saturation Hierarchy")
+        
+        # Prepare data for Exploded Pie
+        pie_data = df_sat.sort_values(by='Projected_Pop_2025', ascending=False)
+        # Create a 'pull' list: 0.2 for the first item (largest), 0 for others
+        pull_config = [0.2] + [0.0] * (len(pie_data) - 1)
+        
+        fig_pie = go.Figure(data=[go.Pie(
+            labels=pie_data['State'], 
+            values=pie_data['Projected_Pop_2025'],
+            pull=pull_config, # Explode the largest slice to give that "3D pop" look
+            hole=0.0, # Full pie (not donut) to match reference
+            textinfo='percent+label',
+            marker=dict(colors=px.colors.qualitative.Prism, line=dict(color='#000000', width=1))
+        )])
+        
+        fig_pie.update_layout(
+            showlegend=True,
+            legend=dict(orientation="v", yanchor="top", y=1, xanchor="left", x=1.05) # Legend on right like reference
+        )
         st.plotly_chart(fig_pie, width="stretch")
 
 with tab1:
