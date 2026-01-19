@@ -123,33 +123,7 @@ with col4:
 
 
 
-# AI Analyst Section
-st.sidebar.markdown("---")
-st.sidebar.subheader("🤖 AI Analyst")
-if st.sidebar.button("Generate Smart Insight"):
-    with st.sidebar.chat_message("assistant"):
-        st.write("Analyzing patterns...")
-        # ... (AI Logic matches previous)
-        insight_text = []
-        avg_sat = df_sat['Saturation_Percentage'].mean()
-        if avg_sat > 100:
-            insight_text.append(f"⚠️ **Action Req**: Saturation > 100% ({avg_sat:.1f}%). **Rec**: Initiate deduplication audit & verify floating population.")
-        elif avg_sat > 90:
-            insight_text.append(f"✅ **High Coverage**: ({avg_sat:.1f}%) achieved. **Rec**: Shift focus to biometric updates & mobile number linkage.")
-            
-        # 2. Gender Gap
-        male_upd = df_upd[df_upd['Gender']=='Male']['Count'].sum()
-        female_upd = df_upd[df_upd['Gender']=='Female']['Count'].sum()
-        gap = abs(male_upd - female_upd) / (male_upd + female_upd)
-        if gap > 0.2:
-            insight_text.append(f"📉 **Gender Gap Alert**: High disparity ({gap:.1%}). **Rec**: Launch targeted 'Aadhaar for Her' camps in this district.")
-        else:
-            insight_text.append(f"⚖️ **Gender Parity**: Balanced access. **Rec**: Maintain current outreach levels.")
-            
-        # 3. Migration
-        addr_upd = df_upd[df_upd['Update_Type']=='Address']['Count'].sum()
-        if addr_upd > 5000: # Arbitrary threshold for mock data
-            insight_text.append(f"🚀 **Migration Surge**: {addr_upd:,} address updates. **Rec**: Allocate temporary enrolment centers to manage inflow.")
+
 
 # Tabs
 tab_trends, tab1, tab2, tab3 = st.tabs(["📊 Trends View", "🚀 Migration Monitor", "📱 Inclusion Tracker", "🔍 Anomaly Detection"])
@@ -159,7 +133,7 @@ with tab_trends:
     # Streamlit doesn't support wrapping plots in arbitrary HTML divs easily, 
     # so we rely on Plotly's native white background we set below.
     
-    col1, col2 = st.columns([2, 1])
+    col1, col2 = st.columns([3, 2])
     
     with col1:
         st.markdown("#### Aadhaar Generation Trend")
@@ -232,8 +206,10 @@ with tab_trends:
         st.plotly_chart(fig_div, width="stretch")
 
 # Sidebar Controls
-st.sidebar.header("Filter Controls")
-selected_state = st.sidebar.selectbox("Select State", ["All"] + list(df_sat['State'].unique()))
+# Sidebar Controls (Moved to Main Expander for cleaner UI)
+# st.sidebar.header("Filter Controls") - Removed to save space
+with st.expander("🔍 Filter Dashboard Data", expanded=False):
+    selected_state = st.selectbox("Select State Region", ["All"] + list(df_sat['State'].unique()))
 
 # Filter logic
 if selected_state != "All":
