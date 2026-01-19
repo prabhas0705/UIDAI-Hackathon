@@ -20,6 +20,18 @@ st.markdown("""
 with st.spinner("Loading aggregated Aadhaar datasets..."):
     df_enr, df_upd, df_sat, gdf = load_data()
 
+# KPI Section
+kpi1, kpi2, kpi3, kpi4 = st.columns(4)
+with kpi1:
+    st.metric("Total Enrolments (2023-25)", f"{df_enr['Enrolment_Count'].sum():,}")
+with kpi2:
+    st.metric("Total Updates", f"{df_upd['Count'].sum():,}")
+with kpi3:
+    st.metric("Avg. Saturation", f"{df_sat['Saturation_Percentage'].mean():.1f}%")
+with kpi4:
+    st.metric("Avg. Rejection Rate", f"{(df_enr['Rejection_Count'].sum()/df_enr['Enrolment_Count'].sum())*100:.2f}%")
+st.markdown("---")
+
 # Sidebar Controls
 st.sidebar.header("Filter Controls")
 selected_state = st.sidebar.selectbox("Select State", ["All"] + list(df_sat['State'].unique()))
