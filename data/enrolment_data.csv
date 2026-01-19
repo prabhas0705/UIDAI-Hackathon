@@ -1,0 +1,3436 @@
+Month,State,District,Age_Group,Gender,Enrolment_Count,Rejection_Count
+2023-01,Bihar,Darbhanga,0-5,Female,1,0
+2023-01,Bihar,Darbhanga,0-5,Male,1,0
+2023-01,Bihar,Darbhanga,0-5,Transgender,1,0
+2023-01,Bihar,Darbhanga,18+,Male,1,0
+2023-01,Bihar,Darbhanga,5-18,Female,1,0
+2023-01,Bihar,Darbhanga,5-18,Male,1,0
+2023-01,Bihar,Darbhanga,5-18,Transgender,1,0
+2023-01,Bihar,Gaya,0-5,Female,2,0
+2023-01,Bihar,Gaya,0-5,Male,2,0
+2023-01,Bihar,Gaya,0-5,Transgender,1,0
+2023-01,Bihar,Gaya,5-18,Female,1,0
+2023-01,Bihar,Gaya,5-18,Male,2,0
+2023-01,Bihar,Muzaffarpur,0-5,Male,1,1
+2023-01,Bihar,Muzaffarpur,0-5,Transgender,3,0
+2023-01,Bihar,Muzaffarpur,18+,Male,1,0
+2023-01,Bihar,Muzaffarpur,5-18,Female,1,0
+2023-01,Bihar,Patna,0-5,Transgender,1,0
+2023-01,Bihar,Patna,18+,Transgender,1,0
+2023-01,Bihar,Purnia,0-5,Female,3,0
+2023-01,Bihar,Purnia,5-18,Male,1,0
+2023-01,Karnataka,Bangalore Urban,0-5,Male,1,0
+2023-01,Karnataka,Bangalore Urban,0-5,Transgender,3,0
+2023-01,Karnataka,Bangalore Urban,5-18,Transgender,2,0
+2023-01,Karnataka,Belgaum,0-5,Female,4,0
+2023-01,Karnataka,Belgaum,0-5,Male,1,0
+2023-01,Karnataka,Belgaum,0-5,Transgender,2,0
+2023-01,Karnataka,Belgaum,5-18,Transgender,1,0
+2023-01,Karnataka,Dakshina Kannada,5-18,Female,2,0
+2023-01,Karnataka,Kalaburagi,0-5,Transgender,2,0
+2023-01,Karnataka,Kalaburagi,18+,Transgender,1,1
+2023-01,Karnataka,Kalaburagi,5-18,Female,1,0
+2023-01,Karnataka,Kalaburagi,5-18,Male,1,1
+2023-01,Karnataka,Kalaburagi,5-18,Transgender,1,0
+2023-01,Karnataka,Mysore,0-5,Female,1,0
+2023-01,Karnataka,Mysore,18+,Transgender,1,0
+2023-01,Karnataka,Mysore,5-18,Transgender,1,0
+2023-01,Kerala,Ernakulam,0-5,Female,1,0
+2023-01,Kerala,Ernakulam,0-5,Male,1,0
+2023-01,Kerala,Ernakulam,5-18,Male,1,0
+2023-01,Kerala,Kozhikode,0-5,Female,2,0
+2023-01,Kerala,Kozhikode,0-5,Male,1,0
+2023-01,Kerala,Kozhikode,0-5,Transgender,1,0
+2023-01,Kerala,Kozhikode,5-18,Female,1,0
+2023-01,Kerala,Malappuram,0-5,Female,1,0
+2023-01,Kerala,Malappuram,0-5,Male,1,0
+2023-01,Kerala,Malappuram,0-5,Transgender,3,0
+2023-01,Kerala,Malappuram,18+,Male,1,0
+2023-01,Kerala,Malappuram,5-18,Male,2,0
+2023-01,Kerala,Malappuram,5-18,Transgender,2,0
+2023-01,Kerala,Thiruvananthapuram,0-5,Female,1,0
+2023-01,Kerala,Thiruvananthapuram,0-5,Male,1,0
+2023-01,Kerala,Thiruvananthapuram,0-5,Transgender,2,0
+2023-01,Kerala,Thiruvananthapuram,18+,Male,2,0
+2023-01,Kerala,Thiruvananthapuram,5-18,Female,1,0
+2023-01,Kerala,Thiruvananthapuram,5-18,Male,1,0
+2023-01,Kerala,Thrissur,0-5,Male,1,0
+2023-01,Kerala,Thrissur,0-5,Transgender,4,0
+2023-01,Kerala,Thrissur,18+,Male,1,0
+2023-01,Kerala,Thrissur,5-18,Female,1,0
+2023-01,Kerala,Thrissur,5-18,Male,1,0
+2023-01,Maharashtra,Mumbai,0-5,Female,2,0
+2023-01,Maharashtra,Mumbai,0-5,Male,1,0
+2023-01,Maharashtra,Mumbai,0-5,Transgender,2,0
+2023-01,Maharashtra,Mumbai,5-18,Female,1,0
+2023-01,Maharashtra,Mumbai,5-18,Male,1,0
+2023-01,Maharashtra,Mumbai,5-18,Transgender,1,0
+2023-01,Maharashtra,Nagpur,0-5,Male,3,0
+2023-01,Maharashtra,Nagpur,0-5,Transgender,3,0
+2023-01,Maharashtra,Nagpur,5-18,Female,1,0
+2023-01,Maharashtra,Nagpur,5-18,Transgender,3,0
+2023-01,Maharashtra,Nashik,0-5,Female,2,1
+2023-01,Maharashtra,Nashik,0-5,Transgender,2,0
+2023-01,Maharashtra,Nashik,18+,Transgender,1,0
+2023-01,Maharashtra,Nashik,5-18,Transgender,1,0
+2023-01,Maharashtra,Pune,0-5,Female,1,0
+2023-01,Maharashtra,Pune,0-5,Transgender,3,0
+2023-01,Maharashtra,Pune,5-18,Male,2,0
+2023-01,Maharashtra,Pune,5-18,Transgender,1,0
+2023-01,Maharashtra,Thane,0-5,Female,2,0
+2023-01,Maharashtra,Thane,0-5,Transgender,1,0
+2023-01,Maharashtra,Thane,18+,Female,1,0
+2023-01,Maharashtra,Thane,5-18,Male,1,0
+2023-01,Uttar Pradesh,Gautam Buddha Nagar,0-5,Female,2,0
+2023-01,Uttar Pradesh,Gautam Buddha Nagar,0-5,Male,2,0
+2023-01,Uttar Pradesh,Gautam Buddha Nagar,0-5,Transgender,1,0
+2023-01,Uttar Pradesh,Gautam Buddha Nagar,5-18,Female,2,0
+2023-01,Uttar Pradesh,Gautam Buddha Nagar,5-18,Male,1,0
+2023-01,Uttar Pradesh,Kanpur,0-5,Male,1,0
+2023-01,Uttar Pradesh,Kanpur,0-5,Transgender,2,0
+2023-01,Uttar Pradesh,Kanpur,5-18,Female,1,0
+2023-01,Uttar Pradesh,Lucknow,0-5,Female,1,0
+2023-01,Uttar Pradesh,Lucknow,0-5,Male,1,0
+2023-01,Uttar Pradesh,Lucknow,0-5,Transgender,2,0
+2023-01,Uttar Pradesh,Prayagraj,0-5,Female,2,0
+2023-01,Uttar Pradesh,Prayagraj,0-5,Male,1,0
+2023-01,Uttar Pradesh,Prayagraj,0-5,Transgender,1,0
+2023-01,Uttar Pradesh,Prayagraj,18+,Male,1,0
+2023-01,Uttar Pradesh,Prayagraj,5-18,Male,1,0
+2023-01,Uttar Pradesh,Prayagraj,5-18,Transgender,1,0
+2023-01,Uttar Pradesh,Varanasi,0-5,Female,1,0
+2023-01,Uttar Pradesh,Varanasi,0-5,Male,1,0
+2023-01,Uttar Pradesh,Varanasi,0-5,Transgender,2,0
+2023-01,Uttar Pradesh,Varanasi,5-18,Transgender,1,0
+2023-02,Bihar,Darbhanga,0-5,Male,1,0
+2023-02,Bihar,Darbhanga,5-18,Male,1,0
+2023-02,Bihar,Gaya,0-5,Transgender,1,0
+2023-02,Bihar,Gaya,18+,Female,1,0
+2023-02,Bihar,Gaya,5-18,Male,1,0
+2023-02,Bihar,Gaya,5-18,Transgender,1,0
+2023-02,Bihar,Muzaffarpur,0-5,Female,1,0
+2023-02,Bihar,Muzaffarpur,0-5,Male,1,0
+2023-02,Bihar,Muzaffarpur,5-18,Male,1,0
+2023-02,Bihar,Patna,0-5,Male,2,0
+2023-02,Bihar,Patna,0-5,Transgender,3,0
+2023-02,Bihar,Patna,18+,Female,1,0
+2023-02,Bihar,Patna,5-18,Transgender,1,0
+2023-02,Bihar,Purnia,0-5,Male,1,0
+2023-02,Karnataka,Bangalore Urban,0-5,Female,1,0
+2023-02,Karnataka,Bangalore Urban,0-5,Male,1,0
+2023-02,Karnataka,Bangalore Urban,0-5,Transgender,2,0
+2023-02,Karnataka,Bangalore Urban,18+,Male,1,0
+2023-02,Karnataka,Bangalore Urban,5-18,Male,1,0
+2023-02,Karnataka,Bangalore Urban,5-18,Transgender,1,0
+2023-02,Karnataka,Belgaum,0-5,Male,2,0
+2023-02,Karnataka,Belgaum,0-5,Transgender,1,0
+2023-02,Karnataka,Dakshina Kannada,0-5,Female,3,0
+2023-02,Karnataka,Dakshina Kannada,0-5,Male,2,0
+2023-02,Karnataka,Dakshina Kannada,0-5,Transgender,2,0
+2023-02,Karnataka,Dakshina Kannada,5-18,Male,1,0
+2023-02,Karnataka,Kalaburagi,0-5,Male,1,0
+2023-02,Karnataka,Kalaburagi,0-5,Transgender,1,0
+2023-02,Karnataka,Kalaburagi,5-18,Female,1,0
+2023-02,Karnataka,Mysore,0-5,Female,2,0
+2023-02,Karnataka,Mysore,0-5,Male,1,0
+2023-02,Karnataka,Mysore,0-5,Transgender,1,0
+2023-02,Karnataka,Mysore,18+,Female,1,0
+2023-02,Karnataka,Mysore,5-18,Female,1,1
+2023-02,Kerala,Ernakulam,0-5,Female,1,0
+2023-02,Kerala,Ernakulam,0-5,Male,1,0
+2023-02,Kerala,Ernakulam,18+,Female,1,0
+2023-02,Kerala,Kozhikode,0-5,Female,2,0
+2023-02,Kerala,Kozhikode,0-5,Male,1,0
+2023-02,Kerala,Kozhikode,0-5,Transgender,1,0
+2023-02,Kerala,Malappuram,0-5,Female,2,1
+2023-02,Kerala,Malappuram,0-5,Transgender,1,1
+2023-02,Kerala,Malappuram,18+,Female,1,0
+2023-02,Kerala,Malappuram,18+,Male,1,0
+2023-02,Kerala,Malappuram,5-18,Male,2,0
+2023-02,Kerala,Malappuram,5-18,Transgender,1,0
+2023-02,Kerala,Thiruvananthapuram,0-5,Female,1,0
+2023-02,Kerala,Thiruvananthapuram,5-18,Male,3,0
+2023-02,Kerala,Thiruvananthapuram,5-18,Transgender,1,0
+2023-02,Kerala,Thrissur,0-5,Female,1,0
+2023-02,Kerala,Thrissur,0-5,Male,1,0
+2023-02,Maharashtra,Mumbai,0-5,Female,2,0
+2023-02,Maharashtra,Mumbai,0-5,Male,1,0
+2023-02,Maharashtra,Mumbai,0-5,Transgender,1,0
+2023-02,Maharashtra,Mumbai,5-18,Female,1,0
+2023-02,Maharashtra,Nagpur,0-5,Transgender,1,0
+2023-02,Maharashtra,Nagpur,5-18,Female,2,0
+2023-02,Maharashtra,Nagpur,5-18,Transgender,2,0
+2023-02,Maharashtra,Nashik,18+,Transgender,1,0
+2023-02,Maharashtra,Nashik,5-18,Female,2,0
+2023-02,Maharashtra,Nashik,5-18,Male,3,0
+2023-02,Maharashtra,Nashik,5-18,Transgender,1,0
+2023-02,Maharashtra,Pune,0-5,Male,1,0
+2023-02,Maharashtra,Pune,0-5,Transgender,1,1
+2023-02,Maharashtra,Pune,5-18,Transgender,1,0
+2023-02,Maharashtra,Thane,0-5,Female,4,0
+2023-02,Maharashtra,Thane,0-5,Transgender,1,0
+2023-02,Maharashtra,Thane,5-18,Female,1,0
+2023-02,Maharashtra,Thane,5-18,Male,2,0
+2023-02,Uttar Pradesh,Gautam Buddha Nagar,0-5,Male,1,0
+2023-02,Uttar Pradesh,Gautam Buddha Nagar,0-5,Transgender,1,0
+2023-02,Uttar Pradesh,Gautam Buddha Nagar,18+,Female,1,0
+2023-02,Uttar Pradesh,Gautam Buddha Nagar,5-18,Transgender,1,0
+2023-02,Uttar Pradesh,Kanpur,0-5,Female,1,0
+2023-02,Uttar Pradesh,Kanpur,18+,Transgender,1,0
+2023-02,Uttar Pradesh,Kanpur,5-18,Female,5,0
+2023-02,Uttar Pradesh,Kanpur,5-18,Male,4,0
+2023-02,Uttar Pradesh,Kanpur,5-18,Transgender,2,0
+2023-02,Uttar Pradesh,Lucknow,0-5,Male,2,0
+2023-02,Uttar Pradesh,Lucknow,5-18,Female,1,0
+2023-02,Uttar Pradesh,Lucknow,5-18,Transgender,1,0
+2023-02,Uttar Pradesh,Prayagraj,0-5,Female,1,0
+2023-02,Uttar Pradesh,Prayagraj,5-18,Transgender,1,0
+2023-02,Uttar Pradesh,Varanasi,0-5,Female,2,0
+2023-02,Uttar Pradesh,Varanasi,18+,Female,1,0
+2023-02,Uttar Pradesh,Varanasi,18+,Transgender,2,1
+2023-02,Uttar Pradesh,Varanasi,5-18,Female,1,0
+2023-02,Uttar Pradesh,Varanasi,5-18,Male,1,0
+2023-03,Bihar,Darbhanga,0-5,Male,1,0
+2023-03,Bihar,Darbhanga,0-5,Transgender,2,0
+2023-03,Bihar,Darbhanga,18+,Female,1,0
+2023-03,Bihar,Darbhanga,18+,Male,1,0
+2023-03,Bihar,Darbhanga,5-18,Male,1,0
+2023-03,Bihar,Gaya,0-5,Female,1,0
+2023-03,Bihar,Gaya,18+,Female,1,0
+2023-03,Bihar,Gaya,5-18,Transgender,1,0
+2023-03,Bihar,Muzaffarpur,0-5,Female,1,0
+2023-03,Bihar,Muzaffarpur,0-5,Transgender,1,0
+2023-03,Bihar,Muzaffarpur,5-18,Female,3,0
+2023-03,Bihar,Muzaffarpur,5-18,Transgender,1,0
+2023-03,Bihar,Purnia,0-5,Female,1,0
+2023-03,Bihar,Purnia,18+,Male,1,0
+2023-03,Bihar,Purnia,5-18,Male,2,0
+2023-03,Karnataka,Bangalore Urban,0-5,Female,1,0
+2023-03,Karnataka,Bangalore Urban,0-5,Transgender,2,0
+2023-03,Karnataka,Bangalore Urban,18+,Transgender,1,0
+2023-03,Karnataka,Belgaum,0-5,Female,3,1
+2023-03,Karnataka,Belgaum,0-5,Male,2,0
+2023-03,Karnataka,Belgaum,18+,Transgender,1,0
+2023-03,Karnataka,Belgaum,5-18,Transgender,1,0
+2023-03,Karnataka,Dakshina Kannada,0-5,Female,2,0
+2023-03,Karnataka,Dakshina Kannada,0-5,Transgender,1,0
+2023-03,Karnataka,Kalaburagi,0-5,Female,3,0
+2023-03,Karnataka,Kalaburagi,0-5,Male,3,0
+2023-03,Karnataka,Kalaburagi,0-5,Transgender,2,0
+2023-03,Karnataka,Kalaburagi,5-18,Female,1,0
+2023-03,Karnataka,Mysore,0-5,Female,2,0
+2023-03,Karnataka,Mysore,18+,Male,1,0
+2023-03,Karnataka,Mysore,5-18,Female,1,0
+2023-03,Karnataka,Mysore,5-18,Transgender,2,0
+2023-03,Kerala,Ernakulam,0-5,Female,1,0
+2023-03,Kerala,Ernakulam,0-5,Transgender,1,0
+2023-03,Kerala,Ernakulam,5-18,Male,1,0
+2023-03,Kerala,Ernakulam,5-18,Transgender,1,0
+2023-03,Kerala,Kozhikode,0-5,Female,3,1
+2023-03,Kerala,Kozhikode,0-5,Male,2,0
+2023-03,Kerala,Kozhikode,0-5,Transgender,1,1
+2023-03,Kerala,Kozhikode,18+,Female,1,0
+2023-03,Kerala,Kozhikode,18+,Transgender,1,0
+2023-03,Kerala,Kozhikode,5-18,Male,1,0
+2023-03,Kerala,Malappuram,0-5,Female,2,0
+2023-03,Kerala,Malappuram,0-5,Male,2,0
+2023-03,Kerala,Malappuram,0-5,Transgender,1,0
+2023-03,Kerala,Malappuram,18+,Male,1,0
+2023-03,Kerala,Malappuram,5-18,Female,1,0
+2023-03,Kerala,Malappuram,5-18,Male,1,0
+2023-03,Kerala,Thiruvananthapuram,0-5,Female,1,0
+2023-03,Kerala,Thiruvananthapuram,0-5,Male,2,0
+2023-03,Kerala,Thiruvananthapuram,0-5,Transgender,3,0
+2023-03,Kerala,Thiruvananthapuram,5-18,Male,1,0
+2023-03,Kerala,Thrissur,0-5,Female,1,0
+2023-03,Kerala,Thrissur,0-5,Male,1,0
+2023-03,Kerala,Thrissur,0-5,Transgender,3,0
+2023-03,Kerala,Thrissur,5-18,Female,2,0
+2023-03,Kerala,Thrissur,5-18,Male,1,0
+2023-03,Maharashtra,Mumbai,0-5,Male,1,0
+2023-03,Maharashtra,Mumbai,0-5,Transgender,1,0
+2023-03,Maharashtra,Mumbai,18+,Transgender,1,1
+2023-03,Maharashtra,Mumbai,5-18,Male,1,0
+2023-03,Maharashtra,Nagpur,0-5,Female,1,0
+2023-03,Maharashtra,Nagpur,0-5,Male,1,0
+2023-03,Maharashtra,Nagpur,0-5,Transgender,2,0
+2023-03,Maharashtra,Nagpur,18+,Male,1,0
+2023-03,Maharashtra,Nagpur,5-18,Transgender,1,0
+2023-03,Maharashtra,Nashik,0-5,Female,1,0
+2023-03,Maharashtra,Nashik,0-5,Male,2,0
+2023-03,Maharashtra,Nashik,5-18,Female,1,0
+2023-03,Maharashtra,Nashik,5-18,Transgender,2,0
+2023-03,Maharashtra,Pune,0-5,Female,1,0
+2023-03,Maharashtra,Pune,0-5,Transgender,1,1
+2023-03,Maharashtra,Pune,18+,Transgender,1,0
+2023-03,Maharashtra,Pune,5-18,Female,1,0
+2023-03,Maharashtra,Pune,5-18,Transgender,3,0
+2023-03,Maharashtra,Thane,0-5,Male,2,0
+2023-03,Maharashtra,Thane,5-18,Female,3,0
+2023-03,Maharashtra,Thane,5-18,Male,1,0
+2023-03,Maharashtra,Thane,5-18,Transgender,1,0
+2023-03,Uttar Pradesh,Gautam Buddha Nagar,0-5,Female,1,0
+2023-03,Uttar Pradesh,Gautam Buddha Nagar,0-5,Male,1,0
+2023-03,Uttar Pradesh,Gautam Buddha Nagar,5-18,Female,1,0
+2023-03,Uttar Pradesh,Kanpur,0-5,Female,1,0
+2023-03,Uttar Pradesh,Kanpur,0-5,Male,1,0
+2023-03,Uttar Pradesh,Kanpur,0-5,Transgender,2,0
+2023-03,Uttar Pradesh,Kanpur,5-18,Transgender,1,1
+2023-03,Uttar Pradesh,Lucknow,0-5,Female,1,0
+2023-03,Uttar Pradesh,Lucknow,0-5,Transgender,1,1
+2023-03,Uttar Pradesh,Lucknow,5-18,Female,1,0
+2023-03,Uttar Pradesh,Lucknow,5-18,Male,2,0
+2023-03,Uttar Pradesh,Lucknow,5-18,Transgender,2,0
+2023-03,Uttar Pradesh,Prayagraj,0-5,Transgender,2,0
+2023-03,Uttar Pradesh,Prayagraj,18+,Transgender,1,0
+2023-03,Uttar Pradesh,Prayagraj,5-18,Female,1,0
+2023-03,Uttar Pradesh,Varanasi,0-5,Female,2,0
+2023-03,Uttar Pradesh,Varanasi,0-5,Male,1,0
+2023-03,Uttar Pradesh,Varanasi,5-18,Male,1,0
+2023-04,Bihar,Darbhanga,0-5,Female,3,2
+2023-04,Bihar,Darbhanga,0-5,Male,1,0
+2023-04,Bihar,Darbhanga,0-5,Transgender,2,0
+2023-04,Bihar,Darbhanga,18+,Female,1,0
+2023-04,Bihar,Darbhanga,18+,Transgender,1,0
+2023-04,Bihar,Darbhanga,5-18,Male,4,0
+2023-04,Bihar,Darbhanga,5-18,Transgender,1,1
+2023-04,Bihar,Gaya,0-5,Female,6,0
+2023-04,Bihar,Gaya,0-5,Male,5,0
+2023-04,Bihar,Gaya,0-5,Transgender,2,0
+2023-04,Bihar,Gaya,5-18,Male,1,0
+2023-04,Bihar,Gaya,5-18,Transgender,1,0
+2023-04,Bihar,Muzaffarpur,0-5,Male,2,0
+2023-04,Bihar,Muzaffarpur,5-18,Male,1,1
+2023-04,Bihar,Patna,0-5,Female,1,0
+2023-04,Bihar,Patna,0-5,Male,2,0
+2023-04,Bihar,Patna,0-5,Transgender,1,0
+2023-04,Bihar,Patna,18+,Male,1,0
+2023-04,Bihar,Patna,5-18,Male,1,0
+2023-04,Bihar,Patna,5-18,Transgender,2,0
+2023-04,Bihar,Purnia,0-5,Male,1,0
+2023-04,Bihar,Purnia,18+,Transgender,1,0
+2023-04,Bihar,Purnia,5-18,Male,2,0
+2023-04,Bihar,Purnia,5-18,Transgender,1,0
+2023-04,Karnataka,Bangalore Urban,0-5,Female,1,0
+2023-04,Karnataka,Bangalore Urban,0-5,Male,1,0
+2023-04,Karnataka,Bangalore Urban,5-18,Female,1,0
+2023-04,Karnataka,Bangalore Urban,5-18,Male,1,0
+2023-04,Karnataka,Belgaum,0-5,Female,2,0
+2023-04,Karnataka,Belgaum,0-5,Male,1,0
+2023-04,Karnataka,Belgaum,0-5,Transgender,1,0
+2023-04,Karnataka,Belgaum,5-18,Female,1,0
+2023-04,Karnataka,Belgaum,5-18,Transgender,1,0
+2023-04,Karnataka,Dakshina Kannada,0-5,Transgender,1,0
+2023-04,Karnataka,Dakshina Kannada,5-18,Male,1,0
+2023-04,Karnataka,Kalaburagi,0-5,Male,1,0
+2023-04,Karnataka,Kalaburagi,0-5,Transgender,1,0
+2023-04,Karnataka,Kalaburagi,5-18,Transgender,2,0
+2023-04,Karnataka,Mysore,0-5,Female,2,0
+2023-04,Karnataka,Mysore,0-5,Male,1,0
+2023-04,Karnataka,Mysore,5-18,Female,1,1
+2023-04,Karnataka,Mysore,5-18,Male,1,0
+2023-04,Kerala,Ernakulam,0-5,Transgender,1,0
+2023-04,Kerala,Ernakulam,18+,Female,1,0
+2023-04,Kerala,Ernakulam,18+,Transgender,1,0
+2023-04,Kerala,Kozhikode,0-5,Female,3,0
+2023-04,Kerala,Kozhikode,0-5,Male,1,0
+2023-04,Kerala,Kozhikode,5-18,Transgender,1,0
+2023-04,Kerala,Malappuram,0-5,Female,2,0
+2023-04,Kerala,Malappuram,0-5,Transgender,1,0
+2023-04,Kerala,Malappuram,5-18,Male,1,0
+2023-04,Kerala,Malappuram,5-18,Transgender,1,0
+2023-04,Kerala,Thiruvananthapuram,0-5,Female,1,0
+2023-04,Kerala,Thiruvananthapuram,5-18,Female,2,0
+2023-04,Kerala,Thiruvananthapuram,5-18,Transgender,1,0
+2023-04,Kerala,Thrissur,0-5,Female,1,0
+2023-04,Kerala,Thrissur,0-5,Male,1,0
+2023-04,Kerala,Thrissur,18+,Male,1,0
+2023-04,Kerala,Thrissur,5-18,Female,2,0
+2023-04,Kerala,Thrissur,5-18,Male,2,1
+2023-04,Maharashtra,Mumbai,0-5,Male,1,0
+2023-04,Maharashtra,Mumbai,5-18,Female,1,0
+2023-04,Maharashtra,Nagpur,0-5,Male,1,0
+2023-04,Maharashtra,Nagpur,0-5,Transgender,2,0
+2023-04,Maharashtra,Nagpur,18+,Transgender,1,0
+2023-04,Maharashtra,Nagpur,5-18,Female,4,1
+2023-04,Maharashtra,Nashik,0-5,Female,1,0
+2023-04,Maharashtra,Nashik,0-5,Male,2,0
+2023-04,Maharashtra,Nashik,0-5,Transgender,1,0
+2023-04,Maharashtra,Nashik,5-18,Female,1,0
+2023-04,Maharashtra,Nashik,5-18,Transgender,1,0
+2023-04,Maharashtra,Pune,0-5,Male,2,0
+2023-04,Maharashtra,Pune,0-5,Transgender,1,0
+2023-04,Maharashtra,Pune,18+,Transgender,2,0
+2023-04,Maharashtra,Pune,5-18,Female,1,0
+2023-04,Maharashtra,Pune,5-18,Male,1,0
+2023-04,Maharashtra,Pune,5-18,Transgender,1,0
+2023-04,Maharashtra,Thane,0-5,Female,1,0
+2023-04,Maharashtra,Thane,0-5,Transgender,1,0
+2023-04,Maharashtra,Thane,5-18,Transgender,1,0
+2023-04,Uttar Pradesh,Gautam Buddha Nagar,0-5,Female,1,0
+2023-04,Uttar Pradesh,Gautam Buddha Nagar,18+,Female,1,0
+2023-04,Uttar Pradesh,Gautam Buddha Nagar,5-18,Male,2,0
+2023-04,Uttar Pradesh,Gautam Buddha Nagar,5-18,Transgender,1,0
+2023-04,Uttar Pradesh,Kanpur,0-5,Female,1,0
+2023-04,Uttar Pradesh,Kanpur,0-5,Male,1,0
+2023-04,Uttar Pradesh,Kanpur,0-5,Transgender,1,1
+2023-04,Uttar Pradesh,Kanpur,18+,Transgender,1,0
+2023-04,Uttar Pradesh,Kanpur,5-18,Female,1,0
+2023-04,Uttar Pradesh,Kanpur,5-18,Male,1,0
+2023-04,Uttar Pradesh,Kanpur,5-18,Transgender,1,0
+2023-04,Uttar Pradesh,Lucknow,0-5,Female,2,0
+2023-04,Uttar Pradesh,Lucknow,0-5,Transgender,1,1
+2023-04,Uttar Pradesh,Lucknow,18+,Male,1,0
+2023-04,Uttar Pradesh,Lucknow,18+,Transgender,1,0
+2023-04,Uttar Pradesh,Lucknow,5-18,Female,1,0
+2023-04,Uttar Pradesh,Lucknow,5-18,Transgender,1,0
+2023-04,Uttar Pradesh,Prayagraj,0-5,Transgender,1,0
+2023-04,Uttar Pradesh,Prayagraj,18+,Transgender,1,0
+2023-04,Uttar Pradesh,Prayagraj,5-18,Female,2,0
+2023-04,Uttar Pradesh,Prayagraj,5-18,Male,1,0
+2023-04,Uttar Pradesh,Prayagraj,5-18,Transgender,1,0
+2023-04,Uttar Pradesh,Varanasi,0-5,Female,3,1
+2023-04,Uttar Pradesh,Varanasi,0-5,Male,1,0
+2023-04,Uttar Pradesh,Varanasi,0-5,Transgender,1,0
+2023-04,Uttar Pradesh,Varanasi,18+,Male,1,0
+2023-04,Uttar Pradesh,Varanasi,18+,Transgender,2,0
+2023-04,Uttar Pradesh,Varanasi,5-18,Female,1,0
+2023-05,Bihar,Darbhanga,0-5,Female,3,0
+2023-05,Bihar,Darbhanga,5-18,Transgender,1,0
+2023-05,Bihar,Gaya,0-5,Female,2,0
+2023-05,Bihar,Gaya,18+,Male,2,0
+2023-05,Bihar,Gaya,5-18,Female,2,0
+2023-05,Bihar,Muzaffarpur,0-5,Female,1,0
+2023-05,Bihar,Muzaffarpur,0-5,Male,1,0
+2023-05,Bihar,Muzaffarpur,0-5,Transgender,2,0
+2023-05,Bihar,Muzaffarpur,18+,Male,2,0
+2023-05,Bihar,Muzaffarpur,5-18,Female,1,0
+2023-05,Bihar,Muzaffarpur,5-18,Male,1,0
+2023-05,Bihar,Muzaffarpur,5-18,Transgender,1,0
+2023-05,Bihar,Patna,0-5,Female,2,0
+2023-05,Bihar,Patna,0-5,Male,2,0
+2023-05,Bihar,Patna,0-5,Transgender,1,0
+2023-05,Bihar,Patna,5-18,Female,1,0
+2023-05,Bihar,Patna,5-18,Male,1,0
+2023-05,Bihar,Patna,5-18,Transgender,1,0
+2023-05,Bihar,Purnia,0-5,Female,1,0
+2023-05,Bihar,Purnia,0-5,Male,2,0
+2023-05,Bihar,Purnia,0-5,Transgender,2,0
+2023-05,Bihar,Purnia,18+,Female,1,0
+2023-05,Bihar,Purnia,5-18,Female,1,0
+2023-05,Karnataka,Bangalore Urban,0-5,Female,1,1
+2023-05,Karnataka,Bangalore Urban,0-5,Transgender,1,0
+2023-05,Karnataka,Belgaum,0-5,Female,2,0
+2023-05,Karnataka,Belgaum,0-5,Male,1,0
+2023-05,Karnataka,Belgaum,18+,Female,1,0
+2023-05,Karnataka,Belgaum,5-18,Female,1,0
+2023-05,Karnataka,Dakshina Kannada,0-5,Female,3,0
+2023-05,Karnataka,Dakshina Kannada,0-5,Male,2,0
+2023-05,Karnataka,Dakshina Kannada,0-5,Transgender,1,0
+2023-05,Karnataka,Dakshina Kannada,18+,Male,1,0
+2023-05,Karnataka,Dakshina Kannada,18+,Transgender,1,0
+2023-05,Karnataka,Dakshina Kannada,5-18,Female,1,0
+2023-05,Karnataka,Dakshina Kannada,5-18,Male,2,0
+2023-05,Karnataka,Kalaburagi,0-5,Female,1,0
+2023-05,Karnataka,Kalaburagi,0-5,Transgender,2,0
+2023-05,Karnataka,Kalaburagi,5-18,Female,1,0
+2023-05,Karnataka,Kalaburagi,5-18,Male,2,1
+2023-05,Karnataka,Kalaburagi,5-18,Transgender,1,0
+2023-05,Karnataka,Mysore,0-5,Male,2,0
+2023-05,Karnataka,Mysore,0-5,Transgender,2,1
+2023-05,Karnataka,Mysore,5-18,Female,1,0
+2023-05,Kerala,Ernakulam,0-5,Female,1,0
+2023-05,Kerala,Ernakulam,0-5,Male,3,0
+2023-05,Kerala,Ernakulam,5-18,Female,2,0
+2023-05,Kerala,Kozhikode,0-5,Female,2,0
+2023-05,Kerala,Kozhikode,0-5,Transgender,2,0
+2023-05,Kerala,Kozhikode,18+,Female,1,0
+2023-05,Kerala,Kozhikode,5-18,Male,1,0
+2023-05,Kerala,Malappuram,0-5,Male,1,0
+2023-05,Kerala,Malappuram,0-5,Transgender,1,0
+2023-05,Kerala,Malappuram,5-18,Female,1,0
+2023-05,Kerala,Malappuram,5-18,Transgender,1,0
+2023-05,Kerala,Thiruvananthapuram,0-5,Male,1,0
+2023-05,Kerala,Thiruvananthapuram,0-5,Transgender,2,0
+2023-05,Kerala,Thiruvananthapuram,5-18,Female,2,0
+2023-05,Kerala,Thrissur,0-5,Female,1,0
+2023-05,Kerala,Thrissur,0-5,Male,4,1
+2023-05,Kerala,Thrissur,0-5,Transgender,1,0
+2023-05,Kerala,Thrissur,5-18,Female,1,0
+2023-05,Kerala,Thrissur,5-18,Male,1,0
+2023-05,Kerala,Thrissur,5-18,Transgender,1,0
+2023-05,Maharashtra,Mumbai,0-5,Female,1,1
+2023-05,Maharashtra,Mumbai,0-5,Transgender,2,0
+2023-05,Maharashtra,Mumbai,18+,Female,1,0
+2023-05,Maharashtra,Mumbai,5-18,Female,1,0
+2023-05,Maharashtra,Nagpur,0-5,Female,1,0
+2023-05,Maharashtra,Nagpur,0-5,Transgender,1,0
+2023-05,Maharashtra,Nagpur,5-18,Transgender,1,0
+2023-05,Maharashtra,Nashik,0-5,Male,2,0
+2023-05,Maharashtra,Nashik,0-5,Transgender,1,0
+2023-05,Maharashtra,Nashik,18+,Transgender,1,1
+2023-05,Maharashtra,Nashik,5-18,Female,2,0
+2023-05,Maharashtra,Nashik,5-18,Transgender,1,0
+2023-05,Maharashtra,Pune,0-5,Transgender,2,0
+2023-05,Maharashtra,Pune,5-18,Female,1,0
+2023-05,Maharashtra,Pune,5-18,Male,1,0
+2023-05,Maharashtra,Pune,5-18,Transgender,2,0
+2023-05,Maharashtra,Thane,0-5,Female,3,0
+2023-05,Maharashtra,Thane,0-5,Male,2,0
+2023-05,Maharashtra,Thane,5-18,Male,1,0
+2023-05,Uttar Pradesh,Gautam Buddha Nagar,0-5,Male,2,0
+2023-05,Uttar Pradesh,Gautam Buddha Nagar,0-5,Transgender,1,0
+2023-05,Uttar Pradesh,Gautam Buddha Nagar,18+,Male,1,0
+2023-05,Uttar Pradesh,Kanpur,0-5,Female,1,0
+2023-05,Uttar Pradesh,Kanpur,0-5,Transgender,1,0
+2023-05,Uttar Pradesh,Kanpur,5-18,Male,1,0
+2023-05,Uttar Pradesh,Lucknow,0-5,Female,1,0
+2023-05,Uttar Pradesh,Lucknow,0-5,Transgender,1,1
+2023-05,Uttar Pradesh,Prayagraj,0-5,Female,1,0
+2023-05,Uttar Pradesh,Prayagraj,0-5,Male,1,1
+2023-05,Uttar Pradesh,Prayagraj,0-5,Transgender,1,0
+2023-05,Uttar Pradesh,Prayagraj,18+,Transgender,1,0
+2023-05,Uttar Pradesh,Prayagraj,5-18,Female,1,0
+2023-05,Uttar Pradesh,Prayagraj,5-18,Transgender,1,0
+2023-05,Uttar Pradesh,Varanasi,0-5,Female,2,0
+2023-05,Uttar Pradesh,Varanasi,0-5,Male,1,0
+2023-05,Uttar Pradesh,Varanasi,18+,Transgender,1,0
+2023-06,Bihar,Darbhanga,0-5,Transgender,2,0
+2023-06,Bihar,Gaya,0-5,Male,2,1
+2023-06,Bihar,Gaya,0-5,Transgender,2,0
+2023-06,Bihar,Gaya,18+,Female,1,0
+2023-06,Bihar,Gaya,5-18,Transgender,1,0
+2023-06,Bihar,Muzaffarpur,0-5,Male,1,0
+2023-06,Bihar,Muzaffarpur,5-18,Male,1,0
+2023-06,Bihar,Patna,0-5,Female,1,0
+2023-06,Bihar,Patna,0-5,Male,1,0
+2023-06,Bihar,Patna,0-5,Transgender,3,0
+2023-06,Bihar,Patna,18+,Transgender,1,0
+2023-06,Bihar,Patna,5-18,Female,1,0
+2023-06,Bihar,Patna,5-18,Male,1,0
+2023-06,Bihar,Purnia,18+,Transgender,1,0
+2023-06,Karnataka,Bangalore Urban,0-5,Female,1,0
+2023-06,Karnataka,Bangalore Urban,0-5,Transgender,1,0
+2023-06,Karnataka,Bangalore Urban,5-18,Female,2,0
+2023-06,Karnataka,Bangalore Urban,5-18,Male,2,1
+2023-06,Karnataka,Bangalore Urban,5-18,Transgender,1,0
+2023-06,Karnataka,Belgaum,0-5,Male,1,0
+2023-06,Karnataka,Belgaum,0-5,Transgender,2,0
+2023-06,Karnataka,Belgaum,5-18,Male,2,0
+2023-06,Karnataka,Dakshina Kannada,0-5,Female,1,0
+2023-06,Karnataka,Dakshina Kannada,0-5,Transgender,1,0
+2023-06,Karnataka,Dakshina Kannada,5-18,Transgender,1,0
+2023-06,Karnataka,Kalaburagi,0-5,Female,2,0
+2023-06,Karnataka,Kalaburagi,0-5,Male,4,0
+2023-06,Karnataka,Kalaburagi,0-5,Transgender,3,0
+2023-06,Karnataka,Kalaburagi,5-18,Female,2,1
+2023-06,Karnataka,Mysore,0-5,Male,1,0
+2023-06,Karnataka,Mysore,0-5,Transgender,1,0
+2023-06,Karnataka,Mysore,5-18,Transgender,1,0
+2023-06,Kerala,Ernakulam,0-5,Female,2,0
+2023-06,Kerala,Ernakulam,0-5,Male,2,0
+2023-06,Kerala,Ernakulam,18+,Transgender,1,0
+2023-06,Kerala,Kozhikode,0-5,Male,1,0
+2023-06,Kerala,Kozhikode,5-18,Female,1,0
+2023-06,Kerala,Kozhikode,5-18,Male,1,0
+2023-06,Kerala,Malappuram,0-5,Female,2,0
+2023-06,Kerala,Malappuram,0-5,Transgender,1,0
+2023-06,Kerala,Malappuram,5-18,Female,2,0
+2023-06,Kerala,Malappuram,5-18,Male,1,0
+2023-06,Kerala,Malappuram,5-18,Transgender,2,0
+2023-06,Kerala,Thiruvananthapuram,0-5,Female,1,1
+2023-06,Kerala,Thiruvananthapuram,5-18,Male,1,0
+2023-06,Kerala,Thrissur,0-5,Female,1,0
+2023-06,Kerala,Thrissur,0-5,Male,1,0
+2023-06,Kerala,Thrissur,0-5,Transgender,3,0
+2023-06,Kerala,Thrissur,5-18,Female,1,0
+2023-06,Maharashtra,Mumbai,0-5,Transgender,3,0
+2023-06,Maharashtra,Mumbai,5-18,Transgender,2,0
+2023-06,Maharashtra,Nagpur,0-5,Female,1,0
+2023-06,Maharashtra,Nagpur,0-5,Male,1,0
+2023-06,Maharashtra,Nagpur,0-5,Transgender,3,0
+2023-06,Maharashtra,Nagpur,18+,Male,1,0
+2023-06,Maharashtra,Nashik,0-5,Transgender,1,0
+2023-06,Maharashtra,Nashik,18+,Male,1,0
+2023-06,Maharashtra,Nashik,5-18,Female,1,0
+2023-06,Maharashtra,Nashik,5-18,Male,2,0
+2023-06,Maharashtra,Nashik,5-18,Transgender,1,0
+2023-06,Maharashtra,Pune,0-5,Female,1,0
+2023-06,Maharashtra,Pune,0-5,Male,2,0
+2023-06,Maharashtra,Pune,0-5,Transgender,1,0
+2023-06,Maharashtra,Pune,18+,Female,1,0
+2023-06,Maharashtra,Pune,5-18,Female,1,0
+2023-06,Maharashtra,Pune,5-18,Male,2,0
+2023-06,Maharashtra,Thane,0-5,Female,1,0
+2023-06,Maharashtra,Thane,0-5,Male,3,2
+2023-06,Maharashtra,Thane,0-5,Transgender,2,0
+2023-06,Maharashtra,Thane,18+,Male,1,0
+2023-06,Maharashtra,Thane,18+,Transgender,1,0
+2023-06,Maharashtra,Thane,5-18,Transgender,1,0
+2023-06,Uttar Pradesh,Gautam Buddha Nagar,0-5,Female,2,0
+2023-06,Uttar Pradesh,Gautam Buddha Nagar,0-5,Male,1,0
+2023-06,Uttar Pradesh,Gautam Buddha Nagar,18+,Male,1,0
+2023-06,Uttar Pradesh,Gautam Buddha Nagar,5-18,Female,2,0
+2023-06,Uttar Pradesh,Gautam Buddha Nagar,5-18,Male,2,0
+2023-06,Uttar Pradesh,Kanpur,0-5,Male,1,1
+2023-06,Uttar Pradesh,Kanpur,0-5,Transgender,1,0
+2023-06,Uttar Pradesh,Kanpur,5-18,Female,2,0
+2023-06,Uttar Pradesh,Lucknow,0-5,Female,3,0
+2023-06,Uttar Pradesh,Lucknow,0-5,Male,1,0
+2023-06,Uttar Pradesh,Lucknow,0-5,Transgender,1,0
+2023-06,Uttar Pradesh,Prayagraj,0-5,Female,2,0
+2023-06,Uttar Pradesh,Prayagraj,0-5,Male,1,0
+2023-06,Uttar Pradesh,Prayagraj,0-5,Transgender,3,1
+2023-06,Uttar Pradesh,Prayagraj,5-18,Male,1,0
+2023-06,Uttar Pradesh,Prayagraj,5-18,Transgender,1,0
+2023-06,Uttar Pradesh,Varanasi,0-5,Female,3,0
+2023-06,Uttar Pradesh,Varanasi,0-5,Male,2,0
+2023-06,Uttar Pradesh,Varanasi,0-5,Transgender,2,0
+2023-06,Uttar Pradesh,Varanasi,18+,Transgender,1,0
+2023-06,Uttar Pradesh,Varanasi,5-18,Transgender,1,0
+2023-07,Bihar,Darbhanga,0-5,Female,2,0
+2023-07,Bihar,Darbhanga,0-5,Male,3,0
+2023-07,Bihar,Darbhanga,0-5,Transgender,1,1
+2023-07,Bihar,Darbhanga,18+,Female,2,0
+2023-07,Bihar,Gaya,0-5,Male,1,0
+2023-07,Bihar,Gaya,0-5,Transgender,3,0
+2023-07,Bihar,Gaya,5-18,Transgender,1,0
+2023-07,Bihar,Muzaffarpur,0-5,Transgender,2,0
+2023-07,Bihar,Muzaffarpur,18+,Male,1,0
+2023-07,Bihar,Muzaffarpur,5-18,Transgender,1,0
+2023-07,Bihar,Patna,0-5,Female,1,0
+2023-07,Bihar,Patna,0-5,Male,2,0
+2023-07,Bihar,Patna,0-5,Transgender,1,0
+2023-07,Bihar,Patna,5-18,Male,1,0
+2023-07,Bihar,Patna,5-18,Transgender,1,1
+2023-07,Bihar,Purnia,0-5,Transgender,1,0
+2023-07,Bihar,Purnia,5-18,Female,1,0
+2023-07,Bihar,Purnia,5-18,Transgender,1,0
+2023-07,Karnataka,Bangalore Urban,0-5,Female,1,0
+2023-07,Karnataka,Bangalore Urban,0-5,Male,3,0
+2023-07,Karnataka,Bangalore Urban,0-5,Transgender,2,0
+2023-07,Karnataka,Bangalore Urban,5-18,Female,1,0
+2023-07,Karnataka,Bangalore Urban,5-18,Transgender,1,0
+2023-07,Karnataka,Belgaum,0-5,Male,1,0
+2023-07,Karnataka,Belgaum,5-18,Female,1,0
+2023-07,Karnataka,Belgaum,5-18,Male,1,0
+2023-07,Karnataka,Dakshina Kannada,0-5,Female,1,0
+2023-07,Karnataka,Dakshina Kannada,0-5,Male,1,0
+2023-07,Karnataka,Dakshina Kannada,0-5,Transgender,1,0
+2023-07,Karnataka,Dakshina Kannada,5-18,Female,1,0
+2023-07,Karnataka,Dakshina Kannada,5-18,Transgender,1,0
+2023-07,Karnataka,Kalaburagi,0-5,Female,1,0
+2023-07,Karnataka,Kalaburagi,0-5,Male,1,0
+2023-07,Karnataka,Kalaburagi,0-5,Transgender,2,0
+2023-07,Karnataka,Kalaburagi,5-18,Male,2,0
+2023-07,Karnataka,Mysore,0-5,Female,2,0
+2023-07,Karnataka,Mysore,0-5,Male,1,0
+2023-07,Karnataka,Mysore,0-5,Transgender,1,0
+2023-07,Karnataka,Mysore,18+,Male,1,0
+2023-07,Karnataka,Mysore,5-18,Male,1,0
+2023-07,Kerala,Ernakulam,0-5,Female,1,0
+2023-07,Kerala,Ernakulam,0-5,Transgender,1,0
+2023-07,Kerala,Kozhikode,0-5,Male,1,0
+2023-07,Kerala,Kozhikode,18+,Transgender,1,0
+2023-07,Kerala,Kozhikode,5-18,Female,1,0
+2023-07,Kerala,Malappuram,0-5,Female,1,0
+2023-07,Kerala,Malappuram,0-5,Transgender,1,0
+2023-07,Kerala,Malappuram,18+,Female,1,0
+2023-07,Kerala,Malappuram,18+,Transgender,1,0
+2023-07,Kerala,Thiruvananthapuram,0-5,Female,2,0
+2023-07,Kerala,Thiruvananthapuram,0-5,Male,1,0
+2023-07,Kerala,Thiruvananthapuram,0-5,Transgender,4,0
+2023-07,Kerala,Thrissur,0-5,Female,2,0
+2023-07,Kerala,Thrissur,0-5,Male,2,0
+2023-07,Kerala,Thrissur,0-5,Transgender,2,0
+2023-07,Kerala,Thrissur,18+,Transgender,1,0
+2023-07,Kerala,Thrissur,5-18,Female,1,0
+2023-07,Maharashtra,Mumbai,0-5,Female,1,0
+2023-07,Maharashtra,Mumbai,0-5,Male,1,0
+2023-07,Maharashtra,Mumbai,18+,Female,1,0
+2023-07,Maharashtra,Mumbai,18+,Transgender,1,0
+2023-07,Maharashtra,Mumbai,5-18,Female,3,0
+2023-07,Maharashtra,Mumbai,5-18,Male,1,0
+2023-07,Maharashtra,Nagpur,0-5,Female,1,0
+2023-07,Maharashtra,Nagpur,0-5,Male,1,0
+2023-07,Maharashtra,Nagpur,0-5,Transgender,1,0
+2023-07,Maharashtra,Nagpur,18+,Male,1,0
+2023-07,Maharashtra,Nagpur,5-18,Male,1,0
+2023-07,Maharashtra,Nashik,0-5,Female,1,0
+2023-07,Maharashtra,Nashik,0-5,Male,2,0
+2023-07,Maharashtra,Nashik,0-5,Transgender,1,0
+2023-07,Maharashtra,Nashik,18+,Male,1,0
+2023-07,Maharashtra,Nashik,5-18,Female,1,0
+2023-07,Maharashtra,Pune,0-5,Female,1,0
+2023-07,Maharashtra,Pune,0-5,Male,3,0
+2023-07,Maharashtra,Pune,0-5,Transgender,1,0
+2023-07,Maharashtra,Pune,5-18,Female,1,0
+2023-07,Maharashtra,Pune,5-18,Male,1,0
+2023-07,Maharashtra,Pune,5-18,Transgender,1,0
+2023-07,Maharashtra,Thane,0-5,Female,1,1
+2023-07,Maharashtra,Thane,0-5,Male,2,0
+2023-07,Maharashtra,Thane,0-5,Transgender,2,0
+2023-07,Maharashtra,Thane,5-18,Transgender,3,0
+2023-07,Uttar Pradesh,Gautam Buddha Nagar,0-5,Female,3,0
+2023-07,Uttar Pradesh,Gautam Buddha Nagar,0-5,Male,1,0
+2023-07,Uttar Pradesh,Gautam Buddha Nagar,0-5,Transgender,2,1
+2023-07,Uttar Pradesh,Gautam Buddha Nagar,18+,Male,1,0
+2023-07,Uttar Pradesh,Gautam Buddha Nagar,5-18,Female,1,0
+2023-07,Uttar Pradesh,Kanpur,0-5,Female,2,0
+2023-07,Uttar Pradesh,Kanpur,0-5,Transgender,2,0
+2023-07,Uttar Pradesh,Kanpur,5-18,Female,1,0
+2023-07,Uttar Pradesh,Lucknow,0-5,Male,2,0
+2023-07,Uttar Pradesh,Prayagraj,0-5,Female,2,0
+2023-07,Uttar Pradesh,Prayagraj,0-5,Male,1,0
+2023-07,Uttar Pradesh,Prayagraj,0-5,Transgender,1,0
+2023-07,Uttar Pradesh,Prayagraj,18+,Female,2,0
+2023-07,Uttar Pradesh,Prayagraj,5-18,Female,3,0
+2023-07,Uttar Pradesh,Prayagraj,5-18,Transgender,2,0
+2023-07,Uttar Pradesh,Varanasi,0-5,Female,2,0
+2023-07,Uttar Pradesh,Varanasi,0-5,Male,2,0
+2023-07,Uttar Pradesh,Varanasi,0-5,Transgender,2,0
+2023-07,Uttar Pradesh,Varanasi,18+,Male,1,0
+2023-07,Uttar Pradesh,Varanasi,5-18,Male,1,0
+2023-08,Bihar,Darbhanga,0-5,Male,1,0
+2023-08,Bihar,Darbhanga,18+,Male,1,0
+2023-08,Bihar,Darbhanga,5-18,Female,2,1
+2023-08,Bihar,Gaya,0-5,Female,1,0
+2023-08,Bihar,Gaya,0-5,Male,3,0
+2023-08,Bihar,Gaya,0-5,Transgender,5,1
+2023-08,Bihar,Gaya,18+,Transgender,1,0
+2023-08,Bihar,Gaya,5-18,Female,1,0
+2023-08,Bihar,Gaya,5-18,Male,2,0
+2023-08,Bihar,Muzaffarpur,0-5,Female,1,0
+2023-08,Bihar,Muzaffarpur,0-5,Male,2,0
+2023-08,Bihar,Patna,0-5,Female,1,0
+2023-08,Bihar,Patna,5-18,Female,1,0
+2023-08,Bihar,Patna,5-18,Transgender,1,0
+2023-08,Bihar,Purnia,0-5,Female,2,0
+2023-08,Bihar,Purnia,0-5,Male,1,0
+2023-08,Bihar,Purnia,18+,Female,1,0
+2023-08,Bihar,Purnia,18+,Transgender,1,0
+2023-08,Bihar,Purnia,5-18,Male,1,0
+2023-08,Karnataka,Bangalore Urban,0-5,Female,2,0
+2023-08,Karnataka,Bangalore Urban,0-5,Transgender,2,0
+2023-08,Karnataka,Bangalore Urban,18+,Male,1,0
+2023-08,Karnataka,Bangalore Urban,5-18,Female,1,0
+2023-08,Karnataka,Belgaum,0-5,Female,1,0
+2023-08,Karnataka,Belgaum,0-5,Transgender,3,0
+2023-08,Karnataka,Belgaum,5-18,Transgender,1,0
+2023-08,Karnataka,Dakshina Kannada,0-5,Female,2,0
+2023-08,Karnataka,Dakshina Kannada,0-5,Male,1,1
+2023-08,Karnataka,Dakshina Kannada,18+,Male,1,0
+2023-08,Karnataka,Dakshina Kannada,5-18,Female,1,0
+2023-08,Karnataka,Dakshina Kannada,5-18,Transgender,1,1
+2023-08,Karnataka,Kalaburagi,0-5,Female,2,0
+2023-08,Karnataka,Kalaburagi,0-5,Transgender,1,0
+2023-08,Karnataka,Kalaburagi,5-18,Female,1,0
+2023-08,Karnataka,Mysore,0-5,Female,1,0
+2023-08,Karnataka,Mysore,0-5,Male,1,0
+2023-08,Karnataka,Mysore,0-5,Transgender,1,0
+2023-08,Karnataka,Mysore,5-18,Female,2,0
+2023-08,Kerala,Ernakulam,0-5,Female,1,1
+2023-08,Kerala,Ernakulam,0-5,Male,4,0
+2023-08,Kerala,Ernakulam,0-5,Transgender,2,0
+2023-08,Kerala,Ernakulam,18+,Male,1,0
+2023-08,Kerala,Ernakulam,18+,Transgender,1,0
+2023-08,Kerala,Ernakulam,5-18,Transgender,1,0
+2023-08,Kerala,Kozhikode,0-5,Female,1,0
+2023-08,Kerala,Kozhikode,0-5,Male,2,0
+2023-08,Kerala,Kozhikode,0-5,Transgender,1,0
+2023-08,Kerala,Kozhikode,18+,Male,1,0
+2023-08,Kerala,Kozhikode,18+,Transgender,1,0
+2023-08,Kerala,Kozhikode,5-18,Male,1,0
+2023-08,Kerala,Malappuram,0-5,Transgender,2,0
+2023-08,Kerala,Thiruvananthapuram,0-5,Female,4,1
+2023-08,Kerala,Thiruvananthapuram,0-5,Male,1,0
+2023-08,Kerala,Thiruvananthapuram,0-5,Transgender,1,0
+2023-08,Kerala,Thiruvananthapuram,5-18,Female,1,0
+2023-08,Kerala,Thrissur,0-5,Female,5,1
+2023-08,Kerala,Thrissur,0-5,Male,2,0
+2023-08,Kerala,Thrissur,0-5,Transgender,2,0
+2023-08,Kerala,Thrissur,18+,Female,1,0
+2023-08,Kerala,Thrissur,18+,Transgender,1,0
+2023-08,Kerala,Thrissur,5-18,Female,2,0
+2023-08,Kerala,Thrissur,5-18,Transgender,1,0
+2023-08,Maharashtra,Mumbai,0-5,Male,1,0
+2023-08,Maharashtra,Mumbai,0-5,Transgender,3,0
+2023-08,Maharashtra,Mumbai,18+,Transgender,1,0
+2023-08,Maharashtra,Mumbai,5-18,Male,1,0
+2023-08,Maharashtra,Mumbai,5-18,Transgender,2,0
+2023-08,Maharashtra,Nagpur,0-5,Female,1,0
+2023-08,Maharashtra,Nagpur,0-5,Male,1,0
+2023-08,Maharashtra,Nagpur,18+,Transgender,1,0
+2023-08,Maharashtra,Nagpur,5-18,Female,2,0
+2023-08,Maharashtra,Nagpur,5-18,Male,1,0
+2023-08,Maharashtra,Nashik,0-5,Female,1,0
+2023-08,Maharashtra,Nashik,0-5,Male,2,0
+2023-08,Maharashtra,Nashik,5-18,Female,2,1
+2023-08,Maharashtra,Nashik,5-18,Male,1,0
+2023-08,Maharashtra,Pune,0-5,Male,3,0
+2023-08,Maharashtra,Pune,18+,Female,1,0
+2023-08,Maharashtra,Pune,18+,Transgender,1,0
+2023-08,Maharashtra,Pune,5-18,Female,1,0
+2023-08,Maharashtra,Pune,5-18,Transgender,2,0
+2023-08,Maharashtra,Thane,0-5,Female,2,0
+2023-08,Maharashtra,Thane,5-18,Male,1,0
+2023-08,Uttar Pradesh,Gautam Buddha Nagar,0-5,Female,2,0
+2023-08,Uttar Pradesh,Gautam Buddha Nagar,5-18,Transgender,1,0
+2023-08,Uttar Pradesh,Kanpur,0-5,Female,1,0
+2023-08,Uttar Pradesh,Kanpur,0-5,Male,2,0
+2023-08,Uttar Pradesh,Kanpur,18+,Male,1,0
+2023-08,Uttar Pradesh,Kanpur,5-18,Male,1,0
+2023-08,Uttar Pradesh,Lucknow,0-5,Male,1,0
+2023-08,Uttar Pradesh,Lucknow,0-5,Transgender,1,0
+2023-08,Uttar Pradesh,Lucknow,18+,Transgender,1,0
+2023-08,Uttar Pradesh,Prayagraj,0-5,Female,1,0
+2023-08,Uttar Pradesh,Prayagraj,0-5,Male,2,0
+2023-08,Uttar Pradesh,Prayagraj,18+,Female,1,0
+2023-08,Uttar Pradesh,Prayagraj,5-18,Male,1,0
+2023-08,Uttar Pradesh,Prayagraj,5-18,Transgender,1,0
+2023-08,Uttar Pradesh,Varanasi,18+,Male,1,0
+2023-08,Uttar Pradesh,Varanasi,5-18,Female,1,0
+2023-08,Uttar Pradesh,Varanasi,5-18,Transgender,1,0
+2023-09,Bihar,Darbhanga,0-5,Female,1,0
+2023-09,Bihar,Darbhanga,18+,Male,1,0
+2023-09,Bihar,Darbhanga,5-18,Transgender,1,0
+2023-09,Bihar,Gaya,0-5,Female,3,0
+2023-09,Bihar,Gaya,0-5,Male,1,0
+2023-09,Bihar,Muzaffarpur,0-5,Male,1,0
+2023-09,Bihar,Muzaffarpur,0-5,Transgender,1,0
+2023-09,Bihar,Muzaffarpur,5-18,Male,1,0
+2023-09,Bihar,Muzaffarpur,5-18,Transgender,1,0
+2023-09,Bihar,Patna,18+,Male,1,0
+2023-09,Bihar,Patna,5-18,Transgender,2,0
+2023-09,Bihar,Purnia,18+,Female,1,0
+2023-09,Bihar,Purnia,5-18,Female,1,0
+2023-09,Karnataka,Bangalore Urban,0-5,Female,2,0
+2023-09,Karnataka,Bangalore Urban,0-5,Male,1,0
+2023-09,Karnataka,Bangalore Urban,0-5,Transgender,4,0
+2023-09,Karnataka,Bangalore Urban,18+,Female,1,1
+2023-09,Karnataka,Bangalore Urban,5-18,Transgender,2,0
+2023-09,Karnataka,Belgaum,0-5,Female,1,0
+2023-09,Karnataka,Belgaum,0-5,Male,2,0
+2023-09,Karnataka,Belgaum,0-5,Transgender,1,0
+2023-09,Karnataka,Dakshina Kannada,0-5,Female,1,0
+2023-09,Karnataka,Dakshina Kannada,0-5,Male,3,0
+2023-09,Karnataka,Dakshina Kannada,0-5,Transgender,1,0
+2023-09,Karnataka,Dakshina Kannada,5-18,Female,2,0
+2023-09,Karnataka,Dakshina Kannada,5-18,Male,1,0
+2023-09,Karnataka,Kalaburagi,0-5,Female,1,0
+2023-09,Karnataka,Kalaburagi,0-5,Male,2,0
+2023-09,Karnataka,Kalaburagi,0-5,Transgender,3,0
+2023-09,Karnataka,Kalaburagi,5-18,Male,1,0
+2023-09,Karnataka,Kalaburagi,5-18,Transgender,2,0
+2023-09,Karnataka,Mysore,18+,Male,1,0
+2023-09,Kerala,Ernakulam,0-5,Female,2,0
+2023-09,Kerala,Ernakulam,0-5,Male,2,0
+2023-09,Kerala,Ernakulam,0-5,Transgender,1,0
+2023-09,Kerala,Ernakulam,5-18,Male,2,0
+2023-09,Kerala,Ernakulam,5-18,Transgender,1,0
+2023-09,Kerala,Kozhikode,0-5,Male,2,0
+2023-09,Kerala,Kozhikode,0-5,Transgender,1,0
+2023-09,Kerala,Kozhikode,18+,Male,1,0
+2023-09,Kerala,Kozhikode,5-18,Female,1,0
+2023-09,Kerala,Kozhikode,5-18,Male,1,0
+2023-09,Kerala,Malappuram,0-5,Transgender,1,0
+2023-09,Kerala,Malappuram,18+,Male,1,0
+2023-09,Kerala,Malappuram,5-18,Male,1,0
+2023-09,Kerala,Thiruvananthapuram,0-5,Male,3,0
+2023-09,Kerala,Thiruvananthapuram,0-5,Transgender,1,0
+2023-09,Kerala,Thiruvananthapuram,5-18,Transgender,4,0
+2023-09,Kerala,Thrissur,0-5,Female,2,0
+2023-09,Kerala,Thrissur,0-5,Male,1,0
+2023-09,Kerala,Thrissur,5-18,Female,2,0
+2023-09,Maharashtra,Mumbai,0-5,Female,4,0
+2023-09,Maharashtra,Mumbai,0-5,Male,1,0
+2023-09,Maharashtra,Mumbai,5-18,Female,1,0
+2023-09,Maharashtra,Nagpur,0-5,Female,1,0
+2023-09,Maharashtra,Nagpur,0-5,Male,2,0
+2023-09,Maharashtra,Nagpur,0-5,Transgender,3,0
+2023-09,Maharashtra,Nagpur,5-18,Transgender,1,0
+2023-09,Maharashtra,Nashik,0-5,Female,3,0
+2023-09,Maharashtra,Nashik,0-5,Male,2,0
+2023-09,Maharashtra,Nashik,0-5,Transgender,2,0
+2023-09,Maharashtra,Nashik,18+,Female,1,0
+2023-09,Maharashtra,Nashik,18+,Transgender,1,0
+2023-09,Maharashtra,Nashik,5-18,Male,2,0
+2023-09,Maharashtra,Nashik,5-18,Transgender,2,0
+2023-09,Maharashtra,Pune,0-5,Female,1,0
+2023-09,Maharashtra,Pune,0-5,Male,2,0
+2023-09,Maharashtra,Pune,0-5,Transgender,4,0
+2023-09,Maharashtra,Pune,5-18,Female,2,0
+2023-09,Maharashtra,Thane,0-5,Female,1,0
+2023-09,Maharashtra,Thane,0-5,Male,1,0
+2023-09,Uttar Pradesh,Gautam Buddha Nagar,0-5,Female,3,0
+2023-09,Uttar Pradesh,Gautam Buddha Nagar,0-5,Male,1,0
+2023-09,Uttar Pradesh,Gautam Buddha Nagar,18+,Female,1,0
+2023-09,Uttar Pradesh,Gautam Buddha Nagar,18+,Transgender,1,0
+2023-09,Uttar Pradesh,Kanpur,0-5,Male,1,0
+2023-09,Uttar Pradesh,Kanpur,5-18,Female,2,0
+2023-09,Uttar Pradesh,Kanpur,5-18,Male,1,0
+2023-09,Uttar Pradesh,Lucknow,0-5,Female,1,0
+2023-09,Uttar Pradesh,Lucknow,0-5,Male,2,0
+2023-09,Uttar Pradesh,Lucknow,5-18,Female,1,0
+2023-09,Uttar Pradesh,Prayagraj,0-5,Transgender,2,0
+2023-09,Uttar Pradesh,Prayagraj,18+,Transgender,1,0
+2023-09,Uttar Pradesh,Varanasi,0-5,Transgender,2,0
+2023-09,Uttar Pradesh,Varanasi,18+,Transgender,1,0
+2023-09,Uttar Pradesh,Varanasi,5-18,Female,1,0
+2023-09,Uttar Pradesh,Varanasi,5-18,Male,1,0
+2023-09,Uttar Pradesh,Varanasi,5-18,Transgender,1,0
+2023-10,Bihar,Darbhanga,0-5,Female,2,0
+2023-10,Bihar,Darbhanga,0-5,Male,1,0
+2023-10,Bihar,Darbhanga,18+,Female,1,0
+2023-10,Bihar,Darbhanga,5-18,Female,1,0
+2023-10,Bihar,Darbhanga,5-18,Transgender,3,0
+2023-10,Bihar,Gaya,0-5,Male,1,0
+2023-10,Bihar,Gaya,0-5,Transgender,2,0
+2023-10,Bihar,Gaya,18+,Female,2,0
+2023-10,Bihar,Gaya,5-18,Female,1,0
+2023-10,Bihar,Gaya,5-18,Transgender,1,0
+2023-10,Bihar,Muzaffarpur,0-5,Female,2,0
+2023-10,Bihar,Muzaffarpur,0-5,Male,2,0
+2023-10,Bihar,Muzaffarpur,0-5,Transgender,1,0
+2023-10,Bihar,Muzaffarpur,18+,Female,1,0
+2023-10,Bihar,Muzaffarpur,5-18,Female,1,0
+2023-10,Bihar,Muzaffarpur,5-18,Male,1,0
+2023-10,Bihar,Patna,0-5,Female,1,0
+2023-10,Bihar,Patna,0-5,Male,3,0
+2023-10,Bihar,Patna,5-18,Female,1,0
+2023-10,Bihar,Patna,5-18,Male,1,0
+2023-10,Bihar,Patna,5-18,Transgender,1,0
+2023-10,Bihar,Purnia,0-5,Female,2,0
+2023-10,Bihar,Purnia,0-5,Transgender,1,0
+2023-10,Bihar,Purnia,5-18,Transgender,1,0
+2023-10,Karnataka,Bangalore Urban,0-5,Female,3,0
+2023-10,Karnataka,Bangalore Urban,0-5,Transgender,2,0
+2023-10,Karnataka,Bangalore Urban,5-18,Transgender,1,0
+2023-10,Karnataka,Belgaum,0-5,Female,1,0
+2023-10,Karnataka,Belgaum,5-18,Female,2,0
+2023-10,Karnataka,Belgaum,5-18,Transgender,2,0
+2023-10,Karnataka,Dakshina Kannada,0-5,Female,1,0
+2023-10,Karnataka,Dakshina Kannada,0-5,Transgender,1,0
+2023-10,Karnataka,Dakshina Kannada,18+,Female,1,0
+2023-10,Karnataka,Dakshina Kannada,18+,Transgender,1,0
+2023-10,Karnataka,Dakshina Kannada,5-18,Female,1,0
+2023-10,Karnataka,Kalaburagi,0-5,Transgender,1,0
+2023-10,Karnataka,Kalaburagi,5-18,Female,1,0
+2023-10,Karnataka,Kalaburagi,5-18,Transgender,1,0
+2023-10,Karnataka,Mysore,0-5,Female,1,0
+2023-10,Karnataka,Mysore,0-5,Male,3,0
+2023-10,Karnataka,Mysore,5-18,Transgender,1,0
+2023-10,Kerala,Ernakulam,0-5,Female,1,0
+2023-10,Kerala,Ernakulam,0-5,Male,1,0
+2023-10,Kerala,Ernakulam,0-5,Transgender,2,0
+2023-10,Kerala,Ernakulam,18+,Female,1,0
+2023-10,Kerala,Ernakulam,18+,Male,1,0
+2023-10,Kerala,Kozhikode,0-5,Female,1,0
+2023-10,Kerala,Kozhikode,0-5,Male,1,0
+2023-10,Kerala,Kozhikode,18+,Female,1,0
+2023-10,Kerala,Kozhikode,5-18,Female,1,0
+2023-10,Kerala,Malappuram,0-5,Female,1,0
+2023-10,Kerala,Malappuram,0-5,Male,1,0
+2023-10,Kerala,Malappuram,0-5,Transgender,1,0
+2023-10,Kerala,Malappuram,5-18,Female,1,0
+2023-10,Kerala,Malappuram,5-18,Male,1,0
+2023-10,Kerala,Thiruvananthapuram,0-5,Female,1,0
+2023-10,Kerala,Thiruvananthapuram,5-18,Female,2,0
+2023-10,Kerala,Thiruvananthapuram,5-18,Male,1,0
+2023-10,Kerala,Thrissur,0-5,Female,1,1
+2023-10,Kerala,Thrissur,0-5,Transgender,2,0
+2023-10,Kerala,Thrissur,18+,Female,2,0
+2023-10,Kerala,Thrissur,5-18,Female,2,0
+2023-10,Kerala,Thrissur,5-18,Male,1,0
+2023-10,Maharashtra,Mumbai,0-5,Female,2,1
+2023-10,Maharashtra,Mumbai,0-5,Male,1,0
+2023-10,Maharashtra,Mumbai,0-5,Transgender,1,0
+2023-10,Maharashtra,Nagpur,0-5,Female,1,0
+2023-10,Maharashtra,Nagpur,0-5,Male,2,0
+2023-10,Maharashtra,Nagpur,0-5,Transgender,1,0
+2023-10,Maharashtra,Nagpur,5-18,Female,1,0
+2023-10,Maharashtra,Nagpur,5-18,Male,1,0
+2023-10,Maharashtra,Nashik,0-5,Female,1,0
+2023-10,Maharashtra,Nashik,0-5,Male,1,0
+2023-10,Maharashtra,Nashik,0-5,Transgender,2,0
+2023-10,Maharashtra,Nashik,5-18,Female,1,0
+2023-10,Maharashtra,Nashik,5-18,Transgender,1,0
+2023-10,Maharashtra,Pune,0-5,Male,3,0
+2023-10,Maharashtra,Pune,5-18,Female,2,0
+2023-10,Maharashtra,Pune,5-18,Male,1,0
+2023-10,Maharashtra,Pune,5-18,Transgender,1,0
+2023-10,Maharashtra,Thane,0-5,Transgender,2,0
+2023-10,Maharashtra,Thane,18+,Transgender,1,1
+2023-10,Maharashtra,Thane,5-18,Male,2,0
+2023-10,Uttar Pradesh,Gautam Buddha Nagar,0-5,Female,2,0
+2023-10,Uttar Pradesh,Gautam Buddha Nagar,0-5,Male,2,0
+2023-10,Uttar Pradesh,Gautam Buddha Nagar,0-5,Transgender,1,0
+2023-10,Uttar Pradesh,Gautam Buddha Nagar,5-18,Female,1,0
+2023-10,Uttar Pradesh,Kanpur,0-5,Female,1,0
+2023-10,Uttar Pradesh,Kanpur,0-5,Transgender,1,0
+2023-10,Uttar Pradesh,Lucknow,0-5,Female,1,0
+2023-10,Uttar Pradesh,Lucknow,0-5,Male,1,0
+2023-10,Uttar Pradesh,Lucknow,0-5,Transgender,2,0
+2023-10,Uttar Pradesh,Lucknow,5-18,Male,1,0
+2023-10,Uttar Pradesh,Prayagraj,0-5,Female,2,0
+2023-10,Uttar Pradesh,Prayagraj,0-5,Transgender,1,0
+2023-10,Uttar Pradesh,Prayagraj,18+,Female,1,0
+2023-10,Uttar Pradesh,Prayagraj,5-18,Female,1,0
+2023-10,Uttar Pradesh,Prayagraj,5-18,Male,1,0
+2023-10,Uttar Pradesh,Varanasi,0-5,Female,2,0
+2023-10,Uttar Pradesh,Varanasi,0-5,Male,3,0
+2023-10,Uttar Pradesh,Varanasi,5-18,Male,2,0
+2023-10,Uttar Pradesh,Varanasi,5-18,Transgender,1,0
+2023-11,Bihar,Darbhanga,0-5,Female,2,0
+2023-11,Bihar,Gaya,0-5,Female,1,0
+2023-11,Bihar,Gaya,0-5,Transgender,1,1
+2023-11,Bihar,Gaya,5-18,Female,1,0
+2023-11,Bihar,Muzaffarpur,0-5,Transgender,4,0
+2023-11,Bihar,Muzaffarpur,18+,Male,1,0
+2023-11,Bihar,Muzaffarpur,5-18,Transgender,4,0
+2023-11,Bihar,Patna,0-5,Female,3,0
+2023-11,Bihar,Patna,0-5,Male,2,0
+2023-11,Bihar,Patna,0-5,Transgender,1,0
+2023-11,Bihar,Patna,5-18,Male,1,0
+2023-11,Bihar,Patna,5-18,Transgender,2,0
+2023-11,Bihar,Purnia,0-5,Female,2,0
+2023-11,Bihar,Purnia,0-5,Male,2,0
+2023-11,Bihar,Purnia,18+,Female,1,0
+2023-11,Bihar,Purnia,18+,Transgender,1,0
+2023-11,Karnataka,Bangalore Urban,0-5,Female,2,0
+2023-11,Karnataka,Bangalore Urban,0-5,Male,1,0
+2023-11,Karnataka,Bangalore Urban,0-5,Transgender,1,0
+2023-11,Karnataka,Bangalore Urban,18+,Male,1,0
+2023-11,Karnataka,Bangalore Urban,18+,Transgender,1,0
+2023-11,Karnataka,Belgaum,0-5,Female,2,0
+2023-11,Karnataka,Belgaum,0-5,Male,1,0
+2023-11,Karnataka,Belgaum,0-5,Transgender,1,0
+2023-11,Karnataka,Kalaburagi,0-5,Female,1,0
+2023-11,Karnataka,Kalaburagi,0-5,Male,1,0
+2023-11,Karnataka,Kalaburagi,0-5,Transgender,1,0
+2023-11,Karnataka,Kalaburagi,18+,Male,1,0
+2023-11,Karnataka,Kalaburagi,5-18,Male,2,0
+2023-11,Karnataka,Mysore,0-5,Male,2,0
+2023-11,Karnataka,Mysore,18+,Male,1,1
+2023-11,Kerala,Ernakulam,0-5,Female,1,0
+2023-11,Kerala,Ernakulam,0-5,Male,2,0
+2023-11,Kerala,Ernakulam,0-5,Transgender,1,0
+2023-11,Kerala,Ernakulam,18+,Male,1,0
+2023-11,Kerala,Ernakulam,5-18,Female,1,0
+2023-11,Kerala,Ernakulam,5-18,Transgender,2,0
+2023-11,Kerala,Kozhikode,0-5,Female,3,0
+2023-11,Kerala,Kozhikode,18+,Transgender,1,0
+2023-11,Kerala,Kozhikode,5-18,Male,2,0
+2023-11,Kerala,Malappuram,0-5,Female,2,0
+2023-11,Kerala,Malappuram,0-5,Transgender,2,0
+2023-11,Kerala,Malappuram,5-18,Female,1,0
+2023-11,Kerala,Malappuram,5-18,Male,1,1
+2023-11,Kerala,Malappuram,5-18,Transgender,1,0
+2023-11,Kerala,Thiruvananthapuram,0-5,Female,3,0
+2023-11,Kerala,Thiruvananthapuram,0-5,Transgender,2,1
+2023-11,Kerala,Thiruvananthapuram,5-18,Male,2,0
+2023-11,Kerala,Thrissur,0-5,Male,1,0
+2023-11,Kerala,Thrissur,18+,Female,1,0
+2023-11,Kerala,Thrissur,18+,Male,1,0
+2023-11,Maharashtra,Mumbai,0-5,Female,2,0
+2023-11,Maharashtra,Mumbai,0-5,Transgender,2,1
+2023-11,Maharashtra,Nagpur,0-5,Female,1,0
+2023-11,Maharashtra,Nagpur,0-5,Transgender,1,0
+2023-11,Maharashtra,Nagpur,18+,Female,1,0
+2023-11,Maharashtra,Nagpur,5-18,Male,2,0
+2023-11,Maharashtra,Nashik,0-5,Female,1,0
+2023-11,Maharashtra,Nashik,0-5,Male,2,0
+2023-11,Maharashtra,Nashik,0-5,Transgender,3,0
+2023-11,Maharashtra,Nashik,5-18,Male,2,0
+2023-11,Maharashtra,Nashik,5-18,Transgender,1,0
+2023-11,Maharashtra,Pune,0-5,Transgender,2,0
+2023-11,Maharashtra,Pune,5-18,Male,2,0
+2023-11,Maharashtra,Thane,0-5,Transgender,2,0
+2023-11,Maharashtra,Thane,5-18,Male,1,0
+2023-11,Uttar Pradesh,Gautam Buddha Nagar,0-5,Female,3,0
+2023-11,Uttar Pradesh,Gautam Buddha Nagar,0-5,Transgender,1,0
+2023-11,Uttar Pradesh,Gautam Buddha Nagar,18+,Male,1,0
+2023-11,Uttar Pradesh,Gautam Buddha Nagar,5-18,Female,2,0
+2023-11,Uttar Pradesh,Kanpur,0-5,Female,1,0
+2023-11,Uttar Pradesh,Kanpur,0-5,Male,3,0
+2023-11,Uttar Pradesh,Kanpur,0-5,Transgender,3,0
+2023-11,Uttar Pradesh,Kanpur,5-18,Female,1,0
+2023-11,Uttar Pradesh,Kanpur,5-18,Transgender,4,0
+2023-11,Uttar Pradesh,Lucknow,0-5,Female,1,0
+2023-11,Uttar Pradesh,Lucknow,0-5,Male,3,1
+2023-11,Uttar Pradesh,Lucknow,0-5,Transgender,1,0
+2023-11,Uttar Pradesh,Lucknow,5-18,Transgender,1,0
+2023-11,Uttar Pradesh,Prayagraj,0-5,Male,1,0
+2023-11,Uttar Pradesh,Prayagraj,0-5,Transgender,1,0
+2023-11,Uttar Pradesh,Prayagraj,18+,Male,1,0
+2023-11,Uttar Pradesh,Prayagraj,18+,Transgender,1,0
+2023-11,Uttar Pradesh,Prayagraj,5-18,Female,1,0
+2023-11,Uttar Pradesh,Varanasi,0-5,Transgender,1,0
+2023-12,Bihar,Darbhanga,0-5,Female,1,1
+2023-12,Bihar,Darbhanga,0-5,Male,1,0
+2023-12,Bihar,Darbhanga,0-5,Transgender,1,0
+2023-12,Bihar,Darbhanga,5-18,Female,1,1
+2023-12,Bihar,Darbhanga,5-18,Male,1,0
+2023-12,Bihar,Darbhanga,5-18,Transgender,1,0
+2023-12,Bihar,Gaya,5-18,Male,1,0
+2023-12,Bihar,Muzaffarpur,0-5,Male,1,1
+2023-12,Bihar,Muzaffarpur,0-5,Transgender,1,0
+2023-12,Bihar,Muzaffarpur,18+,Transgender,1,0
+2023-12,Bihar,Muzaffarpur,5-18,Female,2,0
+2023-12,Bihar,Muzaffarpur,5-18,Male,1,1
+2023-12,Bihar,Muzaffarpur,5-18,Transgender,1,0
+2023-12,Bihar,Patna,0-5,Female,2,0
+2023-12,Bihar,Patna,0-5,Transgender,4,0
+2023-12,Bihar,Patna,18+,Female,1,0
+2023-12,Bihar,Patna,5-18,Male,2,1
+2023-12,Bihar,Purnia,0-5,Female,2,0
+2023-12,Bihar,Purnia,0-5,Transgender,1,0
+2023-12,Bihar,Purnia,18+,Transgender,1,0
+2023-12,Bihar,Purnia,5-18,Female,2,0
+2023-12,Bihar,Purnia,5-18,Male,1,0
+2023-12,Karnataka,Bangalore Urban,0-5,Female,1,0
+2023-12,Karnataka,Bangalore Urban,0-5,Transgender,1,1
+2023-12,Karnataka,Bangalore Urban,18+,Male,1,0
+2023-12,Karnataka,Bangalore Urban,5-18,Female,1,1
+2023-12,Karnataka,Belgaum,0-5,Female,1,0
+2023-12,Karnataka,Belgaum,0-5,Male,2,0
+2023-12,Karnataka,Belgaum,0-5,Transgender,2,0
+2023-12,Karnataka,Belgaum,18+,Female,1,0
+2023-12,Karnataka,Dakshina Kannada,5-18,Female,2,0
+2023-12,Karnataka,Kalaburagi,0-5,Female,1,0
+2023-12,Karnataka,Kalaburagi,0-5,Male,1,1
+2023-12,Karnataka,Kalaburagi,0-5,Transgender,2,0
+2023-12,Karnataka,Kalaburagi,18+,Male,1,1
+2023-12,Karnataka,Kalaburagi,18+,Transgender,1,0
+2023-12,Karnataka,Kalaburagi,5-18,Female,2,0
+2023-12,Karnataka,Kalaburagi,5-18,Transgender,1,0
+2023-12,Karnataka,Mysore,0-5,Female,1,0
+2023-12,Karnataka,Mysore,0-5,Male,1,0
+2023-12,Karnataka,Mysore,5-18,Female,2,0
+2023-12,Kerala,Ernakulam,0-5,Transgender,1,0
+2023-12,Kerala,Ernakulam,5-18,Male,1,0
+2023-12,Kerala,Kozhikode,0-5,Transgender,2,0
+2023-12,Kerala,Kozhikode,5-18,Female,1,0
+2023-12,Kerala,Kozhikode,5-18,Transgender,1,0
+2023-12,Kerala,Malappuram,0-5,Female,3,0
+2023-12,Kerala,Malappuram,0-5,Transgender,2,0
+2023-12,Kerala,Malappuram,18+,Female,1,0
+2023-12,Kerala,Malappuram,5-18,Female,1,1
+2023-12,Kerala,Malappuram,5-18,Male,1,0
+2023-12,Kerala,Malappuram,5-18,Transgender,2,0
+2023-12,Kerala,Thiruvananthapuram,0-5,Female,2,0
+2023-12,Kerala,Thiruvananthapuram,0-5,Male,2,0
+2023-12,Kerala,Thiruvananthapuram,0-5,Transgender,1,0
+2023-12,Kerala,Thiruvananthapuram,5-18,Female,2,0
+2023-12,Kerala,Thiruvananthapuram,5-18,Male,3,0
+2023-12,Kerala,Thiruvananthapuram,5-18,Transgender,1,0
+2023-12,Kerala,Thrissur,0-5,Female,1,0
+2023-12,Kerala,Thrissur,18+,Male,1,0
+2023-12,Kerala,Thrissur,5-18,Male,1,0
+2023-12,Kerala,Thrissur,5-18,Transgender,1,0
+2023-12,Maharashtra,Mumbai,0-5,Female,2,0
+2023-12,Maharashtra,Mumbai,0-5,Transgender,1,0
+2023-12,Maharashtra,Mumbai,5-18,Transgender,1,0
+2023-12,Maharashtra,Nagpur,0-5,Female,2,0
+2023-12,Maharashtra,Nagpur,0-5,Male,3,0
+2023-12,Maharashtra,Nagpur,0-5,Transgender,1,0
+2023-12,Maharashtra,Nagpur,5-18,Male,2,0
+2023-12,Maharashtra,Nagpur,5-18,Transgender,1,0
+2023-12,Maharashtra,Nashik,0-5,Male,1,0
+2023-12,Maharashtra,Nashik,18+,Female,1,0
+2023-12,Maharashtra,Nashik,18+,Transgender,1,0
+2023-12,Maharashtra,Nashik,5-18,Male,2,1
+2023-12,Maharashtra,Nashik,5-18,Transgender,2,0
+2023-12,Maharashtra,Pune,0-5,Female,3,0
+2023-12,Maharashtra,Pune,0-5,Transgender,3,0
+2023-12,Maharashtra,Pune,18+,Female,1,0
+2023-12,Maharashtra,Pune,5-18,Transgender,2,0
+2023-12,Maharashtra,Thane,0-5,Female,3,0
+2023-12,Maharashtra,Thane,0-5,Male,1,0
+2023-12,Maharashtra,Thane,18+,Transgender,1,0
+2023-12,Maharashtra,Thane,5-18,Female,1,0
+2023-12,Maharashtra,Thane,5-18,Transgender,1,0
+2023-12,Uttar Pradesh,Gautam Buddha Nagar,0-5,Female,4,0
+2023-12,Uttar Pradesh,Gautam Buddha Nagar,0-5,Transgender,1,0
+2023-12,Uttar Pradesh,Gautam Buddha Nagar,18+,Female,1,0
+2023-12,Uttar Pradesh,Gautam Buddha Nagar,5-18,Male,1,0
+2023-12,Uttar Pradesh,Kanpur,0-5,Female,1,0
+2023-12,Uttar Pradesh,Kanpur,0-5,Male,1,0
+2023-12,Uttar Pradesh,Kanpur,0-5,Transgender,1,0
+2023-12,Uttar Pradesh,Kanpur,18+,Female,1,1
+2023-12,Uttar Pradesh,Kanpur,5-18,Female,1,0
+2023-12,Uttar Pradesh,Lucknow,0-5,Female,2,0
+2023-12,Uttar Pradesh,Lucknow,0-5,Male,1,0
+2023-12,Uttar Pradesh,Lucknow,0-5,Transgender,3,0
+2023-12,Uttar Pradesh,Lucknow,18+,Transgender,1,0
+2023-12,Uttar Pradesh,Lucknow,5-18,Transgender,1,0
+2023-12,Uttar Pradesh,Prayagraj,0-5,Male,3,0
+2023-12,Uttar Pradesh,Prayagraj,0-5,Transgender,2,0
+2023-12,Uttar Pradesh,Prayagraj,18+,Male,1,0
+2023-12,Uttar Pradesh,Prayagraj,5-18,Male,1,0
+2023-12,Uttar Pradesh,Varanasi,0-5,Male,1,0
+2023-12,Uttar Pradesh,Varanasi,0-5,Transgender,1,0
+2023-12,Uttar Pradesh,Varanasi,5-18,Female,1,0
+2023-12,Uttar Pradesh,Varanasi,5-18,Male,1,0
+2024-01,Bihar,Darbhanga,0-5,Male,1,0
+2024-01,Bihar,Darbhanga,0-5,Transgender,1,0
+2024-01,Bihar,Darbhanga,18+,Female,1,0
+2024-01,Bihar,Darbhanga,5-18,Female,1,0
+2024-01,Bihar,Darbhanga,5-18,Transgender,1,0
+2024-01,Bihar,Gaya,0-5,Female,2,0
+2024-01,Bihar,Gaya,0-5,Male,2,0
+2024-01,Bihar,Gaya,0-5,Transgender,3,0
+2024-01,Bihar,Gaya,18+,Female,1,0
+2024-01,Bihar,Gaya,5-18,Transgender,1,0
+2024-01,Bihar,Muzaffarpur,0-5,Female,3,1
+2024-01,Bihar,Muzaffarpur,18+,Transgender,1,0
+2024-01,Bihar,Muzaffarpur,5-18,Female,1,0
+2024-01,Bihar,Muzaffarpur,5-18,Male,1,0
+2024-01,Bihar,Muzaffarpur,5-18,Transgender,1,0
+2024-01,Bihar,Patna,0-5,Female,1,0
+2024-01,Bihar,Patna,0-5,Transgender,1,0
+2024-01,Bihar,Patna,18+,Female,1,0
+2024-01,Bihar,Purnia,0-5,Female,1,0
+2024-01,Bihar,Purnia,0-5,Male,1,0
+2024-01,Bihar,Purnia,0-5,Transgender,2,0
+2024-01,Bihar,Purnia,18+,Female,1,0
+2024-01,Bihar,Purnia,18+,Male,1,0
+2024-01,Bihar,Purnia,18+,Transgender,1,0
+2024-01,Karnataka,Bangalore Urban,0-5,Transgender,1,0
+2024-01,Karnataka,Bangalore Urban,18+,Male,1,0
+2024-01,Karnataka,Bangalore Urban,18+,Transgender,1,0
+2024-01,Karnataka,Bangalore Urban,5-18,Male,2,0
+2024-01,Karnataka,Bangalore Urban,5-18,Transgender,1,0
+2024-01,Karnataka,Belgaum,0-5,Female,2,0
+2024-01,Karnataka,Belgaum,0-5,Male,3,0
+2024-01,Karnataka,Belgaum,0-5,Transgender,1,0
+2024-01,Karnataka,Belgaum,18+,Female,1,0
+2024-01,Karnataka,Dakshina Kannada,0-5,Female,1,0
+2024-01,Karnataka,Dakshina Kannada,0-5,Male,2,0
+2024-01,Karnataka,Dakshina Kannada,0-5,Transgender,1,0
+2024-01,Karnataka,Kalaburagi,18+,Female,1,0
+2024-01,Karnataka,Kalaburagi,18+,Male,1,0
+2024-01,Karnataka,Kalaburagi,5-18,Transgender,1,0
+2024-01,Karnataka,Mysore,0-5,Female,2,0
+2024-01,Karnataka,Mysore,0-5,Male,2,0
+2024-01,Karnataka,Mysore,0-5,Transgender,1,0
+2024-01,Karnataka,Mysore,5-18,Male,2,0
+2024-01,Kerala,Ernakulam,0-5,Female,3,0
+2024-01,Kerala,Ernakulam,0-5,Transgender,1,1
+2024-01,Kerala,Ernakulam,5-18,Female,1,0
+2024-01,Kerala,Ernakulam,5-18,Transgender,3,0
+2024-01,Kerala,Kozhikode,0-5,Female,1,0
+2024-01,Kerala,Kozhikode,0-5,Male,1,0
+2024-01,Kerala,Kozhikode,0-5,Transgender,1,0
+2024-01,Kerala,Kozhikode,18+,Female,1,0
+2024-01,Kerala,Kozhikode,5-18,Male,1,0
+2024-01,Kerala,Malappuram,18+,Male,1,0
+2024-01,Kerala,Malappuram,5-18,Male,1,0
+2024-01,Kerala,Thiruvananthapuram,0-5,Transgender,1,0
+2024-01,Kerala,Thiruvananthapuram,5-18,Female,1,1
+2024-01,Kerala,Thiruvananthapuram,5-18,Male,1,0
+2024-01,Kerala,Thiruvananthapuram,5-18,Transgender,1,0
+2024-01,Kerala,Thrissur,0-5,Female,1,0
+2024-01,Kerala,Thrissur,0-5,Male,4,0
+2024-01,Kerala,Thrissur,0-5,Transgender,1,1
+2024-01,Kerala,Thrissur,18+,Female,1,0
+2024-01,Kerala,Thrissur,18+,Male,1,0
+2024-01,Kerala,Thrissur,5-18,Transgender,1,0
+2024-01,Maharashtra,Mumbai,0-5,Female,2,1
+2024-01,Maharashtra,Mumbai,0-5,Transgender,2,1
+2024-01,Maharashtra,Mumbai,18+,Transgender,2,0
+2024-01,Maharashtra,Mumbai,5-18,Female,1,0
+2024-01,Maharashtra,Mumbai,5-18,Transgender,2,0
+2024-01,Maharashtra,Nagpur,0-5,Male,1,0
+2024-01,Maharashtra,Nagpur,0-5,Transgender,2,0
+2024-01,Maharashtra,Nagpur,5-18,Transgender,1,0
+2024-01,Maharashtra,Nashik,0-5,Female,1,0
+2024-01,Maharashtra,Nashik,0-5,Transgender,1,0
+2024-01,Maharashtra,Nashik,5-18,Female,1,1
+2024-01,Maharashtra,Pune,0-5,Transgender,3,0
+2024-01,Maharashtra,Pune,5-18,Female,1,0
+2024-01,Maharashtra,Pune,5-18,Transgender,1,0
+2024-01,Maharashtra,Thane,5-18,Male,1,0
+2024-01,Uttar Pradesh,Gautam Buddha Nagar,0-5,Male,1,0
+2024-01,Uttar Pradesh,Gautam Buddha Nagar,0-5,Transgender,1,0
+2024-01,Uttar Pradesh,Gautam Buddha Nagar,18+,Female,1,0
+2024-01,Uttar Pradesh,Gautam Buddha Nagar,18+,Transgender,1,0
+2024-01,Uttar Pradesh,Gautam Buddha Nagar,5-18,Male,1,0
+2024-01,Uttar Pradesh,Kanpur,0-5,Female,3,0
+2024-01,Uttar Pradesh,Kanpur,0-5,Male,2,0
+2024-01,Uttar Pradesh,Kanpur,5-18,Female,1,0
+2024-01,Uttar Pradesh,Kanpur,5-18,Male,3,0
+2024-01,Uttar Pradesh,Lucknow,0-5,Transgender,2,0
+2024-01,Uttar Pradesh,Lucknow,18+,Male,1,0
+2024-01,Uttar Pradesh,Prayagraj,0-5,Female,2,0
+2024-01,Uttar Pradesh,Prayagraj,0-5,Male,1,1
+2024-01,Uttar Pradesh,Prayagraj,18+,Transgender,1,0
+2024-01,Uttar Pradesh,Prayagraj,5-18,Female,1,0
+2024-01,Uttar Pradesh,Prayagraj,5-18,Male,3,0
+2024-01,Uttar Pradesh,Varanasi,0-5,Female,2,0
+2024-01,Uttar Pradesh,Varanasi,0-5,Male,1,0
+2024-01,Uttar Pradesh,Varanasi,0-5,Transgender,1,0
+2024-01,Uttar Pradesh,Varanasi,18+,Female,2,0
+2024-01,Uttar Pradesh,Varanasi,18+,Male,1,0
+2024-02,Bihar,Darbhanga,0-5,Female,1,0
+2024-02,Bihar,Darbhanga,0-5,Transgender,1,0
+2024-02,Bihar,Darbhanga,18+,Transgender,1,0
+2024-02,Bihar,Darbhanga,5-18,Male,1,1
+2024-02,Bihar,Gaya,0-5,Female,1,0
+2024-02,Bihar,Gaya,0-5,Male,2,0
+2024-02,Bihar,Gaya,0-5,Transgender,1,0
+2024-02,Bihar,Gaya,18+,Male,1,0
+2024-02,Bihar,Gaya,5-18,Female,1,0
+2024-02,Bihar,Muzaffarpur,0-5,Female,1,1
+2024-02,Bihar,Muzaffarpur,0-5,Male,2,0
+2024-02,Bihar,Muzaffarpur,0-5,Transgender,1,0
+2024-02,Bihar,Muzaffarpur,18+,Transgender,1,0
+2024-02,Bihar,Patna,0-5,Female,2,0
+2024-02,Bihar,Patna,0-5,Transgender,1,0
+2024-02,Bihar,Patna,18+,Transgender,2,0
+2024-02,Bihar,Purnia,0-5,Female,3,0
+2024-02,Bihar,Purnia,0-5,Male,1,0
+2024-02,Bihar,Purnia,5-18,Male,1,0
+2024-02,Karnataka,Bangalore Urban,0-5,Male,1,0
+2024-02,Karnataka,Bangalore Urban,5-18,Female,1,0
+2024-02,Karnataka,Bangalore Urban,5-18,Male,2,0
+2024-02,Karnataka,Belgaum,0-5,Female,3,0
+2024-02,Karnataka,Belgaum,0-5,Male,1,0
+2024-02,Karnataka,Belgaum,18+,Transgender,1,0
+2024-02,Karnataka,Dakshina Kannada,0-5,Female,2,0
+2024-02,Karnataka,Dakshina Kannada,0-5,Transgender,1,0
+2024-02,Karnataka,Dakshina Kannada,5-18,Female,1,0
+2024-02,Karnataka,Dakshina Kannada,5-18,Male,2,0
+2024-02,Karnataka,Kalaburagi,0-5,Female,1,0
+2024-02,Karnataka,Kalaburagi,0-5,Male,3,0
+2024-02,Karnataka,Kalaburagi,0-5,Transgender,1,0
+2024-02,Karnataka,Kalaburagi,18+,Transgender,1,0
+2024-02,Karnataka,Kalaburagi,5-18,Male,1,0
+2024-02,Karnataka,Mysore,0-5,Female,1,0
+2024-02,Karnataka,Mysore,0-5,Male,1,0
+2024-02,Karnataka,Mysore,18+,Male,1,0
+2024-02,Karnataka,Mysore,5-18,Transgender,1,0
+2024-02,Kerala,Ernakulam,0-5,Male,2,1
+2024-02,Kerala,Ernakulam,0-5,Transgender,1,0
+2024-02,Kerala,Ernakulam,5-18,Female,1,0
+2024-02,Kerala,Ernakulam,5-18,Transgender,1,0
+2024-02,Kerala,Kozhikode,0-5,Female,3,0
+2024-02,Kerala,Kozhikode,0-5,Male,1,0
+2024-02,Kerala,Kozhikode,0-5,Transgender,1,0
+2024-02,Kerala,Kozhikode,5-18,Transgender,1,0
+2024-02,Kerala,Malappuram,0-5,Transgender,3,0
+2024-02,Kerala,Malappuram,5-18,Male,3,1
+2024-02,Kerala,Thiruvananthapuram,0-5,Female,1,0
+2024-02,Kerala,Thiruvananthapuram,5-18,Female,1,0
+2024-02,Kerala,Thrissur,0-5,Female,1,0
+2024-02,Kerala,Thrissur,0-5,Transgender,3,0
+2024-02,Kerala,Thrissur,5-18,Male,1,0
+2024-02,Kerala,Thrissur,5-18,Transgender,1,0
+2024-02,Maharashtra,Mumbai,0-5,Male,1,0
+2024-02,Maharashtra,Mumbai,0-5,Transgender,2,0
+2024-02,Maharashtra,Mumbai,5-18,Female,2,0
+2024-02,Maharashtra,Mumbai,5-18,Transgender,2,0
+2024-02,Maharashtra,Nagpur,0-5,Female,1,0
+2024-02,Maharashtra,Nagpur,0-5,Male,1,0
+2024-02,Maharashtra,Nagpur,0-5,Transgender,2,0
+2024-02,Maharashtra,Nagpur,5-18,Female,1,0
+2024-02,Maharashtra,Nagpur,5-18,Male,2,0
+2024-02,Maharashtra,Nashik,0-5,Female,1,0
+2024-02,Maharashtra,Nashik,0-5,Male,3,0
+2024-02,Maharashtra,Nashik,0-5,Transgender,1,0
+2024-02,Maharashtra,Nashik,5-18,Male,2,0
+2024-02,Maharashtra,Pune,0-5,Female,1,0
+2024-02,Maharashtra,Pune,0-5,Male,2,0
+2024-02,Maharashtra,Pune,0-5,Transgender,1,0
+2024-02,Maharashtra,Pune,5-18,Female,2,0
+2024-02,Maharashtra,Thane,0-5,Female,1,0
+2024-02,Maharashtra,Thane,0-5,Male,1,0
+2024-02,Maharashtra,Thane,0-5,Transgender,1,0
+2024-02,Maharashtra,Thane,18+,Transgender,1,0
+2024-02,Maharashtra,Thane,5-18,Female,1,0
+2024-02,Uttar Pradesh,Gautam Buddha Nagar,0-5,Female,1,0
+2024-02,Uttar Pradesh,Gautam Buddha Nagar,0-5,Male,1,0
+2024-02,Uttar Pradesh,Gautam Buddha Nagar,0-5,Transgender,2,0
+2024-02,Uttar Pradesh,Gautam Buddha Nagar,5-18,Male,1,0
+2024-02,Uttar Pradesh,Gautam Buddha Nagar,5-18,Transgender,1,0
+2024-02,Uttar Pradesh,Kanpur,0-5,Female,1,0
+2024-02,Uttar Pradesh,Kanpur,0-5,Transgender,1,0
+2024-02,Uttar Pradesh,Kanpur,5-18,Transgender,1,0
+2024-02,Uttar Pradesh,Lucknow,0-5,Female,2,0
+2024-02,Uttar Pradesh,Lucknow,0-5,Male,2,0
+2024-02,Uttar Pradesh,Lucknow,0-5,Transgender,2,1
+2024-02,Uttar Pradesh,Lucknow,5-18,Female,1,0
+2024-02,Uttar Pradesh,Lucknow,5-18,Transgender,1,0
+2024-02,Uttar Pradesh,Prayagraj,0-5,Transgender,1,0
+2024-02,Uttar Pradesh,Prayagraj,5-18,Female,2,0
+2024-02,Uttar Pradesh,Prayagraj,5-18,Male,2,0
+2024-02,Uttar Pradesh,Varanasi,0-5,Female,2,0
+2024-02,Uttar Pradesh,Varanasi,0-5,Male,1,0
+2024-02,Uttar Pradesh,Varanasi,0-5,Transgender,1,0
+2024-02,Uttar Pradesh,Varanasi,18+,Male,2,0
+2024-02,Uttar Pradesh,Varanasi,18+,Transgender,1,0
+2024-02,Uttar Pradesh,Varanasi,5-18,Transgender,1,0
+2024-03,Bihar,Darbhanga,5-18,Female,3,0
+2024-03,Bihar,Darbhanga,5-18,Male,1,0
+2024-03,Bihar,Darbhanga,5-18,Transgender,2,1
+2024-03,Bihar,Gaya,0-5,Male,1,0
+2024-03,Bihar,Gaya,0-5,Transgender,1,0
+2024-03,Bihar,Gaya,18+,Transgender,1,0
+2024-03,Bihar,Gaya,5-18,Female,2,0
+2024-03,Bihar,Gaya,5-18,Male,1,0
+2024-03,Bihar,Muzaffarpur,0-5,Female,1,0
+2024-03,Bihar,Muzaffarpur,0-5,Male,2,0
+2024-03,Bihar,Muzaffarpur,18+,Female,1,0
+2024-03,Bihar,Muzaffarpur,5-18,Female,2,0
+2024-03,Bihar,Muzaffarpur,5-18,Transgender,1,0
+2024-03,Bihar,Patna,5-18,Female,1,0
+2024-03,Bihar,Patna,5-18,Male,2,0
+2024-03,Bihar,Purnia,0-5,Male,2,0
+2024-03,Bihar,Purnia,0-5,Transgender,1,0
+2024-03,Karnataka,Bangalore Urban,18+,Transgender,1,0
+2024-03,Karnataka,Bangalore Urban,5-18,Transgender,1,0
+2024-03,Karnataka,Belgaum,0-5,Female,2,0
+2024-03,Karnataka,Belgaum,0-5,Male,1,0
+2024-03,Karnataka,Belgaum,5-18,Female,1,0
+2024-03,Karnataka,Belgaum,5-18,Transgender,1,0
+2024-03,Karnataka,Dakshina Kannada,0-5,Female,2,0
+2024-03,Karnataka,Dakshina Kannada,0-5,Male,1,0
+2024-03,Karnataka,Dakshina Kannada,0-5,Transgender,1,0
+2024-03,Karnataka,Dakshina Kannada,5-18,Transgender,1,0
+2024-03,Karnataka,Kalaburagi,0-5,Female,1,0
+2024-03,Karnataka,Kalaburagi,0-5,Male,2,1
+2024-03,Karnataka,Kalaburagi,0-5,Transgender,1,0
+2024-03,Karnataka,Kalaburagi,5-18,Male,2,0
+2024-03,Karnataka,Mysore,0-5,Transgender,2,1
+2024-03,Karnataka,Mysore,5-18,Male,1,0
+2024-03,Kerala,Ernakulam,0-5,Male,1,0
+2024-03,Kerala,Ernakulam,0-5,Transgender,2,0
+2024-03,Kerala,Ernakulam,18+,Female,1,0
+2024-03,Kerala,Ernakulam,5-18,Female,2,0
+2024-03,Kerala,Kozhikode,0-5,Male,4,0
+2024-03,Kerala,Kozhikode,0-5,Transgender,1,0
+2024-03,Kerala,Kozhikode,5-18,Female,1,0
+2024-03,Kerala,Kozhikode,5-18,Transgender,1,0
+2024-03,Kerala,Malappuram,0-5,Female,2,0
+2024-03,Kerala,Malappuram,0-5,Male,2,0
+2024-03,Kerala,Malappuram,0-5,Transgender,2,0
+2024-03,Kerala,Malappuram,5-18,Female,1,0
+2024-03,Kerala,Thiruvananthapuram,0-5,Female,3,0
+2024-03,Kerala,Thiruvananthapuram,0-5,Male,1,0
+2024-03,Kerala,Thiruvananthapuram,5-18,Male,1,0
+2024-03,Kerala,Thrissur,0-5,Male,1,0
+2024-03,Kerala,Thrissur,0-5,Transgender,1,0
+2024-03,Kerala,Thrissur,5-18,Transgender,1,0
+2024-03,Maharashtra,Mumbai,0-5,Female,1,0
+2024-03,Maharashtra,Mumbai,0-5,Male,1,0
+2024-03,Maharashtra,Mumbai,0-5,Transgender,2,0
+2024-03,Maharashtra,Mumbai,5-18,Male,1,0
+2024-03,Maharashtra,Nagpur,0-5,Female,1,0
+2024-03,Maharashtra,Nagpur,0-5,Transgender,2,0
+2024-03,Maharashtra,Nagpur,5-18,Female,1,0
+2024-03,Maharashtra,Nagpur,5-18,Male,1,0
+2024-03,Maharashtra,Nashik,0-5,Female,2,1
+2024-03,Maharashtra,Nashik,0-5,Male,1,0
+2024-03,Maharashtra,Nashik,0-5,Transgender,3,2
+2024-03,Maharashtra,Nashik,18+,Male,1,0
+2024-03,Maharashtra,Thane,0-5,Female,1,0
+2024-03,Maharashtra,Thane,0-5,Male,1,1
+2024-03,Maharashtra,Thane,0-5,Transgender,2,0
+2024-03,Maharashtra,Thane,18+,Transgender,1,0
+2024-03,Maharashtra,Thane,5-18,Female,1,0
+2024-03,Maharashtra,Thane,5-18,Male,2,0
+2024-03,Maharashtra,Thane,5-18,Transgender,2,0
+2024-03,Uttar Pradesh,Gautam Buddha Nagar,0-5,Female,2,0
+2024-03,Uttar Pradesh,Gautam Buddha Nagar,0-5,Male,1,0
+2024-03,Uttar Pradesh,Gautam Buddha Nagar,5-18,Transgender,1,0
+2024-03,Uttar Pradesh,Kanpur,0-5,Male,1,0
+2024-03,Uttar Pradesh,Lucknow,0-5,Female,3,0
+2024-03,Uttar Pradesh,Lucknow,0-5,Transgender,2,0
+2024-03,Uttar Pradesh,Lucknow,18+,Male,2,0
+2024-03,Uttar Pradesh,Lucknow,5-18,Transgender,1,0
+2024-03,Uttar Pradesh,Prayagraj,0-5,Male,3,0
+2024-03,Uttar Pradesh,Prayagraj,0-5,Transgender,2,1
+2024-03,Uttar Pradesh,Prayagraj,18+,Transgender,2,0
+2024-03,Uttar Pradesh,Prayagraj,5-18,Male,1,0
+2024-03,Uttar Pradesh,Prayagraj,5-18,Transgender,1,0
+2024-03,Uttar Pradesh,Varanasi,0-5,Female,3,1
+2024-03,Uttar Pradesh,Varanasi,0-5,Male,2,2
+2024-03,Uttar Pradesh,Varanasi,0-5,Transgender,1,0
+2024-03,Uttar Pradesh,Varanasi,18+,Transgender,1,0
+2024-04,Bihar,Darbhanga,0-5,Female,5,0
+2024-04,Bihar,Darbhanga,18+,Male,1,0
+2024-04,Bihar,Darbhanga,5-18,Female,1,0
+2024-04,Bihar,Gaya,0-5,Female,3,1
+2024-04,Bihar,Gaya,0-5,Transgender,2,1
+2024-04,Bihar,Gaya,18+,Transgender,1,0
+2024-04,Bihar,Gaya,5-18,Female,1,0
+2024-04,Bihar,Muzaffarpur,0-5,Female,1,0
+2024-04,Bihar,Muzaffarpur,0-5,Male,1,0
+2024-04,Bihar,Muzaffarpur,18+,Female,1,0
+2024-04,Bihar,Muzaffarpur,5-18,Male,1,0
+2024-04,Bihar,Patna,0-5,Female,1,0
+2024-04,Bihar,Patna,0-5,Male,2,0
+2024-04,Bihar,Patna,0-5,Transgender,1,0
+2024-04,Bihar,Patna,5-18,Female,1,0
+2024-04,Bihar,Patna,5-18,Male,1,0
+2024-04,Bihar,Patna,5-18,Transgender,1,0
+2024-04,Bihar,Purnia,0-5,Male,1,0
+2024-04,Bihar,Purnia,0-5,Transgender,3,0
+2024-04,Karnataka,Bangalore Urban,0-5,Male,3,0
+2024-04,Karnataka,Bangalore Urban,0-5,Transgender,1,0
+2024-04,Karnataka,Bangalore Urban,18+,Transgender,1,0
+2024-04,Karnataka,Bangalore Urban,5-18,Male,1,0
+2024-04,Karnataka,Bangalore Urban,5-18,Transgender,1,0
+2024-04,Karnataka,Belgaum,0-5,Male,1,0
+2024-04,Karnataka,Belgaum,0-5,Transgender,1,0
+2024-04,Karnataka,Belgaum,18+,Female,2,0
+2024-04,Karnataka,Belgaum,5-18,Female,2,0
+2024-04,Karnataka,Dakshina Kannada,0-5,Male,1,0
+2024-04,Karnataka,Dakshina Kannada,0-5,Transgender,2,0
+2024-04,Karnataka,Dakshina Kannada,18+,Female,1,0
+2024-04,Karnataka,Dakshina Kannada,18+,Male,1,0
+2024-04,Karnataka,Dakshina Kannada,5-18,Male,1,1
+2024-04,Karnataka,Kalaburagi,0-5,Female,2,0
+2024-04,Karnataka,Kalaburagi,0-5,Transgender,1,0
+2024-04,Karnataka,Kalaburagi,5-18,Female,1,0
+2024-04,Karnataka,Kalaburagi,5-18,Transgender,1,0
+2024-04,Karnataka,Mysore,0-5,Transgender,1,0
+2024-04,Karnataka,Mysore,18+,Transgender,1,0
+2024-04,Karnataka,Mysore,5-18,Female,2,0
+2024-04,Karnataka,Mysore,5-18,Transgender,1,0
+2024-04,Kerala,Ernakulam,0-5,Female,1,1
+2024-04,Kerala,Ernakulam,0-5,Male,1,0
+2024-04,Kerala,Ernakulam,0-5,Transgender,4,0
+2024-04,Kerala,Ernakulam,5-18,Transgender,1,0
+2024-04,Kerala,Kozhikode,0-5,Female,1,1
+2024-04,Kerala,Kozhikode,0-5,Male,1,0
+2024-04,Kerala,Kozhikode,5-18,Transgender,2,0
+2024-04,Kerala,Malappuram,0-5,Male,2,0
+2024-04,Kerala,Malappuram,5-18,Transgender,2,0
+2024-04,Kerala,Thiruvananthapuram,0-5,Transgender,3,0
+2024-04,Kerala,Thiruvananthapuram,18+,Transgender,1,0
+2024-04,Kerala,Thiruvananthapuram,5-18,Female,1,0
+2024-04,Kerala,Thiruvananthapuram,5-18,Male,2,0
+2024-04,Kerala,Thrissur,0-5,Female,2,0
+2024-04,Kerala,Thrissur,0-5,Male,1,0
+2024-04,Kerala,Thrissur,18+,Male,1,0
+2024-04,Kerala,Thrissur,5-18,Male,1,0
+2024-04,Kerala,Thrissur,5-18,Transgender,1,0
+2024-04,Maharashtra,Mumbai,0-5,Female,1,1
+2024-04,Maharashtra,Mumbai,0-5,Transgender,2,0
+2024-04,Maharashtra,Mumbai,18+,Transgender,3,1
+2024-04,Maharashtra,Mumbai,5-18,Female,1,0
+2024-04,Maharashtra,Nagpur,0-5,Female,3,0
+2024-04,Maharashtra,Nagpur,0-5,Transgender,1,0
+2024-04,Maharashtra,Nagpur,5-18,Female,1,0
+2024-04,Maharashtra,Nashik,0-5,Female,1,1
+2024-04,Maharashtra,Nashik,0-5,Male,1,0
+2024-04,Maharashtra,Nashik,0-5,Transgender,2,0
+2024-04,Maharashtra,Nashik,5-18,Female,2,0
+2024-04,Maharashtra,Nashik,5-18,Male,2,0
+2024-04,Maharashtra,Nashik,5-18,Transgender,2,0
+2024-04,Maharashtra,Pune,0-5,Male,4,0
+2024-04,Maharashtra,Pune,0-5,Transgender,1,0
+2024-04,Maharashtra,Pune,18+,Female,1,0
+2024-04,Maharashtra,Pune,5-18,Transgender,1,0
+2024-04,Maharashtra,Thane,0-5,Male,4,0
+2024-04,Maharashtra,Thane,18+,Female,2,0
+2024-04,Maharashtra,Thane,5-18,Female,1,0
+2024-04,Maharashtra,Thane,5-18,Male,1,0
+2024-04,Uttar Pradesh,Gautam Buddha Nagar,0-5,Male,1,0
+2024-04,Uttar Pradesh,Gautam Buddha Nagar,0-5,Transgender,1,0
+2024-04,Uttar Pradesh,Gautam Buddha Nagar,5-18,Female,2,0
+2024-04,Uttar Pradesh,Kanpur,0-5,Female,2,0
+2024-04,Uttar Pradesh,Kanpur,0-5,Male,2,0
+2024-04,Uttar Pradesh,Kanpur,5-18,Female,1,0
+2024-04,Uttar Pradesh,Kanpur,5-18,Transgender,1,0
+2024-04,Uttar Pradesh,Lucknow,0-5,Female,3,0
+2024-04,Uttar Pradesh,Lucknow,0-5,Male,1,0
+2024-04,Uttar Pradesh,Lucknow,5-18,Male,1,0
+2024-04,Uttar Pradesh,Lucknow,5-18,Transgender,2,0
+2024-04,Uttar Pradesh,Prayagraj,0-5,Female,1,0
+2024-04,Uttar Pradesh,Prayagraj,18+,Transgender,1,0
+2024-04,Uttar Pradesh,Prayagraj,5-18,Female,1,0
+2024-04,Uttar Pradesh,Varanasi,0-5,Female,1,0
+2024-04,Uttar Pradesh,Varanasi,0-5,Male,1,0
+2024-04,Uttar Pradesh,Varanasi,5-18,Male,1,0
+2024-05,Bihar,Darbhanga,18+,Female,1,0
+2024-05,Bihar,Gaya,0-5,Female,1,0
+2024-05,Bihar,Gaya,0-5,Male,3,0
+2024-05,Bihar,Gaya,18+,Male,1,0
+2024-05,Bihar,Muzaffarpur,0-5,Female,1,0
+2024-05,Bihar,Muzaffarpur,0-5,Male,2,0
+2024-05,Bihar,Muzaffarpur,18+,Male,1,0
+2024-05,Bihar,Muzaffarpur,5-18,Female,1,0
+2024-05,Bihar,Muzaffarpur,5-18,Transgender,1,0
+2024-05,Bihar,Patna,0-5,Male,3,0
+2024-05,Bihar,Patna,18+,Female,1,0
+2024-05,Bihar,Patna,18+,Male,1,0
+2024-05,Bihar,Purnia,0-5,Female,1,0
+2024-05,Bihar,Purnia,0-5,Male,1,0
+2024-05,Bihar,Purnia,0-5,Transgender,2,0
+2024-05,Bihar,Purnia,18+,Transgender,1,0
+2024-05,Karnataka,Bangalore Urban,0-5,Transgender,3,0
+2024-05,Karnataka,Bangalore Urban,5-18,Female,1,0
+2024-05,Karnataka,Bangalore Urban,5-18,Male,2,0
+2024-05,Karnataka,Bangalore Urban,5-18,Transgender,1,0
+2024-05,Karnataka,Belgaum,0-5,Female,1,0
+2024-05,Karnataka,Belgaum,0-5,Male,1,0
+2024-05,Karnataka,Belgaum,0-5,Transgender,1,0
+2024-05,Karnataka,Belgaum,5-18,Female,2,0
+2024-05,Karnataka,Belgaum,5-18,Transgender,1,0
+2024-05,Karnataka,Dakshina Kannada,0-5,Female,1,1
+2024-05,Karnataka,Dakshina Kannada,0-5,Transgender,2,0
+2024-05,Karnataka,Dakshina Kannada,18+,Female,1,0
+2024-05,Karnataka,Kalaburagi,0-5,Female,1,0
+2024-05,Karnataka,Kalaburagi,0-5,Male,1,1
+2024-05,Karnataka,Kalaburagi,0-5,Transgender,1,0
+2024-05,Karnataka,Kalaburagi,18+,Transgender,1,0
+2024-05,Karnataka,Kalaburagi,5-18,Female,1,0
+2024-05,Karnataka,Kalaburagi,5-18,Transgender,1,0
+2024-05,Karnataka,Mysore,0-5,Female,2,1
+2024-05,Karnataka,Mysore,0-5,Transgender,1,0
+2024-05,Karnataka,Mysore,18+,Transgender,1,0
+2024-05,Kerala,Ernakulam,0-5,Male,1,0
+2024-05,Kerala,Ernakulam,0-5,Transgender,1,0
+2024-05,Kerala,Ernakulam,18+,Male,1,0
+2024-05,Kerala,Ernakulam,5-18,Female,1,0
+2024-05,Kerala,Kozhikode,0-5,Female,1,0
+2024-05,Kerala,Kozhikode,0-5,Male,2,0
+2024-05,Kerala,Kozhikode,5-18,Female,1,0
+2024-05,Kerala,Kozhikode,5-18,Transgender,1,0
+2024-05,Kerala,Malappuram,0-5,Transgender,1,0
+2024-05,Kerala,Malappuram,18+,Male,1,0
+2024-05,Kerala,Malappuram,18+,Transgender,2,1
+2024-05,Kerala,Malappuram,5-18,Transgender,1,0
+2024-05,Kerala,Thiruvananthapuram,0-5,Female,1,0
+2024-05,Kerala,Thiruvananthapuram,5-18,Male,1,0
+2024-05,Kerala,Thrissur,0-5,Female,3,0
+2024-05,Kerala,Thrissur,0-5,Male,2,0
+2024-05,Kerala,Thrissur,0-5,Transgender,1,0
+2024-05,Kerala,Thrissur,5-18,Female,2,0
+2024-05,Kerala,Thrissur,5-18,Male,1,0
+2024-05,Kerala,Thrissur,5-18,Transgender,1,0
+2024-05,Maharashtra,Mumbai,0-5,Female,1,0
+2024-05,Maharashtra,Mumbai,0-5,Male,2,0
+2024-05,Maharashtra,Mumbai,5-18,Transgender,1,0
+2024-05,Maharashtra,Nagpur,0-5,Transgender,1,0
+2024-05,Maharashtra,Nagpur,5-18,Female,1,0
+2024-05,Maharashtra,Nagpur,5-18,Male,1,0
+2024-05,Maharashtra,Nagpur,5-18,Transgender,2,0
+2024-05,Maharashtra,Nashik,0-5,Female,2,0
+2024-05,Maharashtra,Nashik,0-5,Transgender,1,0
+2024-05,Maharashtra,Nashik,5-18,Transgender,1,0
+2024-05,Maharashtra,Pune,0-5,Transgender,1,0
+2024-05,Maharashtra,Pune,18+,Transgender,1,0
+2024-05,Maharashtra,Pune,5-18,Transgender,1,0
+2024-05,Maharashtra,Thane,0-5,Male,2,0
+2024-05,Maharashtra,Thane,0-5,Transgender,2,0
+2024-05,Maharashtra,Thane,5-18,Male,1,0
+2024-05,Uttar Pradesh,Gautam Buddha Nagar,0-5,Female,3,1
+2024-05,Uttar Pradesh,Gautam Buddha Nagar,0-5,Transgender,1,0
+2024-05,Uttar Pradesh,Gautam Buddha Nagar,5-18,Male,2,0
+2024-05,Uttar Pradesh,Kanpur,0-5,Female,1,0
+2024-05,Uttar Pradesh,Kanpur,0-5,Male,2,0
+2024-05,Uttar Pradesh,Kanpur,0-5,Transgender,1,0
+2024-05,Uttar Pradesh,Kanpur,18+,Male,1,0
+2024-05,Uttar Pradesh,Kanpur,5-18,Female,1,0
+2024-05,Uttar Pradesh,Kanpur,5-18,Transgender,2,0
+2024-05,Uttar Pradesh,Lucknow,0-5,Male,2,0
+2024-05,Uttar Pradesh,Lucknow,0-5,Transgender,3,0
+2024-05,Uttar Pradesh,Prayagraj,0-5,Female,3,1
+2024-05,Uttar Pradesh,Prayagraj,0-5,Male,1,0
+2024-05,Uttar Pradesh,Prayagraj,18+,Female,1,0
+2024-05,Uttar Pradesh,Prayagraj,18+,Transgender,1,0
+2024-05,Uttar Pradesh,Prayagraj,5-18,Female,2,0
+2024-05,Uttar Pradesh,Prayagraj,5-18,Male,1,0
+2024-05,Uttar Pradesh,Varanasi,0-5,Female,2,0
+2024-05,Uttar Pradesh,Varanasi,0-5,Male,1,0
+2024-05,Uttar Pradesh,Varanasi,0-5,Transgender,2,0
+2024-05,Uttar Pradesh,Varanasi,5-18,Female,2,1
+2024-06,Bihar,Darbhanga,0-5,Female,2,0
+2024-06,Bihar,Darbhanga,0-5,Transgender,1,0
+2024-06,Bihar,Darbhanga,5-18,Female,1,0
+2024-06,Bihar,Darbhanga,5-18,Male,1,0
+2024-06,Bihar,Gaya,0-5,Female,3,0
+2024-06,Bihar,Gaya,0-5,Male,2,0
+2024-06,Bihar,Gaya,0-5,Transgender,1,0
+2024-06,Bihar,Gaya,5-18,Male,1,0
+2024-06,Bihar,Muzaffarpur,0-5,Female,1,0
+2024-06,Bihar,Muzaffarpur,0-5,Male,1,0
+2024-06,Bihar,Muzaffarpur,5-18,Male,1,0
+2024-06,Bihar,Muzaffarpur,5-18,Transgender,2,0
+2024-06,Bihar,Patna,0-5,Female,3,1
+2024-06,Bihar,Patna,0-5,Male,2,0
+2024-06,Bihar,Patna,5-18,Female,1,0
+2024-06,Bihar,Patna,5-18,Transgender,1,0
+2024-06,Bihar,Purnia,0-5,Female,2,0
+2024-06,Bihar,Purnia,0-5,Transgender,1,0
+2024-06,Bihar,Purnia,5-18,Female,1,0
+2024-06,Karnataka,Bangalore Urban,0-5,Male,1,0
+2024-06,Karnataka,Bangalore Urban,0-5,Transgender,1,0
+2024-06,Karnataka,Bangalore Urban,5-18,Female,1,0
+2024-06,Karnataka,Belgaum,0-5,Transgender,1,0
+2024-06,Karnataka,Belgaum,5-18,Female,2,0
+2024-06,Karnataka,Belgaum,5-18,Male,1,0
+2024-06,Karnataka,Belgaum,5-18,Transgender,3,0
+2024-06,Karnataka,Dakshina Kannada,0-5,Female,2,1
+2024-06,Karnataka,Dakshina Kannada,0-5,Male,1,0
+2024-06,Karnataka,Kalaburagi,0-5,Female,3,0
+2024-06,Karnataka,Kalaburagi,0-5,Transgender,1,0
+2024-06,Karnataka,Kalaburagi,5-18,Male,1,0
+2024-06,Karnataka,Kalaburagi,5-18,Transgender,2,0
+2024-06,Karnataka,Mysore,0-5,Female,1,0
+2024-06,Karnataka,Mysore,0-5,Male,1,0
+2024-06,Karnataka,Mysore,0-5,Transgender,1,0
+2024-06,Karnataka,Mysore,5-18,Transgender,1,0
+2024-06,Kerala,Ernakulam,0-5,Female,4,0
+2024-06,Kerala,Ernakulam,0-5,Male,1,0
+2024-06,Kerala,Ernakulam,0-5,Transgender,1,0
+2024-06,Kerala,Ernakulam,5-18,Transgender,3,0
+2024-06,Kerala,Kozhikode,0-5,Female,1,0
+2024-06,Kerala,Kozhikode,0-5,Male,2,0
+2024-06,Kerala,Kozhikode,5-18,Female,1,0
+2024-06,Kerala,Kozhikode,5-18,Male,1,1
+2024-06,Kerala,Malappuram,0-5,Male,1,0
+2024-06,Kerala,Malappuram,5-18,Female,1,0
+2024-06,Kerala,Malappuram,5-18,Male,1,0
+2024-06,Kerala,Malappuram,5-18,Transgender,1,0
+2024-06,Kerala,Thiruvananthapuram,0-5,Transgender,1,0
+2024-06,Kerala,Thiruvananthapuram,5-18,Female,1,0
+2024-06,Kerala,Thiruvananthapuram,5-18,Transgender,2,0
+2024-06,Kerala,Thrissur,0-5,Female,3,0
+2024-06,Kerala,Thrissur,0-5,Male,2,0
+2024-06,Kerala,Thrissur,0-5,Transgender,3,0
+2024-06,Kerala,Thrissur,18+,Male,1,0
+2024-06,Kerala,Thrissur,18+,Transgender,1,0
+2024-06,Kerala,Thrissur,5-18,Transgender,1,0
+2024-06,Maharashtra,Mumbai,0-5,Female,2,0
+2024-06,Maharashtra,Mumbai,0-5,Male,1,0
+2024-06,Maharashtra,Mumbai,18+,Female,1,1
+2024-06,Maharashtra,Mumbai,5-18,Male,2,1
+2024-06,Maharashtra,Nagpur,0-5,Male,2,0
+2024-06,Maharashtra,Nagpur,0-5,Transgender,1,0
+2024-06,Maharashtra,Nashik,0-5,Male,1,0
+2024-06,Maharashtra,Nashik,0-5,Transgender,1,0
+2024-06,Maharashtra,Nashik,18+,Male,1,0
+2024-06,Maharashtra,Pune,0-5,Female,2,1
+2024-06,Maharashtra,Pune,0-5,Male,1,0
+2024-06,Maharashtra,Pune,0-5,Transgender,4,0
+2024-06,Maharashtra,Pune,18+,Male,2,1
+2024-06,Maharashtra,Pune,5-18,Female,1,0
+2024-06,Maharashtra,Thane,0-5,Female,2,0
+2024-06,Maharashtra,Thane,0-5,Male,1,0
+2024-06,Maharashtra,Thane,0-5,Transgender,2,0
+2024-06,Maharashtra,Thane,18+,Female,1,0
+2024-06,Maharashtra,Thane,5-18,Male,3,1
+2024-06,Maharashtra,Thane,5-18,Transgender,1,0
+2024-06,Uttar Pradesh,Gautam Buddha Nagar,0-5,Transgender,1,0
+2024-06,Uttar Pradesh,Gautam Buddha Nagar,5-18,Female,1,0
+2024-06,Uttar Pradesh,Kanpur,0-5,Female,2,0
+2024-06,Uttar Pradesh,Kanpur,0-5,Male,2,0
+2024-06,Uttar Pradesh,Kanpur,0-5,Transgender,1,0
+2024-06,Uttar Pradesh,Kanpur,5-18,Male,1,0
+2024-06,Uttar Pradesh,Kanpur,5-18,Transgender,1,1
+2024-06,Uttar Pradesh,Lucknow,0-5,Female,1,1
+2024-06,Uttar Pradesh,Lucknow,0-5,Male,2,0
+2024-06,Uttar Pradesh,Lucknow,0-5,Transgender,2,0
+2024-06,Uttar Pradesh,Lucknow,18+,Male,1,0
+2024-06,Uttar Pradesh,Lucknow,5-18,Female,1,0
+2024-06,Uttar Pradesh,Prayagraj,0-5,Male,1,0
+2024-06,Uttar Pradesh,Prayagraj,18+,Transgender,1,0
+2024-06,Uttar Pradesh,Prayagraj,5-18,Male,2,0
+2024-06,Uttar Pradesh,Varanasi,0-5,Female,1,0
+2024-06,Uttar Pradesh,Varanasi,0-5,Male,2,0
+2024-06,Uttar Pradesh,Varanasi,0-5,Transgender,1,1
+2024-06,Uttar Pradesh,Varanasi,18+,Male,1,0
+2024-06,Uttar Pradesh,Varanasi,5-18,Female,1,0
+2024-06,Uttar Pradesh,Varanasi,5-18,Male,1,0
+2024-06,Uttar Pradesh,Varanasi,5-18,Transgender,1,0
+2024-07,Bihar,Darbhanga,0-5,Female,1,0
+2024-07,Bihar,Darbhanga,0-5,Male,2,0
+2024-07,Bihar,Darbhanga,0-5,Transgender,1,0
+2024-07,Bihar,Gaya,0-5,Female,1,0
+2024-07,Bihar,Gaya,0-5,Male,2,0
+2024-07,Bihar,Gaya,0-5,Transgender,1,0
+2024-07,Bihar,Gaya,18+,Transgender,1,0
+2024-07,Bihar,Gaya,5-18,Female,1,0
+2024-07,Bihar,Gaya,5-18,Male,2,0
+2024-07,Bihar,Muzaffarpur,0-5,Female,1,0
+2024-07,Bihar,Muzaffarpur,0-5,Male,2,0
+2024-07,Bihar,Muzaffarpur,0-5,Transgender,2,0
+2024-07,Bihar,Muzaffarpur,18+,Female,1,0
+2024-07,Bihar,Muzaffarpur,5-18,Transgender,1,0
+2024-07,Bihar,Patna,0-5,Female,1,0
+2024-07,Bihar,Patna,0-5,Transgender,1,0
+2024-07,Bihar,Patna,5-18,Male,1,0
+2024-07,Bihar,Purnia,0-5,Male,3,0
+2024-07,Bihar,Purnia,0-5,Transgender,1,0
+2024-07,Bihar,Purnia,18+,Transgender,1,0
+2024-07,Bihar,Purnia,5-18,Female,1,0
+2024-07,Bihar,Purnia,5-18,Male,1,0
+2024-07,Karnataka,Bangalore Urban,0-5,Female,1,0
+2024-07,Karnataka,Bangalore Urban,0-5,Male,2,0
+2024-07,Karnataka,Bangalore Urban,0-5,Transgender,2,0
+2024-07,Karnataka,Bangalore Urban,18+,Female,1,0
+2024-07,Karnataka,Bangalore Urban,5-18,Female,3,0
+2024-07,Karnataka,Belgaum,0-5,Transgender,2,0
+2024-07,Karnataka,Belgaum,5-18,Male,2,0
+2024-07,Karnataka,Belgaum,5-18,Transgender,3,0
+2024-07,Karnataka,Dakshina Kannada,0-5,Female,3,0
+2024-07,Karnataka,Dakshina Kannada,0-5,Male,2,0
+2024-07,Karnataka,Dakshina Kannada,0-5,Transgender,2,0
+2024-07,Karnataka,Dakshina Kannada,5-18,Transgender,1,0
+2024-07,Karnataka,Kalaburagi,0-5,Female,2,0
+2024-07,Karnataka,Kalaburagi,0-5,Male,2,0
+2024-07,Karnataka,Kalaburagi,0-5,Transgender,3,0
+2024-07,Karnataka,Kalaburagi,18+,Transgender,1,0
+2024-07,Karnataka,Mysore,0-5,Female,1,0
+2024-07,Karnataka,Mysore,0-5,Male,3,0
+2024-07,Karnataka,Mysore,0-5,Transgender,1,1
+2024-07,Karnataka,Mysore,18+,Transgender,1,0
+2024-07,Karnataka,Mysore,5-18,Male,1,0
+2024-07,Karnataka,Mysore,5-18,Transgender,1,0
+2024-07,Kerala,Ernakulam,0-5,Female,1,0
+2024-07,Kerala,Ernakulam,0-5,Male,1,0
+2024-07,Kerala,Ernakulam,0-5,Transgender,1,0
+2024-07,Kerala,Ernakulam,5-18,Transgender,1,0
+2024-07,Kerala,Kozhikode,0-5,Female,2,0
+2024-07,Kerala,Kozhikode,0-5,Male,2,0
+2024-07,Kerala,Kozhikode,0-5,Transgender,1,0
+2024-07,Kerala,Kozhikode,5-18,Male,2,0
+2024-07,Kerala,Malappuram,0-5,Male,2,0
+2024-07,Kerala,Malappuram,0-5,Transgender,1,0
+2024-07,Kerala,Thiruvananthapuram,0-5,Female,2,0
+2024-07,Kerala,Thiruvananthapuram,18+,Female,1,0
+2024-07,Kerala,Thiruvananthapuram,5-18,Female,1,0
+2024-07,Kerala,Thrissur,5-18,Male,1,0
+2024-07,Maharashtra,Mumbai,0-5,Female,2,0
+2024-07,Maharashtra,Mumbai,0-5,Male,1,1
+2024-07,Maharashtra,Mumbai,0-5,Transgender,2,0
+2024-07,Maharashtra,Mumbai,5-18,Male,1,0
+2024-07,Maharashtra,Mumbai,5-18,Transgender,2,0
+2024-07,Maharashtra,Nagpur,5-18,Female,1,0
+2024-07,Maharashtra,Nagpur,5-18,Male,2,1
+2024-07,Maharashtra,Nagpur,5-18,Transgender,2,0
+2024-07,Maharashtra,Nashik,0-5,Female,2,0
+2024-07,Maharashtra,Nashik,0-5,Male,2,0
+2024-07,Maharashtra,Nashik,18+,Female,1,0
+2024-07,Maharashtra,Nashik,18+,Transgender,1,0
+2024-07,Maharashtra,Nashik,5-18,Transgender,1,0
+2024-07,Maharashtra,Pune,0-5,Female,1,0
+2024-07,Maharashtra,Pune,0-5,Male,1,0
+2024-07,Maharashtra,Pune,0-5,Transgender,1,0
+2024-07,Maharashtra,Pune,5-18,Male,2,0
+2024-07,Maharashtra,Thane,0-5,Female,2,0
+2024-07,Maharashtra,Thane,0-5,Male,2,0
+2024-07,Maharashtra,Thane,0-5,Transgender,1,0
+2024-07,Maharashtra,Thane,18+,Female,1,1
+2024-07,Uttar Pradesh,Gautam Buddha Nagar,0-5,Male,2,0
+2024-07,Uttar Pradesh,Gautam Buddha Nagar,0-5,Transgender,3,0
+2024-07,Uttar Pradesh,Gautam Buddha Nagar,5-18,Transgender,1,0
+2024-07,Uttar Pradesh,Kanpur,0-5,Female,1,0
+2024-07,Uttar Pradesh,Kanpur,5-18,Transgender,1,0
+2024-07,Uttar Pradesh,Lucknow,0-5,Female,1,0
+2024-07,Uttar Pradesh,Lucknow,0-5,Male,1,0
+2024-07,Uttar Pradesh,Lucknow,0-5,Transgender,1,0
+2024-07,Uttar Pradesh,Lucknow,18+,Male,1,0
+2024-07,Uttar Pradesh,Lucknow,18+,Transgender,1,0
+2024-07,Uttar Pradesh,Prayagraj,0-5,Female,2,0
+2024-07,Uttar Pradesh,Prayagraj,0-5,Male,4,0
+2024-07,Uttar Pradesh,Prayagraj,0-5,Transgender,1,0
+2024-07,Uttar Pradesh,Prayagraj,5-18,Female,2,0
+2024-07,Uttar Pradesh,Varanasi,0-5,Female,2,0
+2024-07,Uttar Pradesh,Varanasi,0-5,Male,4,0
+2024-07,Uttar Pradesh,Varanasi,0-5,Transgender,2,0
+2024-07,Uttar Pradesh,Varanasi,5-18,Male,2,0
+2024-07,Uttar Pradesh,Varanasi,5-18,Transgender,4,0
+2024-08,Bihar,Darbhanga,0-5,Male,2,0
+2024-08,Bihar,Darbhanga,0-5,Transgender,1,0
+2024-08,Bihar,Darbhanga,18+,Male,2,2
+2024-08,Bihar,Darbhanga,5-18,Female,1,0
+2024-08,Bihar,Darbhanga,5-18,Transgender,1,0
+2024-08,Bihar,Gaya,0-5,Female,1,0
+2024-08,Bihar,Gaya,0-5,Male,4,0
+2024-08,Bihar,Gaya,0-5,Transgender,1,0
+2024-08,Bihar,Gaya,18+,Male,1,0
+2024-08,Bihar,Muzaffarpur,0-5,Female,1,0
+2024-08,Bihar,Muzaffarpur,0-5,Transgender,3,1
+2024-08,Bihar,Muzaffarpur,5-18,Transgender,2,1
+2024-08,Bihar,Patna,0-5,Female,2,0
+2024-08,Bihar,Patna,0-5,Transgender,3,0
+2024-08,Bihar,Patna,5-18,Male,1,0
+2024-08,Bihar,Patna,5-18,Transgender,2,0
+2024-08,Bihar,Purnia,0-5,Male,2,0
+2024-08,Bihar,Purnia,18+,Female,2,0
+2024-08,Bihar,Purnia,18+,Transgender,2,0
+2024-08,Bihar,Purnia,5-18,Male,1,0
+2024-08,Bihar,Purnia,5-18,Transgender,1,0
+2024-08,Karnataka,Bangalore Urban,0-5,Male,2,0
+2024-08,Karnataka,Bangalore Urban,18+,Female,1,0
+2024-08,Karnataka,Bangalore Urban,18+,Transgender,1,0
+2024-08,Karnataka,Bangalore Urban,5-18,Female,1,0
+2024-08,Karnataka,Belgaum,0-5,Female,2,0
+2024-08,Karnataka,Belgaum,0-5,Male,1,0
+2024-08,Karnataka,Belgaum,5-18,Transgender,1,0
+2024-08,Karnataka,Dakshina Kannada,0-5,Female,4,0
+2024-08,Karnataka,Dakshina Kannada,0-5,Male,1,0
+2024-08,Karnataka,Dakshina Kannada,18+,Transgender,1,0
+2024-08,Karnataka,Dakshina Kannada,5-18,Female,1,0
+2024-08,Karnataka,Dakshina Kannada,5-18,Transgender,1,0
+2024-08,Karnataka,Kalaburagi,0-5,Female,1,0
+2024-08,Karnataka,Kalaburagi,0-5,Male,2,0
+2024-08,Karnataka,Kalaburagi,5-18,Male,1,0
+2024-08,Karnataka,Kalaburagi,5-18,Transgender,1,0
+2024-08,Karnataka,Mysore,0-5,Female,2,0
+2024-08,Karnataka,Mysore,0-5,Transgender,1,0
+2024-08,Kerala,Ernakulam,0-5,Female,1,0
+2024-08,Kerala,Ernakulam,0-5,Male,1,0
+2024-08,Kerala,Ernakulam,0-5,Transgender,1,0
+2024-08,Kerala,Ernakulam,18+,Female,2,0
+2024-08,Kerala,Kozhikode,0-5,Female,1,0
+2024-08,Kerala,Kozhikode,0-5,Male,1,0
+2024-08,Kerala,Kozhikode,5-18,Female,1,0
+2024-08,Kerala,Kozhikode,5-18,Male,1,0
+2024-08,Kerala,Kozhikode,5-18,Transgender,1,0
+2024-08,Kerala,Malappuram,0-5,Female,2,0
+2024-08,Kerala,Malappuram,5-18,Female,2,0
+2024-08,Kerala,Malappuram,5-18,Transgender,2,0
+2024-08,Kerala,Thiruvananthapuram,0-5,Female,2,1
+2024-08,Kerala,Thiruvananthapuram,0-5,Transgender,2,1
+2024-08,Kerala,Thiruvananthapuram,18+,Male,1,0
+2024-08,Kerala,Thrissur,0-5,Female,1,0
+2024-08,Kerala,Thrissur,0-5,Male,2,0
+2024-08,Kerala,Thrissur,18+,Transgender,1,0
+2024-08,Kerala,Thrissur,5-18,Female,2,0
+2024-08,Maharashtra,Mumbai,0-5,Female,2,0
+2024-08,Maharashtra,Mumbai,0-5,Male,1,0
+2024-08,Maharashtra,Mumbai,18+,Male,1,0
+2024-08,Maharashtra,Mumbai,5-18,Transgender,1,0
+2024-08,Maharashtra,Nagpur,0-5,Female,1,0
+2024-08,Maharashtra,Nagpur,0-5,Male,1,0
+2024-08,Maharashtra,Nashik,0-5,Female,1,0
+2024-08,Maharashtra,Nashik,0-5,Transgender,1,1
+2024-08,Maharashtra,Nashik,5-18,Female,1,0
+2024-08,Maharashtra,Nashik,5-18,Male,1,0
+2024-08,Maharashtra,Pune,0-5,Female,1,0
+2024-08,Maharashtra,Pune,0-5,Male,2,0
+2024-08,Maharashtra,Pune,18+,Female,1,0
+2024-08,Maharashtra,Pune,18+,Transgender,1,0
+2024-08,Maharashtra,Pune,5-18,Male,1,0
+2024-08,Maharashtra,Pune,5-18,Transgender,1,0
+2024-08,Maharashtra,Thane,0-5,Female,2,0
+2024-08,Maharashtra,Thane,18+,Transgender,1,0
+2024-08,Uttar Pradesh,Gautam Buddha Nagar,0-5,Female,2,1
+2024-08,Uttar Pradesh,Gautam Buddha Nagar,0-5,Transgender,3,0
+2024-08,Uttar Pradesh,Gautam Buddha Nagar,5-18,Female,1,0
+2024-08,Uttar Pradesh,Kanpur,0-5,Female,1,0
+2024-08,Uttar Pradesh,Kanpur,0-5,Male,1,0
+2024-08,Uttar Pradesh,Kanpur,0-5,Transgender,3,1
+2024-08,Uttar Pradesh,Kanpur,18+,Female,1,0
+2024-08,Uttar Pradesh,Kanpur,5-18,Male,2,0
+2024-08,Uttar Pradesh,Kanpur,5-18,Transgender,1,0
+2024-08,Uttar Pradesh,Lucknow,0-5,Female,1,0
+2024-08,Uttar Pradesh,Lucknow,0-5,Transgender,1,0
+2024-08,Uttar Pradesh,Lucknow,18+,Female,1,0
+2024-08,Uttar Pradesh,Lucknow,18+,Transgender,1,0
+2024-08,Uttar Pradesh,Lucknow,5-18,Transgender,2,0
+2024-08,Uttar Pradesh,Prayagraj,0-5,Male,1,0
+2024-08,Uttar Pradesh,Prayagraj,0-5,Transgender,3,0
+2024-08,Uttar Pradesh,Prayagraj,5-18,Female,1,0
+2024-08,Uttar Pradesh,Varanasi,0-5,Female,2,0
+2024-08,Uttar Pradesh,Varanasi,0-5,Transgender,1,0
+2024-08,Uttar Pradesh,Varanasi,18+,Female,1,0
+2024-08,Uttar Pradesh,Varanasi,5-18,Male,1,0
+2024-09,Bihar,Darbhanga,0-5,Female,1,0
+2024-09,Bihar,Darbhanga,0-5,Male,1,0
+2024-09,Bihar,Darbhanga,5-18,Male,1,0
+2024-09,Bihar,Darbhanga,5-18,Transgender,1,0
+2024-09,Bihar,Gaya,18+,Female,1,0
+2024-09,Bihar,Gaya,18+,Male,1,0
+2024-09,Bihar,Gaya,18+,Transgender,1,0
+2024-09,Bihar,Muzaffarpur,0-5,Female,1,0
+2024-09,Bihar,Muzaffarpur,0-5,Male,1,0
+2024-09,Bihar,Muzaffarpur,0-5,Transgender,2,1
+2024-09,Bihar,Muzaffarpur,5-18,Female,2,0
+2024-09,Bihar,Muzaffarpur,5-18,Male,1,0
+2024-09,Bihar,Patna,0-5,Female,1,0
+2024-09,Bihar,Patna,0-5,Male,2,0
+2024-09,Bihar,Patna,0-5,Transgender,2,0
+2024-09,Bihar,Patna,5-18,Female,1,0
+2024-09,Bihar,Patna,5-18,Male,1,0
+2024-09,Bihar,Purnia,0-5,Female,1,0
+2024-09,Bihar,Purnia,5-18,Male,2,0
+2024-09,Karnataka,Bangalore Urban,0-5,Female,1,0
+2024-09,Karnataka,Bangalore Urban,0-5,Male,2,0
+2024-09,Karnataka,Bangalore Urban,0-5,Transgender,1,0
+2024-09,Karnataka,Belgaum,0-5,Female,2,0
+2024-09,Karnataka,Belgaum,0-5,Male,2,0
+2024-09,Karnataka,Belgaum,0-5,Transgender,2,0
+2024-09,Karnataka,Belgaum,18+,Male,2,0
+2024-09,Karnataka,Belgaum,5-18,Female,1,0
+2024-09,Karnataka,Belgaum,5-18,Transgender,3,0
+2024-09,Karnataka,Dakshina Kannada,0-5,Female,3,0
+2024-09,Karnataka,Dakshina Kannada,0-5,Male,1,0
+2024-09,Karnataka,Dakshina Kannada,5-18,Female,1,1
+2024-09,Karnataka,Dakshina Kannada,5-18,Male,2,0
+2024-09,Karnataka,Kalaburagi,0-5,Male,1,0
+2024-09,Karnataka,Kalaburagi,0-5,Transgender,1,0
+2024-09,Karnataka,Mysore,0-5,Female,2,2
+2024-09,Karnataka,Mysore,0-5,Male,2,0
+2024-09,Karnataka,Mysore,5-18,Female,1,0
+2024-09,Kerala,Ernakulam,0-5,Female,1,0
+2024-09,Kerala,Ernakulam,0-5,Transgender,1,0
+2024-09,Kerala,Ernakulam,18+,Female,1,0
+2024-09,Kerala,Kozhikode,0-5,Female,3,1
+2024-09,Kerala,Kozhikode,0-5,Transgender,1,0
+2024-09,Kerala,Kozhikode,5-18,Male,2,0
+2024-09,Kerala,Malappuram,0-5,Female,1,0
+2024-09,Kerala,Malappuram,0-5,Male,2,0
+2024-09,Kerala,Malappuram,0-5,Transgender,2,1
+2024-09,Kerala,Malappuram,18+,Female,1,0
+2024-09,Kerala,Malappuram,18+,Male,1,1
+2024-09,Kerala,Malappuram,5-18,Male,1,0
+2024-09,Kerala,Thiruvananthapuram,0-5,Female,2,0
+2024-09,Kerala,Thiruvananthapuram,0-5,Male,1,0
+2024-09,Kerala,Thiruvananthapuram,18+,Male,1,0
+2024-09,Kerala,Thrissur,0-5,Male,2,1
+2024-09,Kerala,Thrissur,18+,Transgender,1,0
+2024-09,Kerala,Thrissur,5-18,Transgender,1,1
+2024-09,Maharashtra,Mumbai,0-5,Female,1,0
+2024-09,Maharashtra,Mumbai,0-5,Male,1,0
+2024-09,Maharashtra,Mumbai,0-5,Transgender,1,0
+2024-09,Maharashtra,Nagpur,0-5,Female,2,0
+2024-09,Maharashtra,Nagpur,5-18,Female,1,0
+2024-09,Maharashtra,Nashik,0-5,Male,3,0
+2024-09,Maharashtra,Nashik,0-5,Transgender,1,0
+2024-09,Maharashtra,Nashik,5-18,Female,3,0
+2024-09,Maharashtra,Pune,0-5,Female,2,0
+2024-09,Maharashtra,Pune,0-5,Male,2,0
+2024-09,Maharashtra,Pune,0-5,Transgender,1,0
+2024-09,Maharashtra,Pune,18+,Female,1,0
+2024-09,Maharashtra,Pune,18+,Male,1,0
+2024-09,Maharashtra,Pune,5-18,Female,1,0
+2024-09,Maharashtra,Thane,0-5,Female,1,1
+2024-09,Maharashtra,Thane,0-5,Male,1,0
+2024-09,Maharashtra,Thane,0-5,Transgender,2,0
+2024-09,Maharashtra,Thane,5-18,Male,2,1
+2024-09,Uttar Pradesh,Gautam Buddha Nagar,0-5,Male,1,0
+2024-09,Uttar Pradesh,Gautam Buddha Nagar,18+,Female,1,0
+2024-09,Uttar Pradesh,Gautam Buddha Nagar,5-18,Female,1,0
+2024-09,Uttar Pradesh,Gautam Buddha Nagar,5-18,Male,2,0
+2024-09,Uttar Pradesh,Gautam Buddha Nagar,5-18,Transgender,1,0
+2024-09,Uttar Pradesh,Kanpur,0-5,Transgender,2,0
+2024-09,Uttar Pradesh,Kanpur,18+,Female,1,0
+2024-09,Uttar Pradesh,Kanpur,18+,Male,1,0
+2024-09,Uttar Pradesh,Lucknow,0-5,Male,1,0
+2024-09,Uttar Pradesh,Lucknow,18+,Transgender,1,1
+2024-09,Uttar Pradesh,Lucknow,5-18,Male,1,0
+2024-09,Uttar Pradesh,Prayagraj,0-5,Female,1,0
+2024-09,Uttar Pradesh,Prayagraj,0-5,Male,2,0
+2024-09,Uttar Pradesh,Prayagraj,0-5,Transgender,1,0
+2024-09,Uttar Pradesh,Prayagraj,5-18,Male,1,0
+2024-09,Uttar Pradesh,Prayagraj,5-18,Transgender,1,0
+2024-09,Uttar Pradesh,Varanasi,0-5,Female,2,0
+2024-09,Uttar Pradesh,Varanasi,0-5,Male,1,0
+2024-09,Uttar Pradesh,Varanasi,0-5,Transgender,1,0
+2024-09,Uttar Pradesh,Varanasi,5-18,Female,1,0
+2024-10,Bihar,Darbhanga,0-5,Female,1,0
+2024-10,Bihar,Darbhanga,0-5,Male,1,0
+2024-10,Bihar,Darbhanga,0-5,Transgender,2,0
+2024-10,Bihar,Darbhanga,5-18,Female,2,0
+2024-10,Bihar,Gaya,0-5,Male,3,0
+2024-10,Bihar,Gaya,0-5,Transgender,2,0
+2024-10,Bihar,Muzaffarpur,0-5,Female,1,0
+2024-10,Bihar,Muzaffarpur,0-5,Male,1,0
+2024-10,Bihar,Muzaffarpur,18+,Female,1,0
+2024-10,Bihar,Muzaffarpur,5-18,Female,2,0
+2024-10,Bihar,Muzaffarpur,5-18,Transgender,1,1
+2024-10,Bihar,Patna,0-5,Female,2,0
+2024-10,Bihar,Patna,0-5,Male,1,0
+2024-10,Bihar,Patna,18+,Female,1,0
+2024-10,Bihar,Patna,5-18,Male,1,0
+2024-10,Bihar,Purnia,0-5,Female,1,0
+2024-10,Bihar,Purnia,0-5,Male,2,0
+2024-10,Bihar,Purnia,18+,Female,1,0
+2024-10,Bihar,Purnia,5-18,Female,1,0
+2024-10,Bihar,Purnia,5-18,Male,1,0
+2024-10,Bihar,Purnia,5-18,Transgender,1,0
+2024-10,Karnataka,Bangalore Urban,0-5,Female,4,0
+2024-10,Karnataka,Bangalore Urban,0-5,Male,1,0
+2024-10,Karnataka,Bangalore Urban,18+,Male,1,0
+2024-10,Karnataka,Bangalore Urban,5-18,Female,1,0
+2024-10,Karnataka,Bangalore Urban,5-18,Transgender,3,0
+2024-10,Karnataka,Belgaum,0-5,Female,1,0
+2024-10,Karnataka,Belgaum,0-5,Male,1,0
+2024-10,Karnataka,Belgaum,5-18,Female,1,0
+2024-10,Karnataka,Belgaum,5-18,Male,1,0
+2024-10,Karnataka,Dakshina Kannada,0-5,Female,2,0
+2024-10,Karnataka,Dakshina Kannada,0-5,Male,3,0
+2024-10,Karnataka,Dakshina Kannada,0-5,Transgender,2,0
+2024-10,Karnataka,Kalaburagi,0-5,Male,1,0
+2024-10,Karnataka,Kalaburagi,0-5,Transgender,2,1
+2024-10,Karnataka,Kalaburagi,18+,Male,1,0
+2024-10,Karnataka,Kalaburagi,18+,Transgender,1,0
+2024-10,Karnataka,Kalaburagi,5-18,Female,1,0
+2024-10,Karnataka,Mysore,0-5,Male,2,0
+2024-10,Karnataka,Mysore,0-5,Transgender,2,0
+2024-10,Karnataka,Mysore,5-18,Transgender,2,1
+2024-10,Kerala,Ernakulam,18+,Female,2,0
+2024-10,Kerala,Ernakulam,5-18,Female,1,0
+2024-10,Kerala,Ernakulam,5-18,Male,2,0
+2024-10,Kerala,Ernakulam,5-18,Transgender,1,0
+2024-10,Kerala,Kozhikode,0-5,Female,1,0
+2024-10,Kerala,Kozhikode,0-5,Male,2,1
+2024-10,Kerala,Kozhikode,0-5,Transgender,3,0
+2024-10,Kerala,Kozhikode,18+,Transgender,2,0
+2024-10,Kerala,Malappuram,0-5,Female,2,1
+2024-10,Kerala,Malappuram,0-5,Male,1,0
+2024-10,Kerala,Malappuram,0-5,Transgender,2,0
+2024-10,Kerala,Malappuram,5-18,Male,1,0
+2024-10,Kerala,Malappuram,5-18,Transgender,1,0
+2024-10,Kerala,Thiruvananthapuram,0-5,Female,2,0
+2024-10,Kerala,Thiruvananthapuram,0-5,Transgender,1,0
+2024-10,Kerala,Thiruvananthapuram,18+,Female,1,0
+2024-10,Kerala,Thiruvananthapuram,5-18,Transgender,2,0
+2024-10,Kerala,Thrissur,0-5,Female,1,0
+2024-10,Kerala,Thrissur,0-5,Male,3,1
+2024-10,Kerala,Thrissur,18+,Transgender,1,0
+2024-10,Kerala,Thrissur,5-18,Transgender,2,0
+2024-10,Maharashtra,Mumbai,0-5,Female,3,0
+2024-10,Maharashtra,Mumbai,0-5,Male,2,0
+2024-10,Maharashtra,Mumbai,0-5,Transgender,3,0
+2024-10,Maharashtra,Mumbai,18+,Transgender,1,0
+2024-10,Maharashtra,Mumbai,5-18,Female,2,1
+2024-10,Maharashtra,Nagpur,0-5,Transgender,1,0
+2024-10,Maharashtra,Nagpur,5-18,Female,1,0
+2024-10,Maharashtra,Nagpur,5-18,Male,1,0
+2024-10,Maharashtra,Nagpur,5-18,Transgender,1,0
+2024-10,Maharashtra,Nashik,0-5,Female,1,0
+2024-10,Maharashtra,Nashik,0-5,Male,2,0
+2024-10,Maharashtra,Nashik,0-5,Transgender,1,0
+2024-10,Maharashtra,Nashik,5-18,Transgender,2,0
+2024-10,Maharashtra,Pune,0-5,Female,1,0
+2024-10,Maharashtra,Pune,0-5,Transgender,3,1
+2024-10,Maharashtra,Pune,5-18,Male,1,0
+2024-10,Maharashtra,Thane,0-5,Female,1,0
+2024-10,Maharashtra,Thane,0-5,Transgender,1,0
+2024-10,Maharashtra,Thane,18+,Transgender,1,0
+2024-10,Maharashtra,Thane,5-18,Female,2,0
+2024-10,Uttar Pradesh,Gautam Buddha Nagar,0-5,Male,5,0
+2024-10,Uttar Pradesh,Gautam Buddha Nagar,5-18,Female,1,1
+2024-10,Uttar Pradesh,Gautam Buddha Nagar,5-18,Transgender,1,0
+2024-10,Uttar Pradesh,Kanpur,0-5,Female,1,0
+2024-10,Uttar Pradesh,Kanpur,0-5,Male,2,0
+2024-10,Uttar Pradesh,Kanpur,0-5,Transgender,2,0
+2024-10,Uttar Pradesh,Kanpur,5-18,Transgender,2,0
+2024-10,Uttar Pradesh,Lucknow,0-5,Male,1,0
+2024-10,Uttar Pradesh,Lucknow,5-18,Male,1,0
+2024-10,Uttar Pradesh,Prayagraj,0-5,Female,3,1
+2024-10,Uttar Pradesh,Prayagraj,0-5,Transgender,1,0
+2024-10,Uttar Pradesh,Prayagraj,5-18,Female,1,0
+2024-10,Uttar Pradesh,Prayagraj,5-18,Male,1,0
+2024-10,Uttar Pradesh,Prayagraj,5-18,Transgender,1,0
+2024-10,Uttar Pradesh,Varanasi,0-5,Male,1,0
+2024-10,Uttar Pradesh,Varanasi,0-5,Transgender,1,0
+2024-10,Uttar Pradesh,Varanasi,5-18,Transgender,1,0
+2024-11,Bihar,Darbhanga,0-5,Female,1,0
+2024-11,Bihar,Darbhanga,0-5,Male,1,0
+2024-11,Bihar,Darbhanga,0-5,Transgender,2,0
+2024-11,Bihar,Darbhanga,5-18,Female,1,0
+2024-11,Bihar,Darbhanga,5-18,Transgender,1,0
+2024-11,Bihar,Gaya,0-5,Female,1,0
+2024-11,Bihar,Gaya,0-5,Male,2,0
+2024-11,Bihar,Gaya,0-5,Transgender,2,0
+2024-11,Bihar,Gaya,18+,Female,1,0
+2024-11,Bihar,Gaya,5-18,Transgender,1,0
+2024-11,Bihar,Muzaffarpur,0-5,Female,3,0
+2024-11,Bihar,Muzaffarpur,0-5,Transgender,3,0
+2024-11,Bihar,Muzaffarpur,5-18,Female,1,0
+2024-11,Bihar,Muzaffarpur,5-18,Male,1,0
+2024-11,Bihar,Muzaffarpur,5-18,Transgender,1,1
+2024-11,Bihar,Patna,0-5,Female,3,1
+2024-11,Bihar,Patna,5-18,Female,1,0
+2024-11,Bihar,Patna,5-18,Transgender,1,0
+2024-11,Bihar,Purnia,0-5,Female,1,0
+2024-11,Bihar,Purnia,0-5,Male,2,0
+2024-11,Bihar,Purnia,0-5,Transgender,2,0
+2024-11,Bihar,Purnia,5-18,Female,1,0
+2024-11,Karnataka,Bangalore Urban,18+,Transgender,1,0
+2024-11,Karnataka,Bangalore Urban,5-18,Male,1,0
+2024-11,Karnataka,Bangalore Urban,5-18,Transgender,1,0
+2024-11,Karnataka,Belgaum,0-5,Transgender,1,0
+2024-11,Karnataka,Belgaum,5-18,Transgender,1,0
+2024-11,Karnataka,Dakshina Kannada,0-5,Female,4,0
+2024-11,Karnataka,Dakshina Kannada,0-5,Male,3,0
+2024-11,Karnataka,Dakshina Kannada,0-5,Transgender,2,0
+2024-11,Karnataka,Dakshina Kannada,5-18,Female,1,0
+2024-11,Karnataka,Dakshina Kannada,5-18,Male,2,0
+2024-11,Karnataka,Dakshina Kannada,5-18,Transgender,1,0
+2024-11,Karnataka,Kalaburagi,0-5,Female,1,0
+2024-11,Karnataka,Kalaburagi,0-5,Male,1,0
+2024-11,Karnataka,Kalaburagi,0-5,Transgender,1,0
+2024-11,Karnataka,Kalaburagi,5-18,Female,3,0
+2024-11,Karnataka,Kalaburagi,5-18,Male,1,0
+2024-11,Karnataka,Kalaburagi,5-18,Transgender,3,0
+2024-11,Karnataka,Mysore,0-5,Transgender,1,0
+2024-11,Karnataka,Mysore,18+,Male,1,0
+2024-11,Karnataka,Mysore,5-18,Female,1,0
+2024-11,Karnataka,Mysore,5-18,Male,1,0
+2024-11,Kerala,Ernakulam,0-5,Male,1,0
+2024-11,Kerala,Ernakulam,0-5,Transgender,1,0
+2024-11,Kerala,Ernakulam,5-18,Female,1,0
+2024-11,Kerala,Kozhikode,5-18,Female,1,0
+2024-11,Kerala,Malappuram,0-5,Male,2,0
+2024-11,Kerala,Malappuram,0-5,Transgender,2,0
+2024-11,Kerala,Malappuram,18+,Male,1,0
+2024-11,Kerala,Thiruvananthapuram,0-5,Male,3,0
+2024-11,Kerala,Thiruvananthapuram,0-5,Transgender,1,0
+2024-11,Kerala,Thiruvananthapuram,5-18,Female,1,0
+2024-11,Kerala,Thiruvananthapuram,5-18,Male,1,0
+2024-11,Kerala,Thiruvananthapuram,5-18,Transgender,2,0
+2024-11,Kerala,Thrissur,0-5,Male,2,1
+2024-11,Kerala,Thrissur,0-5,Transgender,3,0
+2024-11,Kerala,Thrissur,5-18,Female,2,0
+2024-11,Maharashtra,Mumbai,0-5,Male,4,0
+2024-11,Maharashtra,Mumbai,0-5,Transgender,1,0
+2024-11,Maharashtra,Mumbai,5-18,Male,1,0
+2024-11,Maharashtra,Nagpur,0-5,Female,2,0
+2024-11,Maharashtra,Nagpur,0-5,Male,2,0
+2024-11,Maharashtra,Nagpur,0-5,Transgender,3,0
+2024-11,Maharashtra,Nagpur,18+,Female,1,0
+2024-11,Maharashtra,Nagpur,18+,Male,1,0
+2024-11,Maharashtra,Nagpur,18+,Transgender,1,0
+2024-11,Maharashtra,Nagpur,5-18,Female,2,0
+2024-11,Maharashtra,Nashik,0-5,Female,3,0
+2024-11,Maharashtra,Nashik,0-5,Male,1,0
+2024-11,Maharashtra,Nashik,0-5,Transgender,1,0
+2024-11,Maharashtra,Nashik,18+,Female,1,0
+2024-11,Maharashtra,Pune,0-5,Female,1,0
+2024-11,Maharashtra,Pune,0-5,Male,1,0
+2024-11,Maharashtra,Pune,0-5,Transgender,2,0
+2024-11,Maharashtra,Pune,18+,Male,1,0
+2024-11,Maharashtra,Pune,5-18,Female,1,0
+2024-11,Maharashtra,Pune,5-18,Male,3,1
+2024-11,Maharashtra,Thane,0-5,Female,1,0
+2024-11,Maharashtra,Thane,0-5,Male,2,0
+2024-11,Maharashtra,Thane,0-5,Transgender,1,0
+2024-11,Maharashtra,Thane,5-18,Female,2,0
+2024-11,Maharashtra,Thane,5-18,Male,1,0
+2024-11,Uttar Pradesh,Gautam Buddha Nagar,0-5,Female,1,0
+2024-11,Uttar Pradesh,Gautam Buddha Nagar,0-5,Male,2,0
+2024-11,Uttar Pradesh,Gautam Buddha Nagar,5-18,Transgender,1,0
+2024-11,Uttar Pradesh,Kanpur,0-5,Transgender,1,0
+2024-11,Uttar Pradesh,Kanpur,18+,Female,1,0
+2024-11,Uttar Pradesh,Kanpur,5-18,Female,2,0
+2024-11,Uttar Pradesh,Kanpur,5-18,Transgender,4,0
+2024-11,Uttar Pradesh,Lucknow,0-5,Female,3,0
+2024-11,Uttar Pradesh,Lucknow,0-5,Transgender,2,0
+2024-11,Uttar Pradesh,Prayagraj,0-5,Female,3,0
+2024-11,Uttar Pradesh,Prayagraj,0-5,Transgender,2,0
+2024-11,Uttar Pradesh,Prayagraj,18+,Male,1,0
+2024-11,Uttar Pradesh,Prayagraj,18+,Transgender,1,0
+2024-11,Uttar Pradesh,Prayagraj,5-18,Male,1,0
+2024-11,Uttar Pradesh,Prayagraj,5-18,Transgender,2,1
+2024-11,Uttar Pradesh,Varanasi,0-5,Female,1,0
+2024-11,Uttar Pradesh,Varanasi,0-5,Male,2,1
+2024-11,Uttar Pradesh,Varanasi,0-5,Transgender,1,0
+2024-11,Uttar Pradesh,Varanasi,5-18,Transgender,1,0
+2024-12,Bihar,Darbhanga,0-5,Male,1,0
+2024-12,Bihar,Darbhanga,0-5,Transgender,2,0
+2024-12,Bihar,Darbhanga,18+,Female,1,0
+2024-12,Bihar,Darbhanga,5-18,Male,1,0
+2024-12,Bihar,Darbhanga,5-18,Transgender,1,0
+2024-12,Bihar,Gaya,0-5,Female,1,0
+2024-12,Bihar,Gaya,0-5,Male,2,0
+2024-12,Bihar,Gaya,0-5,Transgender,1,0
+2024-12,Bihar,Gaya,5-18,Male,2,0
+2024-12,Bihar,Muzaffarpur,0-5,Female,2,0
+2024-12,Bihar,Muzaffarpur,0-5,Male,1,0
+2024-12,Bihar,Muzaffarpur,0-5,Transgender,3,1
+2024-12,Bihar,Muzaffarpur,18+,Female,1,0
+2024-12,Bihar,Muzaffarpur,5-18,Transgender,1,0
+2024-12,Bihar,Patna,0-5,Female,3,1
+2024-12,Bihar,Patna,0-5,Male,3,0
+2024-12,Bihar,Patna,0-5,Transgender,2,0
+2024-12,Bihar,Patna,18+,Female,1,1
+2024-12,Bihar,Patna,5-18,Female,3,0
+2024-12,Bihar,Patna,5-18,Transgender,1,0
+2024-12,Bihar,Purnia,0-5,Female,2,0
+2024-12,Bihar,Purnia,0-5,Male,1,0
+2024-12,Bihar,Purnia,0-5,Transgender,1,0
+2024-12,Bihar,Purnia,18+,Female,1,0
+2024-12,Bihar,Purnia,18+,Male,1,0
+2024-12,Bihar,Purnia,5-18,Female,1,0
+2024-12,Bihar,Purnia,5-18,Male,1,0
+2024-12,Bihar,Purnia,5-18,Transgender,1,0
+2024-12,Karnataka,Bangalore Urban,0-5,Female,2,1
+2024-12,Karnataka,Bangalore Urban,5-18,Female,1,0
+2024-12,Karnataka,Bangalore Urban,5-18,Male,1,0
+2024-12,Karnataka,Bangalore Urban,5-18,Transgender,1,0
+2024-12,Karnataka,Belgaum,0-5,Male,2,0
+2024-12,Karnataka,Belgaum,0-5,Transgender,3,0
+2024-12,Karnataka,Belgaum,5-18,Female,1,0
+2024-12,Karnataka,Belgaum,5-18,Male,1,0
+2024-12,Karnataka,Dakshina Kannada,0-5,Transgender,1,0
+2024-12,Karnataka,Dakshina Kannada,18+,Male,1,0
+2024-12,Karnataka,Dakshina Kannada,5-18,Female,1,0
+2024-12,Karnataka,Dakshina Kannada,5-18,Male,1,0
+2024-12,Karnataka,Dakshina Kannada,5-18,Transgender,1,0
+2024-12,Karnataka,Kalaburagi,0-5,Female,2,1
+2024-12,Karnataka,Kalaburagi,0-5,Transgender,2,0
+2024-12,Karnataka,Kalaburagi,5-18,Female,1,0
+2024-12,Karnataka,Kalaburagi,5-18,Transgender,1,0
+2024-12,Karnataka,Mysore,0-5,Female,1,0
+2024-12,Karnataka,Mysore,0-5,Male,2,0
+2024-12,Karnataka,Mysore,5-18,Transgender,1,0
+2024-12,Kerala,Ernakulam,0-5,Female,4,0
+2024-12,Kerala,Ernakulam,0-5,Male,1,0
+2024-12,Kerala,Ernakulam,5-18,Female,1,0
+2024-12,Kerala,Kozhikode,0-5,Female,1,0
+2024-12,Kerala,Kozhikode,0-5,Male,1,0
+2024-12,Kerala,Kozhikode,5-18,Female,1,0
+2024-12,Kerala,Malappuram,0-5,Transgender,2,0
+2024-12,Kerala,Malappuram,5-18,Female,1,0
+2024-12,Kerala,Malappuram,5-18,Male,1,0
+2024-12,Kerala,Malappuram,5-18,Transgender,3,0
+2024-12,Kerala,Thiruvananthapuram,0-5,Transgender,1,0
+2024-12,Kerala,Thiruvananthapuram,5-18,Female,3,0
+2024-12,Kerala,Thiruvananthapuram,5-18,Transgender,2,1
+2024-12,Kerala,Thrissur,0-5,Male,2,0
+2024-12,Kerala,Thrissur,0-5,Transgender,1,0
+2024-12,Kerala,Thrissur,5-18,Female,1,0
+2024-12,Kerala,Thrissur,5-18,Transgender,1,0
+2024-12,Maharashtra,Mumbai,0-5,Female,1,0
+2024-12,Maharashtra,Mumbai,0-5,Male,1,0
+2024-12,Maharashtra,Mumbai,5-18,Transgender,1,0
+2024-12,Maharashtra,Nagpur,0-5,Female,1,0
+2024-12,Maharashtra,Nagpur,0-5,Male,3,0
+2024-12,Maharashtra,Nagpur,0-5,Transgender,1,0
+2024-12,Maharashtra,Nagpur,5-18,Male,1,0
+2024-12,Maharashtra,Nagpur,5-18,Transgender,2,0
+2024-12,Maharashtra,Nashik,0-5,Male,2,0
+2024-12,Maharashtra,Nashik,0-5,Transgender,1,0
+2024-12,Maharashtra,Nashik,18+,Female,1,0
+2024-12,Maharashtra,Nashik,5-18,Female,2,0
+2024-12,Maharashtra,Nashik,5-18,Male,2,0
+2024-12,Maharashtra,Nashik,5-18,Transgender,2,0
+2024-12,Maharashtra,Pune,0-5,Female,1,0
+2024-12,Maharashtra,Pune,0-5,Male,1,0
+2024-12,Maharashtra,Pune,0-5,Transgender,1,0
+2024-12,Maharashtra,Pune,5-18,Transgender,1,0
+2024-12,Maharashtra,Thane,0-5,Female,1,0
+2024-12,Maharashtra,Thane,0-5,Male,2,0
+2024-12,Maharashtra,Thane,0-5,Transgender,2,0
+2024-12,Maharashtra,Thane,5-18,Transgender,1,0
+2024-12,Uttar Pradesh,Gautam Buddha Nagar,0-5,Female,2,0
+2024-12,Uttar Pradesh,Gautam Buddha Nagar,0-5,Male,1,0
+2024-12,Uttar Pradesh,Gautam Buddha Nagar,18+,Male,1,0
+2024-12,Uttar Pradesh,Gautam Buddha Nagar,5-18,Female,1,0
+2024-12,Uttar Pradesh,Gautam Buddha Nagar,5-18,Transgender,1,0
+2024-12,Uttar Pradesh,Kanpur,0-5,Female,2,0
+2024-12,Uttar Pradesh,Kanpur,0-5,Transgender,1,0
+2024-12,Uttar Pradesh,Kanpur,18+,Female,1,1
+2024-12,Uttar Pradesh,Kanpur,18+,Male,1,0
+2024-12,Uttar Pradesh,Kanpur,5-18,Male,1,0
+2024-12,Uttar Pradesh,Lucknow,0-5,Female,1,0
+2024-12,Uttar Pradesh,Lucknow,0-5,Male,1,0
+2024-12,Uttar Pradesh,Lucknow,0-5,Transgender,1,0
+2024-12,Uttar Pradesh,Lucknow,18+,Female,1,0
+2024-12,Uttar Pradesh,Lucknow,5-18,Transgender,1,0
+2024-12,Uttar Pradesh,Prayagraj,0-5,Female,3,0
+2024-12,Uttar Pradesh,Prayagraj,0-5,Male,2,0
+2024-12,Uttar Pradesh,Prayagraj,18+,Male,1,0
+2024-12,Uttar Pradesh,Prayagraj,5-18,Female,1,0
+2024-12,Uttar Pradesh,Prayagraj,5-18,Male,1,0
+2024-12,Uttar Pradesh,Varanasi,0-5,Female,2,0
+2024-12,Uttar Pradesh,Varanasi,0-5,Male,1,0
+2024-12,Uttar Pradesh,Varanasi,0-5,Transgender,1,0
+2025-01,Bihar,Darbhanga,0-5,Female,1,0
+2025-01,Bihar,Darbhanga,0-5,Male,1,0
+2025-01,Bihar,Darbhanga,18+,Female,1,0
+2025-01,Bihar,Darbhanga,5-18,Female,1,0
+2025-01,Bihar,Gaya,0-5,Transgender,4,0
+2025-01,Bihar,Gaya,5-18,Female,1,0
+2025-01,Bihar,Muzaffarpur,0-5,Male,2,0
+2025-01,Bihar,Muzaffarpur,0-5,Transgender,2,0
+2025-01,Bihar,Muzaffarpur,5-18,Male,1,0
+2025-01,Bihar,Muzaffarpur,5-18,Transgender,1,0
+2025-01,Bihar,Patna,0-5,Female,1,0
+2025-01,Bihar,Patna,0-5,Transgender,1,0
+2025-01,Bihar,Patna,5-18,Female,1,0
+2025-01,Bihar,Patna,5-18,Male,1,0
+2025-01,Bihar,Purnia,0-5,Male,3,1
+2025-01,Bihar,Purnia,18+,Male,1,0
+2025-01,Bihar,Purnia,5-18,Transgender,1,1
+2025-01,Karnataka,Bangalore Urban,0-5,Female,1,0
+2025-01,Karnataka,Bangalore Urban,5-18,Female,1,0
+2025-01,Karnataka,Bangalore Urban,5-18,Male,1,0
+2025-01,Karnataka,Belgaum,0-5,Female,1,0
+2025-01,Karnataka,Belgaum,0-5,Male,3,0
+2025-01,Karnataka,Dakshina Kannada,0-5,Male,1,0
+2025-01,Karnataka,Dakshina Kannada,18+,Female,2,0
+2025-01,Karnataka,Dakshina Kannada,5-18,Female,1,0
+2025-01,Karnataka,Dakshina Kannada,5-18,Transgender,1,0
+2025-01,Karnataka,Kalaburagi,0-5,Female,1,0
+2025-01,Karnataka,Kalaburagi,0-5,Male,2,0
+2025-01,Karnataka,Kalaburagi,18+,Transgender,1,0
+2025-01,Karnataka,Kalaburagi,5-18,Female,1,0
+2025-01,Karnataka,Kalaburagi,5-18,Male,1,1
+2025-01,Karnataka,Mysore,0-5,Transgender,2,0
+2025-01,Karnataka,Mysore,5-18,Transgender,1,0
+2025-01,Kerala,Ernakulam,0-5,Transgender,2,0
+2025-01,Kerala,Ernakulam,5-18,Female,1,0
+2025-01,Kerala,Ernakulam,5-18,Male,1,0
+2025-01,Kerala,Ernakulam,5-18,Transgender,1,0
+2025-01,Kerala,Kozhikode,0-5,Female,1,0
+2025-01,Kerala,Kozhikode,0-5,Male,1,0
+2025-01,Kerala,Kozhikode,0-5,Transgender,1,0
+2025-01,Kerala,Kozhikode,18+,Female,2,0
+2025-01,Kerala,Kozhikode,18+,Male,1,0
+2025-01,Kerala,Kozhikode,5-18,Female,1,0
+2025-01,Kerala,Kozhikode,5-18,Transgender,1,0
+2025-01,Kerala,Malappuram,0-5,Female,2,0
+2025-01,Kerala,Malappuram,5-18,Male,1,0
+2025-01,Kerala,Thiruvananthapuram,0-5,Female,2,0
+2025-01,Kerala,Thiruvananthapuram,0-5,Male,3,0
+2025-01,Kerala,Thiruvananthapuram,0-5,Transgender,2,0
+2025-01,Kerala,Thiruvananthapuram,18+,Female,1,0
+2025-01,Kerala,Thiruvananthapuram,5-18,Female,1,0
+2025-01,Kerala,Thiruvananthapuram,5-18,Male,1,0
+2025-01,Kerala,Thrissur,0-5,Male,1,0
+2025-01,Kerala,Thrissur,5-18,Male,1,0
+2025-01,Kerala,Thrissur,5-18,Transgender,1,0
+2025-01,Maharashtra,Mumbai,0-5,Female,1,0
+2025-01,Maharashtra,Mumbai,0-5,Male,1,0
+2025-01,Maharashtra,Mumbai,0-5,Transgender,2,0
+2025-01,Maharashtra,Mumbai,5-18,Female,1,0
+2025-01,Maharashtra,Nagpur,0-5,Female,2,0
+2025-01,Maharashtra,Nagpur,0-5,Transgender,4,1
+2025-01,Maharashtra,Nagpur,5-18,Male,1,0
+2025-01,Maharashtra,Nashik,5-18,Female,2,0
+2025-01,Maharashtra,Nashik,5-18,Male,1,0
+2025-01,Maharashtra,Nashik,5-18,Transgender,1,0
+2025-01,Maharashtra,Pune,0-5,Male,3,0
+2025-01,Maharashtra,Pune,0-5,Transgender,6,0
+2025-01,Maharashtra,Pune,18+,Female,1,0
+2025-01,Maharashtra,Pune,5-18,Male,1,0
+2025-01,Maharashtra,Pune,5-18,Transgender,1,0
+2025-01,Maharashtra,Thane,0-5,Male,1,0
+2025-01,Maharashtra,Thane,0-5,Transgender,1,0
+2025-01,Maharashtra,Thane,5-18,Male,2,0
+2025-01,Uttar Pradesh,Gautam Buddha Nagar,0-5,Male,1,0
+2025-01,Uttar Pradesh,Gautam Buddha Nagar,0-5,Transgender,3,0
+2025-01,Uttar Pradesh,Gautam Buddha Nagar,5-18,Female,2,0
+2025-01,Uttar Pradesh,Kanpur,0-5,Male,1,0
+2025-01,Uttar Pradesh,Kanpur,0-5,Transgender,1,0
+2025-01,Uttar Pradesh,Kanpur,18+,Male,2,0
+2025-01,Uttar Pradesh,Kanpur,18+,Transgender,1,0
+2025-01,Uttar Pradesh,Lucknow,0-5,Female,1,0
+2025-01,Uttar Pradesh,Lucknow,0-5,Male,1,0
+2025-01,Uttar Pradesh,Lucknow,0-5,Transgender,3,1
+2025-01,Uttar Pradesh,Lucknow,5-18,Male,2,0
+2025-01,Uttar Pradesh,Prayagraj,0-5,Female,1,0
+2025-01,Uttar Pradesh,Prayagraj,0-5,Male,2,0
+2025-01,Uttar Pradesh,Prayagraj,0-5,Transgender,1,0
+2025-01,Uttar Pradesh,Prayagraj,18+,Transgender,1,0
+2025-01,Uttar Pradesh,Prayagraj,5-18,Female,1,0
+2025-01,Uttar Pradesh,Prayagraj,5-18,Male,1,0
+2025-01,Uttar Pradesh,Prayagraj,5-18,Transgender,1,0
+2025-01,Uttar Pradesh,Varanasi,5-18,Transgender,1,0
+2025-02,Bihar,Darbhanga,0-5,Female,1,0
+2025-02,Bihar,Darbhanga,0-5,Transgender,1,1
+2025-02,Bihar,Darbhanga,5-18,Transgender,1,0
+2025-02,Bihar,Gaya,0-5,Female,1,0
+2025-02,Bihar,Gaya,0-5,Transgender,1,0
+2025-02,Bihar,Muzaffarpur,0-5,Female,2,0
+2025-02,Bihar,Muzaffarpur,0-5,Male,2,0
+2025-02,Bihar,Muzaffarpur,0-5,Transgender,2,0
+2025-02,Bihar,Muzaffarpur,5-18,Female,1,0
+2025-02,Bihar,Muzaffarpur,5-18,Transgender,1,0
+2025-02,Bihar,Patna,0-5,Male,2,0
+2025-02,Bihar,Patna,0-5,Transgender,2,0
+2025-02,Bihar,Purnia,0-5,Male,2,0
+2025-02,Karnataka,Bangalore Urban,0-5,Female,1,0
+2025-02,Karnataka,Bangalore Urban,0-5,Male,1,0
+2025-02,Karnataka,Bangalore Urban,0-5,Transgender,1,0
+2025-02,Karnataka,Bangalore Urban,5-18,Female,1,0
+2025-02,Karnataka,Bangalore Urban,5-18,Transgender,1,0
+2025-02,Karnataka,Belgaum,0-5,Female,1,0
+2025-02,Karnataka,Belgaum,0-5,Male,1,0
+2025-02,Karnataka,Belgaum,0-5,Transgender,2,0
+2025-02,Karnataka,Belgaum,18+,Female,1,0
+2025-02,Karnataka,Dakshina Kannada,0-5,Female,1,0
+2025-02,Karnataka,Dakshina Kannada,0-5,Male,1,0
+2025-02,Karnataka,Dakshina Kannada,5-18,Male,1,0
+2025-02,Karnataka,Kalaburagi,0-5,Female,1,0
+2025-02,Karnataka,Kalaburagi,0-5,Male,4,1
+2025-02,Karnataka,Kalaburagi,0-5,Transgender,1,0
+2025-02,Karnataka,Kalaburagi,5-18,Female,1,0
+2025-02,Karnataka,Kalaburagi,5-18,Male,1,0
+2025-02,Karnataka,Kalaburagi,5-18,Transgender,1,0
+2025-02,Karnataka,Mysore,0-5,Male,2,0
+2025-02,Karnataka,Mysore,0-5,Transgender,2,0
+2025-02,Karnataka,Mysore,18+,Male,2,0
+2025-02,Karnataka,Mysore,5-18,Female,3,0
+2025-02,Karnataka,Mysore,5-18,Male,1,0
+2025-02,Karnataka,Mysore,5-18,Transgender,1,0
+2025-02,Kerala,Ernakulam,0-5,Female,2,0
+2025-02,Kerala,Ernakulam,0-5,Transgender,1,0
+2025-02,Kerala,Ernakulam,5-18,Male,2,0
+2025-02,Kerala,Kozhikode,0-5,Male,2,1
+2025-02,Kerala,Kozhikode,0-5,Transgender,1,0
+2025-02,Kerala,Kozhikode,5-18,Female,2,0
+2025-02,Kerala,Malappuram,0-5,Female,1,0
+2025-02,Kerala,Malappuram,0-5,Transgender,1,0
+2025-02,Kerala,Malappuram,5-18,Transgender,1,0
+2025-02,Kerala,Thiruvananthapuram,0-5,Transgender,1,0
+2025-02,Kerala,Thiruvananthapuram,18+,Male,1,0
+2025-02,Kerala,Thiruvananthapuram,18+,Transgender,2,0
+2025-02,Kerala,Thrissur,0-5,Female,2,0
+2025-02,Kerala,Thrissur,0-5,Male,2,0
+2025-02,Kerala,Thrissur,0-5,Transgender,2,0
+2025-02,Kerala,Thrissur,18+,Transgender,1,0
+2025-02,Kerala,Thrissur,5-18,Female,1,0
+2025-02,Kerala,Thrissur,5-18,Male,1,0
+2025-02,Kerala,Thrissur,5-18,Transgender,3,0
+2025-02,Maharashtra,Mumbai,0-5,Female,3,0
+2025-02,Maharashtra,Mumbai,0-5,Transgender,2,0
+2025-02,Maharashtra,Mumbai,5-18,Male,1,0
+2025-02,Maharashtra,Mumbai,5-18,Transgender,1,0
+2025-02,Maharashtra,Nagpur,0-5,Female,1,1
+2025-02,Maharashtra,Nagpur,0-5,Male,1,0
+2025-02,Maharashtra,Nagpur,5-18,Female,1,0
+2025-02,Maharashtra,Nagpur,5-18,Male,1,0
+2025-02,Maharashtra,Nashik,0-5,Male,2,0
+2025-02,Maharashtra,Nashik,0-5,Transgender,1,0
+2025-02,Maharashtra,Nashik,18+,Female,2,0
+2025-02,Maharashtra,Nashik,5-18,Transgender,1,0
+2025-02,Maharashtra,Pune,0-5,Female,1,0
+2025-02,Maharashtra,Pune,0-5,Male,1,0
+2025-02,Maharashtra,Pune,0-5,Transgender,1,0
+2025-02,Maharashtra,Pune,18+,Female,1,0
+2025-02,Maharashtra,Pune,5-18,Female,2,1
+2025-02,Maharashtra,Thane,0-5,Male,1,0
+2025-02,Maharashtra,Thane,0-5,Transgender,3,0
+2025-02,Maharashtra,Thane,5-18,Male,2,0
+2025-02,Uttar Pradesh,Gautam Buddha Nagar,0-5,Female,2,0
+2025-02,Uttar Pradesh,Gautam Buddha Nagar,0-5,Male,2,0
+2025-02,Uttar Pradesh,Gautam Buddha Nagar,0-5,Transgender,1,0
+2025-02,Uttar Pradesh,Gautam Buddha Nagar,5-18,Transgender,1,0
+2025-02,Uttar Pradesh,Kanpur,0-5,Female,2,0
+2025-02,Uttar Pradesh,Kanpur,0-5,Male,2,0
+2025-02,Uttar Pradesh,Kanpur,5-18,Transgender,1,0
+2025-02,Uttar Pradesh,Lucknow,0-5,Female,1,0
+2025-02,Uttar Pradesh,Prayagraj,0-5,Female,1,0
+2025-02,Uttar Pradesh,Prayagraj,0-5,Male,2,0
+2025-02,Uttar Pradesh,Prayagraj,0-5,Transgender,2,0
+2025-02,Uttar Pradesh,Prayagraj,18+,Transgender,1,0
+2025-02,Uttar Pradesh,Prayagraj,5-18,Male,1,0
+2025-02,Uttar Pradesh,Varanasi,0-5,Female,2,0
+2025-02,Uttar Pradesh,Varanasi,0-5,Transgender,1,0
+2025-02,Uttar Pradesh,Varanasi,18+,Male,1,0
+2025-02,Uttar Pradesh,Varanasi,5-18,Female,3,0
+2025-02,Uttar Pradesh,Varanasi,5-18,Male,1,0
+2025-03,Bihar,Darbhanga,0-5,Female,2,1
+2025-03,Bihar,Darbhanga,0-5,Male,2,0
+2025-03,Bihar,Darbhanga,0-5,Transgender,1,0
+2025-03,Bihar,Darbhanga,5-18,Transgender,1,0
+2025-03,Bihar,Gaya,0-5,Female,2,0
+2025-03,Bihar,Gaya,0-5,Male,1,1
+2025-03,Bihar,Gaya,0-5,Transgender,3,0
+2025-03,Bihar,Gaya,18+,Female,1,0
+2025-03,Bihar,Gaya,18+,Male,1,0
+2025-03,Bihar,Muzaffarpur,0-5,Female,1,0
+2025-03,Bihar,Muzaffarpur,0-5,Male,1,0
+2025-03,Bihar,Muzaffarpur,0-5,Transgender,2,0
+2025-03,Bihar,Muzaffarpur,18+,Male,1,0
+2025-03,Bihar,Patna,0-5,Female,2,0
+2025-03,Bihar,Purnia,0-5,Female,1,0
+2025-03,Bihar,Purnia,5-18,Female,3,0
+2025-03,Bihar,Purnia,5-18,Transgender,1,0
+2025-03,Karnataka,Bangalore Urban,0-5,Female,1,0
+2025-03,Karnataka,Belgaum,0-5,Female,1,0
+2025-03,Karnataka,Belgaum,0-5,Male,1,0
+2025-03,Karnataka,Belgaum,0-5,Transgender,2,0
+2025-03,Karnataka,Belgaum,18+,Female,1,0
+2025-03,Karnataka,Belgaum,5-18,Female,1,0
+2025-03,Karnataka,Belgaum,5-18,Male,2,0
+2025-03,Karnataka,Dakshina Kannada,0-5,Female,1,0
+2025-03,Karnataka,Dakshina Kannada,0-5,Male,2,0
+2025-03,Karnataka,Dakshina Kannada,0-5,Transgender,1,0
+2025-03,Karnataka,Dakshina Kannada,18+,Male,1,0
+2025-03,Karnataka,Dakshina Kannada,5-18,Male,1,0
+2025-03,Karnataka,Kalaburagi,0-5,Female,1,0
+2025-03,Karnataka,Kalaburagi,0-5,Male,2,1
+2025-03,Karnataka,Kalaburagi,0-5,Transgender,1,0
+2025-03,Karnataka,Mysore,0-5,Female,3,0
+2025-03,Karnataka,Mysore,0-5,Transgender,1,0
+2025-03,Karnataka,Mysore,5-18,Male,2,0
+2025-03,Karnataka,Mysore,5-18,Transgender,3,0
+2025-03,Kerala,Ernakulam,0-5,Female,1,0
+2025-03,Kerala,Ernakulam,0-5,Transgender,1,0
+2025-03,Kerala,Ernakulam,18+,Transgender,1,0
+2025-03,Kerala,Ernakulam,5-18,Female,1,0
+2025-03,Kerala,Kozhikode,0-5,Transgender,1,0
+2025-03,Kerala,Kozhikode,5-18,Female,1,0
+2025-03,Kerala,Malappuram,0-5,Transgender,3,0
+2025-03,Kerala,Malappuram,5-18,Female,1,0
+2025-03,Kerala,Malappuram,5-18,Male,2,0
+2025-03,Kerala,Thiruvananthapuram,18+,Transgender,1,0
+2025-03,Kerala,Thiruvananthapuram,5-18,Female,1,0
+2025-03,Kerala,Thrissur,0-5,Female,1,0
+2025-03,Kerala,Thrissur,0-5,Male,1,0
+2025-03,Kerala,Thrissur,0-5,Transgender,1,0
+2025-03,Kerala,Thrissur,18+,Male,1,0
+2025-03,Kerala,Thrissur,5-18,Female,2,0
+2025-03,Maharashtra,Mumbai,0-5,Female,1,0
+2025-03,Maharashtra,Mumbai,0-5,Transgender,1,0
+2025-03,Maharashtra,Mumbai,18+,Female,1,0
+2025-03,Maharashtra,Mumbai,5-18,Female,1,0
+2025-03,Maharashtra,Mumbai,5-18,Transgender,2,1
+2025-03,Maharashtra,Nagpur,0-5,Transgender,2,0
+2025-03,Maharashtra,Nagpur,5-18,Female,2,0
+2025-03,Maharashtra,Nagpur,5-18,Male,1,0
+2025-03,Maharashtra,Nashik,0-5,Female,2,0
+2025-03,Maharashtra,Nashik,0-5,Male,2,0
+2025-03,Maharashtra,Nashik,18+,Male,1,0
+2025-03,Maharashtra,Pune,0-5,Female,3,0
+2025-03,Maharashtra,Pune,0-5,Male,2,0
+2025-03,Maharashtra,Pune,5-18,Female,1,0
+2025-03,Maharashtra,Pune,5-18,Transgender,2,0
+2025-03,Maharashtra,Thane,0-5,Female,3,1
+2025-03,Maharashtra,Thane,0-5,Male,2,0
+2025-03,Maharashtra,Thane,0-5,Transgender,2,0
+2025-03,Uttar Pradesh,Gautam Buddha Nagar,0-5,Female,1,0
+2025-03,Uttar Pradesh,Gautam Buddha Nagar,0-5,Male,1,0
+2025-03,Uttar Pradesh,Gautam Buddha Nagar,0-5,Transgender,2,0
+2025-03,Uttar Pradesh,Gautam Buddha Nagar,18+,Male,1,0
+2025-03,Uttar Pradesh,Gautam Buddha Nagar,5-18,Male,1,0
+2025-03,Uttar Pradesh,Kanpur,0-5,Male,1,0
+2025-03,Uttar Pradesh,Kanpur,0-5,Transgender,2,0
+2025-03,Uttar Pradesh,Kanpur,5-18,Female,1,0
+2025-03,Uttar Pradesh,Kanpur,5-18,Transgender,2,0
+2025-03,Uttar Pradesh,Lucknow,0-5,Male,4,0
+2025-03,Uttar Pradesh,Lucknow,0-5,Transgender,2,0
+2025-03,Uttar Pradesh,Lucknow,5-18,Female,1,0
+2025-03,Uttar Pradesh,Lucknow,5-18,Transgender,1,1
+2025-03,Uttar Pradesh,Prayagraj,0-5,Female,1,0
+2025-03,Uttar Pradesh,Prayagraj,0-5,Transgender,2,0
+2025-03,Uttar Pradesh,Varanasi,0-5,Female,2,0
+2025-03,Uttar Pradesh,Varanasi,0-5,Transgender,1,0
+2025-03,Uttar Pradesh,Varanasi,18+,Transgender,1,0
+2025-03,Uttar Pradesh,Varanasi,5-18,Female,1,0
+2025-04,Bihar,Darbhanga,0-5,Female,1,0
+2025-04,Bihar,Darbhanga,0-5,Male,3,0
+2025-04,Bihar,Darbhanga,18+,Male,1,0
+2025-04,Bihar,Darbhanga,5-18,Transgender,1,0
+2025-04,Bihar,Gaya,0-5,Female,1,1
+2025-04,Bihar,Gaya,0-5,Transgender,2,0
+2025-04,Bihar,Muzaffarpur,0-5,Male,1,0
+2025-04,Bihar,Muzaffarpur,0-5,Transgender,1,0
+2025-04,Bihar,Muzaffarpur,5-18,Male,2,0
+2025-04,Bihar,Patna,0-5,Male,2,0
+2025-04,Bihar,Patna,0-5,Transgender,1,0
+2025-04,Bihar,Patna,18+,Female,2,0
+2025-04,Bihar,Patna,5-18,Female,2,0
+2025-04,Bihar,Purnia,0-5,Transgender,1,0
+2025-04,Karnataka,Bangalore Urban,0-5,Female,1,0
+2025-04,Karnataka,Bangalore Urban,0-5,Male,2,0
+2025-04,Karnataka,Bangalore Urban,18+,Female,1,1
+2025-04,Karnataka,Bangalore Urban,5-18,Male,1,0
+2025-04,Karnataka,Belgaum,0-5,Female,2,0
+2025-04,Karnataka,Belgaum,0-5,Transgender,1,0
+2025-04,Karnataka,Belgaum,18+,Female,1,0
+2025-04,Karnataka,Belgaum,18+,Male,1,0
+2025-04,Karnataka,Belgaum,5-18,Female,1,0
+2025-04,Karnataka,Dakshina Kannada,0-5,Female,2,0
+2025-04,Karnataka,Dakshina Kannada,18+,Female,1,0
+2025-04,Karnataka,Dakshina Kannada,18+,Male,1,0
+2025-04,Karnataka,Dakshina Kannada,18+,Transgender,1,0
+2025-04,Karnataka,Dakshina Kannada,5-18,Male,1,0
+2025-04,Karnataka,Dakshina Kannada,5-18,Transgender,1,0
+2025-04,Karnataka,Kalaburagi,0-5,Female,1,0
+2025-04,Karnataka,Kalaburagi,5-18,Female,2,0
+2025-04,Karnataka,Mysore,0-5,Female,2,0
+2025-04,Karnataka,Mysore,0-5,Male,1,0
+2025-04,Karnataka,Mysore,5-18,Male,1,0
+2025-04,Karnataka,Mysore,5-18,Transgender,1,0
+2025-04,Kerala,Ernakulam,0-5,Female,1,0
+2025-04,Kerala,Ernakulam,0-5,Transgender,1,0
+2025-04,Kerala,Ernakulam,5-18,Female,1,0
+2025-04,Kerala,Kozhikode,0-5,Female,1,0
+2025-04,Kerala,Kozhikode,0-5,Male,1,0
+2025-04,Kerala,Kozhikode,5-18,Female,1,0
+2025-04,Kerala,Malappuram,0-5,Male,3,0
+2025-04,Kerala,Malappuram,18+,Male,1,0
+2025-04,Kerala,Malappuram,5-18,Male,1,0
+2025-04,Kerala,Malappuram,5-18,Transgender,1,0
+2025-04,Kerala,Thiruvananthapuram,0-5,Male,1,0
+2025-04,Kerala,Thiruvananthapuram,18+,Female,2,0
+2025-04,Kerala,Thrissur,0-5,Female,2,0
+2025-04,Kerala,Thrissur,0-5,Transgender,1,0
+2025-04,Kerala,Thrissur,18+,Transgender,1,0
+2025-04,Kerala,Thrissur,5-18,Female,2,0
+2025-04,Kerala,Thrissur,5-18,Male,2,0
+2025-04,Kerala,Thrissur,5-18,Transgender,1,0
+2025-04,Maharashtra,Mumbai,0-5,Transgender,1,0
+2025-04,Maharashtra,Mumbai,5-18,Transgender,1,0
+2025-04,Maharashtra,Nagpur,0-5,Female,3,1
+2025-04,Maharashtra,Nagpur,0-5,Male,1,0
+2025-04,Maharashtra,Nagpur,0-5,Transgender,1,0
+2025-04,Maharashtra,Nagpur,18+,Female,1,0
+2025-04,Maharashtra,Nashik,0-5,Female,1,1
+2025-04,Maharashtra,Nashik,0-5,Transgender,1,0
+2025-04,Maharashtra,Nashik,18+,Female,1,0
+2025-04,Maharashtra,Nashik,18+,Transgender,1,0
+2025-04,Maharashtra,Pune,0-5,Female,2,0
+2025-04,Maharashtra,Pune,0-5,Male,1,0
+2025-04,Maharashtra,Pune,0-5,Transgender,1,0
+2025-04,Maharashtra,Pune,5-18,Female,1,0
+2025-04,Maharashtra,Thane,0-5,Female,1,0
+2025-04,Maharashtra,Thane,0-5,Transgender,1,0
+2025-04,Maharashtra,Thane,18+,Transgender,1,0
+2025-04,Maharashtra,Thane,5-18,Female,1,0
+2025-04,Maharashtra,Thane,5-18,Transgender,1,0
+2025-04,Uttar Pradesh,Gautam Buddha Nagar,0-5,Female,1,0
+2025-04,Uttar Pradesh,Gautam Buddha Nagar,0-5,Male,1,0
+2025-04,Uttar Pradesh,Gautam Buddha Nagar,0-5,Transgender,2,0
+2025-04,Uttar Pradesh,Kanpur,0-5,Female,2,0
+2025-04,Uttar Pradesh,Kanpur,5-18,Female,1,0
+2025-04,Uttar Pradesh,Kanpur,5-18,Transgender,1,0
+2025-04,Uttar Pradesh,Lucknow,0-5,Female,1,0
+2025-04,Uttar Pradesh,Lucknow,0-5,Male,2,0
+2025-04,Uttar Pradesh,Lucknow,5-18,Female,1,0
+2025-04,Uttar Pradesh,Lucknow,5-18,Male,1,0
+2025-04,Uttar Pradesh,Lucknow,5-18,Transgender,1,0
+2025-04,Uttar Pradesh,Prayagraj,0-5,Transgender,1,0
+2025-04,Uttar Pradesh,Prayagraj,18+,Female,1,0
+2025-04,Uttar Pradesh,Varanasi,0-5,Female,1,0
+2025-04,Uttar Pradesh,Varanasi,0-5,Male,2,0
+2025-04,Uttar Pradesh,Varanasi,18+,Transgender,1,0
+2025-05,Bihar,Darbhanga,0-5,Female,3,1
+2025-05,Bihar,Darbhanga,0-5,Male,1,0
+2025-05,Bihar,Darbhanga,0-5,Transgender,2,0
+2025-05,Bihar,Darbhanga,5-18,Female,1,0
+2025-05,Bihar,Darbhanga,5-18,Male,1,0
+2025-05,Bihar,Gaya,0-5,Male,3,1
+2025-05,Bihar,Gaya,5-18,Male,1,0
+2025-05,Bihar,Muzaffarpur,0-5,Female,2,0
+2025-05,Bihar,Muzaffarpur,0-5,Transgender,1,0
+2025-05,Bihar,Muzaffarpur,5-18,Female,1,0
+2025-05,Bihar,Muzaffarpur,5-18,Transgender,1,0
+2025-05,Bihar,Patna,0-5,Transgender,2,0
+2025-05,Bihar,Patna,5-18,Female,2,0
+2025-05,Bihar,Purnia,0-5,Female,3,0
+2025-05,Karnataka,Bangalore Urban,0-5,Male,2,0
+2025-05,Karnataka,Bangalore Urban,0-5,Transgender,1,0
+2025-05,Karnataka,Bangalore Urban,18+,Female,1,0
+2025-05,Karnataka,Bangalore Urban,18+,Transgender,1,0
+2025-05,Karnataka,Bangalore Urban,5-18,Female,2,0
+2025-05,Karnataka,Bangalore Urban,5-18,Transgender,2,0
+2025-05,Karnataka,Belgaum,0-5,Female,1,0
+2025-05,Karnataka,Dakshina Kannada,0-5,Female,2,0
+2025-05,Karnataka,Dakshina Kannada,0-5,Male,1,0
+2025-05,Karnataka,Dakshina Kannada,0-5,Transgender,2,0
+2025-05,Karnataka,Dakshina Kannada,5-18,Male,1,0
+2025-05,Karnataka,Dakshina Kannada,5-18,Transgender,1,0
+2025-05,Karnataka,Kalaburagi,0-5,Female,1,0
+2025-05,Karnataka,Kalaburagi,0-5,Male,3,0
+2025-05,Karnataka,Kalaburagi,5-18,Male,1,0
+2025-05,Karnataka,Mysore,0-5,Female,2,0
+2025-05,Karnataka,Mysore,0-5,Transgender,1,0
+2025-05,Karnataka,Mysore,5-18,Transgender,1,0
+2025-05,Kerala,Ernakulam,0-5,Transgender,1,0
+2025-05,Kerala,Ernakulam,18+,Transgender,1,0
+2025-05,Kerala,Ernakulam,5-18,Female,1,0
+2025-05,Kerala,Ernakulam,5-18,Male,1,0
+2025-05,Kerala,Kozhikode,0-5,Transgender,1,1
+2025-05,Kerala,Malappuram,0-5,Male,1,0
+2025-05,Kerala,Malappuram,0-5,Transgender,1,0
+2025-05,Kerala,Malappuram,18+,Male,1,0
+2025-05,Kerala,Malappuram,5-18,Male,1,0
+2025-05,Kerala,Malappuram,5-18,Transgender,2,0
+2025-05,Kerala,Thiruvananthapuram,0-5,Female,3,0
+2025-05,Kerala,Thiruvananthapuram,0-5,Male,1,0
+2025-05,Kerala,Thiruvananthapuram,0-5,Transgender,2,0
+2025-05,Kerala,Thiruvananthapuram,5-18,Male,2,0
+2025-05,Kerala,Thrissur,0-5,Female,1,0
+2025-05,Kerala,Thrissur,0-5,Male,2,0
+2025-05,Kerala,Thrissur,18+,Female,1,0
+2025-05,Maharashtra,Mumbai,0-5,Female,2,0
+2025-05,Maharashtra,Mumbai,0-5,Male,2,0
+2025-05,Maharashtra,Mumbai,5-18,Female,1,0
+2025-05,Maharashtra,Mumbai,5-18,Male,1,0
+2025-05,Maharashtra,Nagpur,0-5,Male,2,0
+2025-05,Maharashtra,Nagpur,18+,Transgender,1,0
+2025-05,Maharashtra,Nagpur,5-18,Female,1,0
+2025-05,Maharashtra,Nagpur,5-18,Male,1,0
+2025-05,Maharashtra,Nagpur,5-18,Transgender,2,0
+2025-05,Maharashtra,Nashik,0-5,Female,2,1
+2025-05,Maharashtra,Nashik,0-5,Male,1,0
+2025-05,Maharashtra,Nashik,0-5,Transgender,1,0
+2025-05,Maharashtra,Nashik,5-18,Female,1,0
+2025-05,Maharashtra,Nashik,5-18,Male,1,0
+2025-05,Maharashtra,Pune,0-5,Male,2,0
+2025-05,Maharashtra,Pune,0-5,Transgender,3,0
+2025-05,Maharashtra,Pune,18+,Male,1,0
+2025-05,Maharashtra,Pune,5-18,Male,1,0
+2025-05,Maharashtra,Thane,0-5,Male,1,0
+2025-05,Maharashtra,Thane,5-18,Female,1,1
+2025-05,Uttar Pradesh,Gautam Buddha Nagar,0-5,Female,1,0
+2025-05,Uttar Pradesh,Gautam Buddha Nagar,0-5,Male,1,0
+2025-05,Uttar Pradesh,Gautam Buddha Nagar,0-5,Transgender,2,1
+2025-05,Uttar Pradesh,Gautam Buddha Nagar,18+,Transgender,1,0
+2025-05,Uttar Pradesh,Kanpur,0-5,Female,1,0
+2025-05,Uttar Pradesh,Kanpur,0-5,Male,1,0
+2025-05,Uttar Pradesh,Kanpur,0-5,Transgender,1,0
+2025-05,Uttar Pradesh,Lucknow,0-5,Female,2,0
+2025-05,Uttar Pradesh,Lucknow,5-18,Male,2,0
+2025-05,Uttar Pradesh,Prayagraj,0-5,Female,2,0
+2025-05,Uttar Pradesh,Prayagraj,0-5,Transgender,1,0
+2025-05,Uttar Pradesh,Prayagraj,5-18,Male,1,0
+2025-05,Uttar Pradesh,Varanasi,0-5,Female,1,0
+2025-05,Uttar Pradesh,Varanasi,0-5,Male,1,0
+2025-05,Uttar Pradesh,Varanasi,0-5,Transgender,1,0
+2025-05,Uttar Pradesh,Varanasi,5-18,Male,1,0
+2025-05,Uttar Pradesh,Varanasi,5-18,Transgender,2,0
+2025-06,Bihar,Darbhanga,0-5,Female,2,0
+2025-06,Bihar,Darbhanga,0-5,Male,3,1
+2025-06,Bihar,Darbhanga,0-5,Transgender,4,0
+2025-06,Bihar,Darbhanga,5-18,Transgender,1,0
+2025-06,Bihar,Gaya,0-5,Male,3,0
+2025-06,Bihar,Gaya,0-5,Transgender,1,0
+2025-06,Bihar,Gaya,5-18,Female,1,0
+2025-06,Bihar,Muzaffarpur,0-5,Female,1,0
+2025-06,Bihar,Muzaffarpur,0-5,Male,2,0
+2025-06,Bihar,Muzaffarpur,18+,Male,1,0
+2025-06,Bihar,Patna,0-5,Male,2,1
+2025-06,Bihar,Patna,18+,Transgender,1,1
+2025-06,Bihar,Patna,5-18,Female,2,0
+2025-06,Bihar,Patna,5-18,Transgender,2,0
+2025-06,Bihar,Purnia,0-5,Female,1,0
+2025-06,Bihar,Purnia,0-5,Male,1,1
+2025-06,Bihar,Purnia,0-5,Transgender,1,0
+2025-06,Bihar,Purnia,18+,Female,1,0
+2025-06,Karnataka,Bangalore Urban,18+,Transgender,2,0
+2025-06,Karnataka,Bangalore Urban,5-18,Male,1,0
+2025-06,Karnataka,Bangalore Urban,5-18,Transgender,2,0
+2025-06,Karnataka,Belgaum,0-5,Female,1,0
+2025-06,Karnataka,Belgaum,0-5,Transgender,1,0
+2025-06,Karnataka,Belgaum,18+,Female,1,0
+2025-06,Karnataka,Belgaum,5-18,Male,1,0
+2025-06,Karnataka,Belgaum,5-18,Transgender,1,0
+2025-06,Karnataka,Dakshina Kannada,0-5,Female,1,0
+2025-06,Karnataka,Dakshina Kannada,5-18,Female,1,0
+2025-06,Karnataka,Kalaburagi,0-5,Female,3,0
+2025-06,Karnataka,Kalaburagi,0-5,Male,1,0
+2025-06,Karnataka,Kalaburagi,0-5,Transgender,1,0
+2025-06,Karnataka,Mysore,0-5,Male,1,0
+2025-06,Karnataka,Mysore,0-5,Transgender,2,0
+2025-06,Karnataka,Mysore,5-18,Male,1,0
+2025-06,Karnataka,Mysore,5-18,Transgender,1,0
+2025-06,Kerala,Ernakulam,0-5,Female,3,0
+2025-06,Kerala,Ernakulam,0-5,Male,2,0
+2025-06,Kerala,Ernakulam,0-5,Transgender,1,0
+2025-06,Kerala,Ernakulam,5-18,Male,2,0
+2025-06,Kerala,Ernakulam,5-18,Transgender,1,0
+2025-06,Kerala,Kozhikode,0-5,Female,1,0
+2025-06,Kerala,Kozhikode,0-5,Transgender,1,0
+2025-06,Kerala,Kozhikode,5-18,Female,1,0
+2025-06,Kerala,Kozhikode,5-18,Male,1,0
+2025-06,Kerala,Kozhikode,5-18,Transgender,1,0
+2025-06,Kerala,Malappuram,0-5,Male,2,0
+2025-06,Kerala,Malappuram,0-5,Transgender,3,1
+2025-06,Kerala,Malappuram,18+,Transgender,1,0
+2025-06,Kerala,Malappuram,5-18,Female,2,0
+2025-06,Kerala,Malappuram,5-18,Male,1,0
+2025-06,Kerala,Malappuram,5-18,Transgender,1,0
+2025-06,Kerala,Thiruvananthapuram,0-5,Female,1,0
+2025-06,Kerala,Thiruvananthapuram,0-5,Male,3,0
+2025-06,Kerala,Thiruvananthapuram,5-18,Transgender,1,0
+2025-06,Kerala,Thrissur,0-5,Female,3,1
+2025-06,Kerala,Thrissur,0-5,Male,1,0
+2025-06,Kerala,Thrissur,0-5,Transgender,2,0
+2025-06,Kerala,Thrissur,18+,Female,1,0
+2025-06,Kerala,Thrissur,5-18,Transgender,1,0
+2025-06,Maharashtra,Mumbai,0-5,Male,1,0
+2025-06,Maharashtra,Nagpur,0-5,Female,4,0
+2025-06,Maharashtra,Nagpur,18+,Male,1,0
+2025-06,Maharashtra,Nagpur,18+,Transgender,1,0
+2025-06,Maharashtra,Nagpur,5-18,Female,1,0
+2025-06,Maharashtra,Nagpur,5-18,Male,1,0
+2025-06,Maharashtra,Nashik,0-5,Female,1,0
+2025-06,Maharashtra,Nashik,0-5,Male,1,0
+2025-06,Maharashtra,Nashik,0-5,Transgender,2,0
+2025-06,Maharashtra,Nashik,5-18,Female,1,0
+2025-06,Maharashtra,Pune,0-5,Female,1,0
+2025-06,Maharashtra,Pune,0-5,Male,4,0
+2025-06,Maharashtra,Thane,0-5,Female,3,0
+2025-06,Maharashtra,Thane,0-5,Male,1,0
+2025-06,Maharashtra,Thane,0-5,Transgender,1,0
+2025-06,Maharashtra,Thane,5-18,Transgender,1,0
+2025-06,Uttar Pradesh,Gautam Buddha Nagar,0-5,Female,4,0
+2025-06,Uttar Pradesh,Gautam Buddha Nagar,0-5,Male,2,0
+2025-06,Uttar Pradesh,Gautam Buddha Nagar,5-18,Female,1,0
+2025-06,Uttar Pradesh,Gautam Buddha Nagar,5-18,Transgender,1,0
+2025-06,Uttar Pradesh,Kanpur,0-5,Transgender,1,0
+2025-06,Uttar Pradesh,Kanpur,18+,Female,1,0
+2025-06,Uttar Pradesh,Kanpur,18+,Male,1,0
+2025-06,Uttar Pradesh,Kanpur,18+,Transgender,1,0
+2025-06,Uttar Pradesh,Kanpur,5-18,Female,2,0
+2025-06,Uttar Pradesh,Kanpur,5-18,Transgender,2,0
+2025-06,Uttar Pradesh,Lucknow,0-5,Male,1,0
+2025-06,Uttar Pradesh,Lucknow,0-5,Transgender,1,0
+2025-06,Uttar Pradesh,Lucknow,5-18,Female,1,0
+2025-06,Uttar Pradesh,Prayagraj,0-5,Male,2,0
+2025-06,Uttar Pradesh,Prayagraj,5-18,Female,1,0
+2025-06,Uttar Pradesh,Prayagraj,5-18,Transgender,1,0
+2025-06,Uttar Pradesh,Varanasi,0-5,Male,1,0
+2025-06,Uttar Pradesh,Varanasi,0-5,Transgender,2,0
+2025-07,Bihar,Darbhanga,0-5,Male,4,0
+2025-07,Bihar,Darbhanga,5-18,Male,1,0
+2025-07,Bihar,Darbhanga,5-18,Transgender,1,0
+2025-07,Bihar,Gaya,0-5,Female,2,0
+2025-07,Bihar,Gaya,0-5,Male,3,0
+2025-07,Bihar,Gaya,0-5,Transgender,1,0
+2025-07,Bihar,Gaya,5-18,Female,2,0
+2025-07,Bihar,Muzaffarpur,0-5,Female,2,0
+2025-07,Bihar,Muzaffarpur,0-5,Male,1,0
+2025-07,Bihar,Muzaffarpur,0-5,Transgender,1,0
+2025-07,Bihar,Muzaffarpur,18+,Female,1,0
+2025-07,Bihar,Muzaffarpur,5-18,Transgender,1,0
+2025-07,Bihar,Patna,0-5,Female,1,0
+2025-07,Bihar,Patna,0-5,Transgender,1,0
+2025-07,Bihar,Patna,5-18,Transgender,1,0
+2025-07,Bihar,Purnia,18+,Female,1,0
+2025-07,Bihar,Purnia,18+,Transgender,1,0
+2025-07,Bihar,Purnia,5-18,Female,1,0
+2025-07,Bihar,Purnia,5-18,Male,1,0
+2025-07,Bihar,Purnia,5-18,Transgender,1,0
+2025-07,Karnataka,Bangalore Urban,0-5,Female,2,0
+2025-07,Karnataka,Bangalore Urban,0-5,Male,2,1
+2025-07,Karnataka,Bangalore Urban,5-18,Female,1,1
+2025-07,Karnataka,Bangalore Urban,5-18,Transgender,1,0
+2025-07,Karnataka,Belgaum,0-5,Female,1,0
+2025-07,Karnataka,Belgaum,0-5,Male,3,1
+2025-07,Karnataka,Belgaum,0-5,Transgender,1,0
+2025-07,Karnataka,Dakshina Kannada,0-5,Female,2,0
+2025-07,Karnataka,Dakshina Kannada,0-5,Male,1,0
+2025-07,Karnataka,Dakshina Kannada,0-5,Transgender,1,1
+2025-07,Karnataka,Dakshina Kannada,18+,Female,1,0
+2025-07,Karnataka,Dakshina Kannada,5-18,Transgender,1,0
+2025-07,Karnataka,Kalaburagi,0-5,Female,2,0
+2025-07,Karnataka,Kalaburagi,0-5,Transgender,2,0
+2025-07,Karnataka,Kalaburagi,5-18,Female,1,0
+2025-07,Karnataka,Kalaburagi,5-18,Transgender,2,0
+2025-07,Karnataka,Mysore,0-5,Female,3,0
+2025-07,Karnataka,Mysore,0-5,Male,2,0
+2025-07,Karnataka,Mysore,0-5,Transgender,1,0
+2025-07,Karnataka,Mysore,5-18,Female,1,0
+2025-07,Karnataka,Mysore,5-18,Transgender,3,0
+2025-07,Kerala,Ernakulam,0-5,Female,1,0
+2025-07,Kerala,Ernakulam,0-5,Male,2,0
+2025-07,Kerala,Ernakulam,0-5,Transgender,1,0
+2025-07,Kerala,Ernakulam,5-18,Female,1,0
+2025-07,Kerala,Ernakulam,5-18,Male,1,0
+2025-07,Kerala,Kozhikode,0-5,Male,2,0
+2025-07,Kerala,Kozhikode,0-5,Transgender,1,0
+2025-07,Kerala,Kozhikode,5-18,Transgender,2,0
+2025-07,Kerala,Malappuram,0-5,Male,1,0
+2025-07,Kerala,Thiruvananthapuram,0-5,Female,5,1
+2025-07,Kerala,Thiruvananthapuram,0-5,Male,1,0
+2025-07,Kerala,Thiruvananthapuram,0-5,Transgender,1,0
+2025-07,Kerala,Thrissur,0-5,Male,1,0
+2025-07,Kerala,Thrissur,0-5,Transgender,1,1
+2025-07,Kerala,Thrissur,5-18,Male,1,0
+2025-07,Kerala,Thrissur,5-18,Transgender,1,0
+2025-07,Maharashtra,Mumbai,0-5,Female,3,0
+2025-07,Maharashtra,Mumbai,0-5,Male,1,0
+2025-07,Maharashtra,Mumbai,0-5,Transgender,1,1
+2025-07,Maharashtra,Mumbai,18+,Male,2,0
+2025-07,Maharashtra,Nagpur,0-5,Female,1,0
+2025-07,Maharashtra,Nagpur,0-5,Male,1,0
+2025-07,Maharashtra,Nagpur,18+,Male,1,0
+2025-07,Maharashtra,Nagpur,5-18,Male,1,0
+2025-07,Maharashtra,Nashik,0-5,Female,2,0
+2025-07,Maharashtra,Nashik,0-5,Transgender,1,0
+2025-07,Maharashtra,Nashik,18+,Male,1,0
+2025-07,Maharashtra,Pune,0-5,Female,1,1
+2025-07,Maharashtra,Pune,0-5,Transgender,2,0
+2025-07,Maharashtra,Pune,18+,Transgender,1,1
+2025-07,Maharashtra,Pune,5-18,Male,3,0
+2025-07,Maharashtra,Thane,0-5,Female,3,0
+2025-07,Maharashtra,Thane,0-5,Male,2,1
+2025-07,Maharashtra,Thane,0-5,Transgender,1,0
+2025-07,Uttar Pradesh,Gautam Buddha Nagar,0-5,Female,3,1
+2025-07,Uttar Pradesh,Gautam Buddha Nagar,0-5,Male,2,0
+2025-07,Uttar Pradesh,Gautam Buddha Nagar,0-5,Transgender,1,0
+2025-07,Uttar Pradesh,Gautam Buddha Nagar,5-18,Female,1,0
+2025-07,Uttar Pradesh,Kanpur,0-5,Female,2,1
+2025-07,Uttar Pradesh,Kanpur,0-5,Male,1,0
+2025-07,Uttar Pradesh,Kanpur,0-5,Transgender,2,1
+2025-07,Uttar Pradesh,Kanpur,5-18,Female,2,1
+2025-07,Uttar Pradesh,Kanpur,5-18,Male,1,0
+2025-07,Uttar Pradesh,Lucknow,0-5,Female,1,0
+2025-07,Uttar Pradesh,Lucknow,5-18,Female,1,0
+2025-07,Uttar Pradesh,Lucknow,5-18,Male,1,0
+2025-07,Uttar Pradesh,Lucknow,5-18,Transgender,2,1
+2025-07,Uttar Pradesh,Prayagraj,0-5,Female,1,0
+2025-07,Uttar Pradesh,Prayagraj,0-5,Transgender,1,0
+2025-07,Uttar Pradesh,Prayagraj,18+,Male,2,0
+2025-07,Uttar Pradesh,Prayagraj,18+,Transgender,1,0
+2025-07,Uttar Pradesh,Varanasi,0-5,Male,1,0
+2025-07,Uttar Pradesh,Varanasi,0-5,Transgender,3,0
+2025-07,Uttar Pradesh,Varanasi,18+,Female,1,1
+2025-07,Uttar Pradesh,Varanasi,5-18,Female,1,0
+2025-07,Uttar Pradesh,Varanasi,5-18,Male,1,1
+2025-08,Bihar,Darbhanga,0-5,Female,1,0
+2025-08,Bihar,Darbhanga,0-5,Male,2,0
+2025-08,Bihar,Darbhanga,0-5,Transgender,3,0
+2025-08,Bihar,Darbhanga,5-18,Female,1,0
+2025-08,Bihar,Darbhanga,5-18,Male,1,0
+2025-08,Bihar,Gaya,0-5,Male,1,0
+2025-08,Bihar,Gaya,0-5,Transgender,1,0
+2025-08,Bihar,Gaya,18+,Male,1,0
+2025-08,Bihar,Gaya,5-18,Female,2,0
+2025-08,Bihar,Gaya,5-18,Transgender,2,0
+2025-08,Bihar,Muzaffarpur,0-5,Female,1,0
+2025-08,Bihar,Muzaffarpur,0-5,Transgender,2,0
+2025-08,Bihar,Muzaffarpur,18+,Female,1,0
+2025-08,Bihar,Muzaffarpur,5-18,Transgender,1,0
+2025-08,Bihar,Patna,0-5,Female,1,0
+2025-08,Bihar,Patna,0-5,Male,3,0
+2025-08,Bihar,Patna,0-5,Transgender,1,0
+2025-08,Bihar,Patna,18+,Transgender,1,0
+2025-08,Bihar,Patna,5-18,Female,1,0
+2025-08,Bihar,Patna,5-18,Transgender,1,0
+2025-08,Bihar,Purnia,0-5,Female,1,0
+2025-08,Bihar,Purnia,0-5,Transgender,1,0
+2025-08,Bihar,Purnia,5-18,Male,1,0
+2025-08,Karnataka,Bangalore Urban,0-5,Female,1,0
+2025-08,Karnataka,Bangalore Urban,0-5,Male,1,0
+2025-08,Karnataka,Bangalore Urban,0-5,Transgender,2,0
+2025-08,Karnataka,Bangalore Urban,18+,Female,1,0
+2025-08,Karnataka,Bangalore Urban,18+,Transgender,1,0
+2025-08,Karnataka,Bangalore Urban,5-18,Female,1,0
+2025-08,Karnataka,Bangalore Urban,5-18,Male,1,0
+2025-08,Karnataka,Bangalore Urban,5-18,Transgender,3,0
+2025-08,Karnataka,Belgaum,0-5,Female,2,0
+2025-08,Karnataka,Belgaum,0-5,Transgender,3,0
+2025-08,Karnataka,Belgaum,18+,Female,1,0
+2025-08,Karnataka,Belgaum,5-18,Female,2,0
+2025-08,Karnataka,Belgaum,5-18,Male,1,0
+2025-08,Karnataka,Dakshina Kannada,0-5,Female,1,0
+2025-08,Karnataka,Dakshina Kannada,0-5,Transgender,1,0
+2025-08,Karnataka,Dakshina Kannada,18+,Male,1,0
+2025-08,Karnataka,Kalaburagi,0-5,Male,1,0
+2025-08,Karnataka,Kalaburagi,0-5,Transgender,2,1
+2025-08,Karnataka,Kalaburagi,5-18,Female,1,0
+2025-08,Karnataka,Mysore,0-5,Female,1,0
+2025-08,Karnataka,Mysore,0-5,Transgender,3,0
+2025-08,Karnataka,Mysore,18+,Female,1,0
+2025-08,Karnataka,Mysore,5-18,Female,2,0
+2025-08,Karnataka,Mysore,5-18,Male,1,0
+2025-08,Karnataka,Mysore,5-18,Transgender,1,0
+2025-08,Kerala,Ernakulam,0-5,Female,1,0
+2025-08,Kerala,Ernakulam,0-5,Male,3,0
+2025-08,Kerala,Ernakulam,0-5,Transgender,2,0
+2025-08,Kerala,Ernakulam,5-18,Male,1,0
+2025-08,Kerala,Ernakulam,5-18,Transgender,1,0
+2025-08,Kerala,Kozhikode,0-5,Male,3,0
+2025-08,Kerala,Kozhikode,0-5,Transgender,1,0
+2025-08,Kerala,Kozhikode,5-18,Female,2,0
+2025-08,Kerala,Kozhikode,5-18,Transgender,1,0
+2025-08,Kerala,Malappuram,0-5,Female,2,0
+2025-08,Kerala,Malappuram,5-18,Female,1,0
+2025-08,Kerala,Malappuram,5-18,Transgender,1,0
+2025-08,Kerala,Thiruvananthapuram,0-5,Male,1,0
+2025-08,Kerala,Thiruvananthapuram,0-5,Transgender,1,0
+2025-08,Kerala,Thiruvananthapuram,5-18,Male,1,0
+2025-08,Kerala,Thrissur,0-5,Female,1,0
+2025-08,Kerala,Thrissur,0-5,Transgender,2,0
+2025-08,Kerala,Thrissur,5-18,Female,1,0
+2025-08,Kerala,Thrissur,5-18,Male,1,1
+2025-08,Kerala,Thrissur,5-18,Transgender,1,0
+2025-08,Maharashtra,Mumbai,0-5,Male,2,0
+2025-08,Maharashtra,Mumbai,0-5,Transgender,1,0
+2025-08,Maharashtra,Mumbai,18+,Male,1,0
+2025-08,Maharashtra,Mumbai,5-18,Female,1,0
+2025-08,Maharashtra,Mumbai,5-18,Male,1,0
+2025-08,Maharashtra,Nagpur,0-5,Female,1,0
+2025-08,Maharashtra,Nagpur,0-5,Male,1,0
+2025-08,Maharashtra,Nagpur,18+,Male,1,0
+2025-08,Maharashtra,Nagpur,5-18,Transgender,1,0
+2025-08,Maharashtra,Nashik,0-5,Female,1,0
+2025-08,Maharashtra,Nashik,0-5,Transgender,1,0
+2025-08,Maharashtra,Nashik,5-18,Male,1,0
+2025-08,Maharashtra,Pune,0-5,Female,2,0
+2025-08,Maharashtra,Pune,0-5,Transgender,1,0
+2025-08,Maharashtra,Pune,18+,Female,1,0
+2025-08,Maharashtra,Pune,5-18,Transgender,1,0
+2025-08,Maharashtra,Thane,0-5,Female,4,0
+2025-08,Maharashtra,Thane,0-5,Male,3,0
+2025-08,Maharashtra,Thane,0-5,Transgender,3,0
+2025-08,Maharashtra,Thane,5-18,Male,1,1
+2025-08,Uttar Pradesh,Gautam Buddha Nagar,0-5,Female,2,0
+2025-08,Uttar Pradesh,Gautam Buddha Nagar,0-5,Male,1,0
+2025-08,Uttar Pradesh,Gautam Buddha Nagar,0-5,Transgender,4,0
+2025-08,Uttar Pradesh,Gautam Buddha Nagar,18+,Female,1,0
+2025-08,Uttar Pradesh,Kanpur,0-5,Female,1,0
+2025-08,Uttar Pradesh,Kanpur,0-5,Male,2,0
+2025-08,Uttar Pradesh,Kanpur,0-5,Transgender,1,1
+2025-08,Uttar Pradesh,Lucknow,0-5,Female,3,0
+2025-08,Uttar Pradesh,Lucknow,0-5,Male,3,1
+2025-08,Uttar Pradesh,Lucknow,0-5,Transgender,1,0
+2025-08,Uttar Pradesh,Lucknow,18+,Male,1,0
+2025-08,Uttar Pradesh,Lucknow,5-18,Transgender,1,0
+2025-08,Uttar Pradesh,Prayagraj,0-5,Female,1,0
+2025-08,Uttar Pradesh,Prayagraj,5-18,Transgender,2,1
+2025-08,Uttar Pradesh,Varanasi,0-5,Female,2,0
+2025-08,Uttar Pradesh,Varanasi,0-5,Male,2,0
+2025-08,Uttar Pradesh,Varanasi,5-18,Male,1,0
+2025-09,Bihar,Darbhanga,0-5,Transgender,1,0
+2025-09,Bihar,Darbhanga,18+,Female,1,0
+2025-09,Bihar,Gaya,0-5,Female,3,1
+2025-09,Bihar,Gaya,0-5,Male,2,0
+2025-09,Bihar,Gaya,0-5,Transgender,1,0
+2025-09,Bihar,Gaya,5-18,Female,1,0
+2025-09,Bihar,Gaya,5-18,Transgender,1,1
+2025-09,Bihar,Muzaffarpur,0-5,Female,1,0
+2025-09,Bihar,Muzaffarpur,0-5,Male,1,0
+2025-09,Bihar,Muzaffarpur,0-5,Transgender,1,0
+2025-09,Bihar,Patna,0-5,Male,1,0
+2025-09,Bihar,Patna,0-5,Transgender,1,0
+2025-09,Bihar,Purnia,0-5,Female,2,1
+2025-09,Bihar,Purnia,18+,Male,1,0
+2025-09,Bihar,Purnia,5-18,Male,1,0
+2025-09,Bihar,Purnia,5-18,Transgender,2,0
+2025-09,Karnataka,Bangalore Urban,0-5,Female,2,0
+2025-09,Karnataka,Bangalore Urban,0-5,Transgender,2,0
+2025-09,Karnataka,Bangalore Urban,18+,Female,1,1
+2025-09,Karnataka,Bangalore Urban,18+,Transgender,1,0
+2025-09,Karnataka,Bangalore Urban,5-18,Female,1,0
+2025-09,Karnataka,Bangalore Urban,5-18,Male,1,0
+2025-09,Karnataka,Bangalore Urban,5-18,Transgender,2,0
+2025-09,Karnataka,Belgaum,0-5,Female,3,0
+2025-09,Karnataka,Belgaum,0-5,Male,2,0
+2025-09,Karnataka,Belgaum,5-18,Transgender,1,0
+2025-09,Karnataka,Dakshina Kannada,0-5,Male,3,0
+2025-09,Karnataka,Dakshina Kannada,0-5,Transgender,2,1
+2025-09,Karnataka,Kalaburagi,0-5,Female,1,1
+2025-09,Karnataka,Kalaburagi,0-5,Transgender,1,0
+2025-09,Karnataka,Kalaburagi,5-18,Female,1,1
+2025-09,Karnataka,Mysore,0-5,Female,1,0
+2025-09,Karnataka,Mysore,0-5,Male,2,0
+2025-09,Karnataka,Mysore,0-5,Transgender,2,0
+2025-09,Kerala,Ernakulam,0-5,Female,3,0
+2025-09,Kerala,Ernakulam,0-5,Male,1,0
+2025-09,Kerala,Ernakulam,0-5,Transgender,5,0
+2025-09,Kerala,Ernakulam,18+,Transgender,1,0
+2025-09,Kerala,Ernakulam,5-18,Male,1,0
+2025-09,Kerala,Ernakulam,5-18,Transgender,2,0
+2025-09,Kerala,Kozhikode,0-5,Female,1,0
+2025-09,Kerala,Kozhikode,0-5,Male,1,0
+2025-09,Kerala,Kozhikode,5-18,Male,1,0
+2025-09,Kerala,Malappuram,18+,Transgender,1,0
+2025-09,Kerala,Malappuram,5-18,Transgender,2,0
+2025-09,Kerala,Thiruvananthapuram,5-18,Female,1,0
+2025-09,Kerala,Thiruvananthapuram,5-18,Transgender,1,0
+2025-09,Kerala,Thrissur,0-5,Female,2,1
+2025-09,Kerala,Thrissur,0-5,Male,2,0
+2025-09,Maharashtra,Mumbai,0-5,Female,3,0
+2025-09,Maharashtra,Mumbai,0-5,Transgender,2,0
+2025-09,Maharashtra,Mumbai,18+,Transgender,1,0
+2025-09,Maharashtra,Mumbai,5-18,Female,1,0
+2025-09,Maharashtra,Nagpur,0-5,Female,2,0
+2025-09,Maharashtra,Nagpur,0-5,Male,1,0
+2025-09,Maharashtra,Nagpur,0-5,Transgender,1,0
+2025-09,Maharashtra,Nagpur,18+,Male,1,0
+2025-09,Maharashtra,Nagpur,5-18,Female,1,0
+2025-09,Maharashtra,Nagpur,5-18,Male,1,0
+2025-09,Maharashtra,Nashik,0-5,Male,1,0
+2025-09,Maharashtra,Nashik,0-5,Transgender,2,0
+2025-09,Maharashtra,Nashik,5-18,Male,1,0
+2025-09,Maharashtra,Nashik,5-18,Transgender,2,0
+2025-09,Maharashtra,Pune,0-5,Male,1,0
+2025-09,Maharashtra,Pune,0-5,Transgender,3,1
+2025-09,Maharashtra,Pune,5-18,Female,1,0
+2025-09,Maharashtra,Pune,5-18,Male,2,1
+2025-09,Maharashtra,Thane,0-5,Female,3,0
+2025-09,Maharashtra,Thane,0-5,Male,1,0
+2025-09,Maharashtra,Thane,0-5,Transgender,2,0
+2025-09,Maharashtra,Thane,5-18,Female,2,0
+2025-09,Uttar Pradesh,Gautam Buddha Nagar,0-5,Transgender,3,0
+2025-09,Uttar Pradesh,Gautam Buddha Nagar,18+,Female,1,0
+2025-09,Uttar Pradesh,Kanpur,5-18,Female,2,0
+2025-09,Uttar Pradesh,Kanpur,5-18,Male,2,0
+2025-09,Uttar Pradesh,Lucknow,0-5,Female,4,0
+2025-09,Uttar Pradesh,Lucknow,0-5,Male,1,0
+2025-09,Uttar Pradesh,Lucknow,0-5,Transgender,1,0
+2025-09,Uttar Pradesh,Lucknow,5-18,Male,1,0
+2025-09,Uttar Pradesh,Prayagraj,0-5,Female,1,0
+2025-09,Uttar Pradesh,Prayagraj,0-5,Male,1,0
+2025-09,Uttar Pradesh,Prayagraj,0-5,Transgender,1,0
+2025-09,Uttar Pradesh,Prayagraj,5-18,Female,1,0
+2025-09,Uttar Pradesh,Prayagraj,5-18,Male,1,0
+2025-09,Uttar Pradesh,Varanasi,0-5,Female,1,0
+2025-09,Uttar Pradesh,Varanasi,0-5,Male,1,0
+2025-09,Uttar Pradesh,Varanasi,0-5,Transgender,1,0
+2025-09,Uttar Pradesh,Varanasi,18+,Female,1,0
+2025-09,Uttar Pradesh,Varanasi,5-18,Male,1,0
+2025-10,Bihar,Darbhanga,0-5,Female,1,0
+2025-10,Bihar,Darbhanga,0-5,Male,1,0
+2025-10,Bihar,Darbhanga,0-5,Transgender,2,0
+2025-10,Bihar,Darbhanga,5-18,Female,1,0
+2025-10,Bihar,Darbhanga,5-18,Male,2,1
+2025-10,Bihar,Gaya,0-5,Female,1,0
+2025-10,Bihar,Gaya,0-5,Male,1,0
+2025-10,Bihar,Muzaffarpur,0-5,Female,3,0
+2025-10,Bihar,Muzaffarpur,0-5,Transgender,1,0
+2025-10,Bihar,Muzaffarpur,5-18,Female,1,0
+2025-10,Bihar,Muzaffarpur,5-18,Male,2,0
+2025-10,Bihar,Patna,0-5,Male,1,0
+2025-10,Bihar,Patna,0-5,Transgender,1,0
+2025-10,Bihar,Patna,5-18,Female,2,0
+2025-10,Bihar,Purnia,18+,Male,1,0
+2025-10,Bihar,Purnia,5-18,Transgender,1,0
+2025-10,Karnataka,Bangalore Urban,0-5,Male,1,0
+2025-10,Karnataka,Bangalore Urban,0-5,Transgender,1,0
+2025-10,Karnataka,Bangalore Urban,5-18,Male,1,0
+2025-10,Karnataka,Belgaum,0-5,Female,3,0
+2025-10,Karnataka,Belgaum,0-5,Transgender,2,0
+2025-10,Karnataka,Belgaum,5-18,Female,1,0
+2025-10,Karnataka,Belgaum,5-18,Transgender,1,0
+2025-10,Karnataka,Dakshina Kannada,0-5,Female,3,0
+2025-10,Karnataka,Dakshina Kannada,0-5,Male,1,0
+2025-10,Karnataka,Dakshina Kannada,0-5,Transgender,1,0
+2025-10,Karnataka,Dakshina Kannada,5-18,Female,1,0
+2025-10,Karnataka,Mysore,0-5,Female,2,0
+2025-10,Karnataka,Mysore,0-5,Male,1,0
+2025-10,Kerala,Ernakulam,0-5,Female,1,0
+2025-10,Kerala,Ernakulam,0-5,Transgender,2,0
+2025-10,Kerala,Ernakulam,18+,Transgender,1,0
+2025-10,Kerala,Ernakulam,5-18,Male,3,0
+2025-10,Kerala,Kozhikode,0-5,Female,1,0
+2025-10,Kerala,Kozhikode,0-5,Male,1,0
+2025-10,Kerala,Kozhikode,0-5,Transgender,3,1
+2025-10,Kerala,Kozhikode,18+,Female,1,0
+2025-10,Kerala,Kozhikode,5-18,Male,1,0
+2025-10,Kerala,Malappuram,0-5,Female,1,0
+2025-10,Kerala,Malappuram,0-5,Male,1,0
+2025-10,Kerala,Malappuram,18+,Male,1,0
+2025-10,Kerala,Malappuram,5-18,Male,1,0
+2025-10,Kerala,Thiruvananthapuram,0-5,Female,1,0
+2025-10,Kerala,Thiruvananthapuram,0-5,Male,1,0
+2025-10,Kerala,Thiruvananthapuram,0-5,Transgender,1,0
+2025-10,Kerala,Thiruvananthapuram,18+,Transgender,1,0
+2025-10,Kerala,Thiruvananthapuram,5-18,Male,2,0
+2025-10,Kerala,Thrissur,0-5,Female,2,0
+2025-10,Kerala,Thrissur,0-5,Transgender,1,0
+2025-10,Kerala,Thrissur,18+,Male,1,0
+2025-10,Kerala,Thrissur,5-18,Female,1,0
+2025-10,Kerala,Thrissur,5-18,Male,1,0
+2025-10,Kerala,Thrissur,5-18,Transgender,1,0
+2025-10,Maharashtra,Mumbai,0-5,Female,1,0
+2025-10,Maharashtra,Mumbai,0-5,Male,1,0
+2025-10,Maharashtra,Mumbai,0-5,Transgender,1,0
+2025-10,Maharashtra,Mumbai,18+,Male,1,0
+2025-10,Maharashtra,Nagpur,0-5,Female,1,0
+2025-10,Maharashtra,Nagpur,0-5,Male,1,0
+2025-10,Maharashtra,Nagpur,0-5,Transgender,1,0
+2025-10,Maharashtra,Nashik,0-5,Male,1,0
+2025-10,Maharashtra,Nashik,5-18,Female,3,0
+2025-10,Maharashtra,Nashik,5-18,Male,2,1
+2025-10,Maharashtra,Nashik,5-18,Transgender,1,0
+2025-10,Maharashtra,Pune,0-5,Female,2,0
+2025-10,Maharashtra,Thane,0-5,Male,3,0
+2025-10,Maharashtra,Thane,0-5,Transgender,1,0
+2025-10,Uttar Pradesh,Gautam Buddha Nagar,0-5,Female,1,0
+2025-10,Uttar Pradesh,Gautam Buddha Nagar,0-5,Male,2,0
+2025-10,Uttar Pradesh,Gautam Buddha Nagar,0-5,Transgender,2,0
+2025-10,Uttar Pradesh,Gautam Buddha Nagar,18+,Male,1,0
+2025-10,Uttar Pradesh,Kanpur,0-5,Female,2,0
+2025-10,Uttar Pradesh,Kanpur,0-5,Transgender,3,1
+2025-10,Uttar Pradesh,Kanpur,5-18,Male,2,0
+2025-10,Uttar Pradesh,Lucknow,5-18,Female,1,0
+2025-10,Uttar Pradesh,Prayagraj,0-5,Female,2,0
+2025-10,Uttar Pradesh,Prayagraj,0-5,Male,2,2
+2025-10,Uttar Pradesh,Prayagraj,0-5,Transgender,1,0
+2025-10,Uttar Pradesh,Prayagraj,18+,Female,2,0
+2025-10,Uttar Pradesh,Prayagraj,18+,Male,2,0
+2025-10,Uttar Pradesh,Varanasi,0-5,Male,1,0
+2025-10,Uttar Pradesh,Varanasi,0-5,Transgender,2,0
+2025-10,Uttar Pradesh,Varanasi,5-18,Female,1,0
+2025-10,Uttar Pradesh,Varanasi,5-18,Transgender,1,0
+2025-11,Bihar,Darbhanga,0-5,Female,1,0
+2025-11,Bihar,Darbhanga,0-5,Transgender,2,0
+2025-11,Bihar,Darbhanga,18+,Transgender,1,0
+2025-11,Bihar,Darbhanga,5-18,Female,1,0
+2025-11,Bihar,Gaya,0-5,Female,2,0
+2025-11,Bihar,Gaya,0-5,Male,2,0
+2025-11,Bihar,Gaya,0-5,Transgender,2,0
+2025-11,Bihar,Gaya,5-18,Female,1,0
+2025-11,Bihar,Muzaffarpur,0-5,Female,1,0
+2025-11,Bihar,Muzaffarpur,0-5,Male,1,0
+2025-11,Bihar,Muzaffarpur,0-5,Transgender,2,0
+2025-11,Bihar,Muzaffarpur,5-18,Female,1,0
+2025-11,Bihar,Patna,0-5,Female,1,0
+2025-11,Bihar,Purnia,0-5,Female,2,0
+2025-11,Bihar,Purnia,0-5,Male,2,0
+2025-11,Bihar,Purnia,0-5,Transgender,1,0
+2025-11,Karnataka,Bangalore Urban,0-5,Female,4,0
+2025-11,Karnataka,Bangalore Urban,0-5,Transgender,1,0
+2025-11,Karnataka,Bangalore Urban,5-18,Male,1,0
+2025-11,Karnataka,Bangalore Urban,5-18,Transgender,1,0
+2025-11,Karnataka,Belgaum,0-5,Female,1,0
+2025-11,Karnataka,Belgaum,0-5,Male,4,0
+2025-11,Karnataka,Belgaum,0-5,Transgender,3,0
+2025-11,Karnataka,Belgaum,5-18,Male,2,0
+2025-11,Karnataka,Belgaum,5-18,Transgender,1,0
+2025-11,Karnataka,Dakshina Kannada,0-5,Female,1,0
+2025-11,Karnataka,Dakshina Kannada,0-5,Male,2,1
+2025-11,Karnataka,Dakshina Kannada,18+,Male,1,0
+2025-11,Karnataka,Dakshina Kannada,5-18,Female,1,0
+2025-11,Karnataka,Dakshina Kannada,5-18,Transgender,2,0
+2025-11,Karnataka,Kalaburagi,0-5,Female,1,0
+2025-11,Karnataka,Kalaburagi,18+,Female,1,0
+2025-11,Karnataka,Kalaburagi,5-18,Female,1,0
+2025-11,Karnataka,Kalaburagi,5-18,Male,1,0
+2025-11,Karnataka,Mysore,0-5,Female,2,0
+2025-11,Karnataka,Mysore,0-5,Male,2,0
+2025-11,Karnataka,Mysore,5-18,Male,2,0
+2025-11,Kerala,Ernakulam,0-5,Male,1,0
+2025-11,Kerala,Ernakulam,0-5,Transgender,1,0
+2025-11,Kerala,Ernakulam,18+,Female,1,0
+2025-11,Kerala,Ernakulam,5-18,Female,2,0
+2025-11,Kerala,Malappuram,0-5,Female,2,0
+2025-11,Kerala,Malappuram,0-5,Male,1,0
+2025-11,Kerala,Malappuram,0-5,Transgender,1,0
+2025-11,Kerala,Thiruvananthapuram,0-5,Female,1,0
+2025-11,Kerala,Thiruvananthapuram,18+,Female,1,0
+2025-11,Kerala,Thrissur,0-5,Female,1,0
+2025-11,Kerala,Thrissur,0-5,Male,2,0
+2025-11,Kerala,Thrissur,0-5,Transgender,2,0
+2025-11,Kerala,Thrissur,5-18,Female,1,0
+2025-11,Maharashtra,Mumbai,0-5,Female,1,0
+2025-11,Maharashtra,Mumbai,0-5,Male,1,0
+2025-11,Maharashtra,Mumbai,5-18,Male,1,0
+2025-11,Maharashtra,Nagpur,18+,Male,1,0
+2025-11,Maharashtra,Nagpur,5-18,Male,1,0
+2025-11,Maharashtra,Nagpur,5-18,Transgender,2,0
+2025-11,Maharashtra,Nashik,0-5,Female,2,0
+2025-11,Maharashtra,Nashik,0-5,Male,1,0
+2025-11,Maharashtra,Nashik,0-5,Transgender,2,0
+2025-11,Maharashtra,Nashik,18+,Transgender,1,0
+2025-11,Maharashtra,Nashik,5-18,Female,1,0
+2025-11,Maharashtra,Pune,0-5,Male,1,0
+2025-11,Maharashtra,Pune,0-5,Transgender,1,0
+2025-11,Maharashtra,Pune,18+,Male,1,0
+2025-11,Maharashtra,Pune,5-18,Female,1,1
+2025-11,Maharashtra,Pune,5-18,Male,1,0
+2025-11,Maharashtra,Thane,0-5,Female,1,0
+2025-11,Maharashtra,Thane,0-5,Male,1,0
+2025-11,Maharashtra,Thane,5-18,Female,1,0
+2025-11,Maharashtra,Thane,5-18,Male,2,2
+2025-11,Maharashtra,Thane,5-18,Transgender,1,0
+2025-11,Uttar Pradesh,Gautam Buddha Nagar,0-5,Male,4,0
+2025-11,Uttar Pradesh,Gautam Buddha Nagar,0-5,Transgender,1,0
+2025-11,Uttar Pradesh,Gautam Buddha Nagar,5-18,Transgender,2,1
+2025-11,Uttar Pradesh,Kanpur,0-5,Female,4,0
+2025-11,Uttar Pradesh,Kanpur,0-5,Male,1,0
+2025-11,Uttar Pradesh,Kanpur,0-5,Transgender,1,0
+2025-11,Uttar Pradesh,Kanpur,18+,Transgender,1,0
+2025-11,Uttar Pradesh,Kanpur,5-18,Female,2,0
+2025-11,Uttar Pradesh,Lucknow,0-5,Female,1,0
+2025-11,Uttar Pradesh,Lucknow,0-5,Male,1,0
+2025-11,Uttar Pradesh,Lucknow,18+,Transgender,1,0
+2025-11,Uttar Pradesh,Lucknow,5-18,Female,1,0
+2025-11,Uttar Pradesh,Prayagraj,0-5,Male,1,1
+2025-11,Uttar Pradesh,Prayagraj,0-5,Transgender,1,0
+2025-11,Uttar Pradesh,Prayagraj,5-18,Female,1,0
+2025-11,Uttar Pradesh,Varanasi,0-5,Male,1,0
+2025-11,Uttar Pradesh,Varanasi,0-5,Transgender,2,0
+2025-11,Uttar Pradesh,Varanasi,18+,Female,1,0
+2025-11,Uttar Pradesh,Varanasi,5-18,Male,2,0
+2025-12,Bihar,Darbhanga,0-5,Transgender,1,0
+2025-12,Bihar,Darbhanga,5-18,Female,1,0
+2025-12,Bihar,Gaya,0-5,Female,3,0
+2025-12,Bihar,Gaya,0-5,Male,1,0
+2025-12,Bihar,Gaya,5-18,Male,2,0
+2025-12,Bihar,Muzaffarpur,0-5,Female,2,0
+2025-12,Bihar,Muzaffarpur,0-5,Transgender,1,0
+2025-12,Bihar,Muzaffarpur,18+,Male,1,0
+2025-12,Bihar,Muzaffarpur,5-18,Transgender,1,0
+2025-12,Bihar,Patna,0-5,Female,2,0
+2025-12,Bihar,Patna,5-18,Female,1,0
+2025-12,Bihar,Purnia,5-18,Female,1,0
+2025-12,Karnataka,Bangalore Urban,0-5,Transgender,3,2
+2025-12,Karnataka,Bangalore Urban,5-18,Male,1,0
+2025-12,Karnataka,Belgaum,0-5,Male,1,0
+2025-12,Karnataka,Belgaum,0-5,Transgender,1,0
+2025-12,Karnataka,Belgaum,5-18,Transgender,1,0
+2025-12,Karnataka,Dakshina Kannada,0-5,Female,1,0
+2025-12,Karnataka,Dakshina Kannada,0-5,Male,1,0
+2025-12,Karnataka,Dakshina Kannada,18+,Female,1,0
+2025-12,Karnataka,Dakshina Kannada,5-18,Male,1,0
+2025-12,Karnataka,Kalaburagi,5-18,Male,3,0
+2025-12,Karnataka,Mysore,0-5,Male,2,0
+2025-12,Karnataka,Mysore,0-5,Transgender,1,0
+2025-12,Karnataka,Mysore,18+,Female,1,0
+2025-12,Karnataka,Mysore,5-18,Female,3,0
+2025-12,Karnataka,Mysore,5-18,Male,1,0
+2025-12,Karnataka,Mysore,5-18,Transgender,1,0
+2025-12,Kerala,Ernakulam,0-5,Female,1,0
+2025-12,Kerala,Ernakulam,0-5,Male,1,0
+2025-12,Kerala,Ernakulam,0-5,Transgender,1,0
+2025-12,Kerala,Ernakulam,5-18,Male,1,0
+2025-12,Kerala,Ernakulam,5-18,Transgender,1,0
+2025-12,Kerala,Kozhikode,0-5,Male,1,0
+2025-12,Kerala,Kozhikode,18+,Female,1,0
+2025-12,Kerala,Malappuram,0-5,Male,1,0
+2025-12,Kerala,Malappuram,0-5,Transgender,1,0
+2025-12,Kerala,Malappuram,18+,Male,1,0
+2025-12,Kerala,Thiruvananthapuram,0-5,Female,1,0
+2025-12,Kerala,Thiruvananthapuram,0-5,Male,1,0
+2025-12,Kerala,Thiruvananthapuram,0-5,Transgender,2,0
+2025-12,Kerala,Thiruvananthapuram,5-18,Female,2,0
+2025-12,Kerala,Thiruvananthapuram,5-18,Transgender,2,0
+2025-12,Kerala,Thrissur,0-5,Male,2,0
+2025-12,Kerala,Thrissur,0-5,Transgender,2,0
+2025-12,Kerala,Thrissur,18+,Male,1,0
+2025-12,Kerala,Thrissur,5-18,Male,1,0
+2025-12,Kerala,Thrissur,5-18,Transgender,1,0
+2025-12,Maharashtra,Mumbai,0-5,Female,1,0
+2025-12,Maharashtra,Mumbai,0-5,Transgender,1,0
+2025-12,Maharashtra,Mumbai,5-18,Female,2,0
+2025-12,Maharashtra,Mumbai,5-18,Male,2,0
+2025-12,Maharashtra,Mumbai,5-18,Transgender,1,0
+2025-12,Maharashtra,Nagpur,0-5,Female,3,0
+2025-12,Maharashtra,Nagpur,0-5,Male,2,0
+2025-12,Maharashtra,Nagpur,0-5,Transgender,1,0
+2025-12,Maharashtra,Nagpur,18+,Transgender,1,0
+2025-12,Maharashtra,Nagpur,5-18,Female,1,0
+2025-12,Maharashtra,Nashik,0-5,Male,1,0
+2025-12,Maharashtra,Nashik,18+,Female,1,0
+2025-12,Maharashtra,Nashik,18+,Male,1,0
+2025-12,Maharashtra,Pune,0-5,Female,3,1
+2025-12,Maharashtra,Pune,0-5,Male,1,0
+2025-12,Maharashtra,Pune,18+,Male,2,0
+2025-12,Maharashtra,Thane,0-5,Female,2,0
+2025-12,Uttar Pradesh,Gautam Buddha Nagar,0-5,Female,3,0
+2025-12,Uttar Pradesh,Gautam Buddha Nagar,0-5,Male,2,0
+2025-12,Uttar Pradesh,Gautam Buddha Nagar,0-5,Transgender,1,0
+2025-12,Uttar Pradesh,Gautam Buddha Nagar,18+,Female,1,0
+2025-12,Uttar Pradesh,Gautam Buddha Nagar,5-18,Transgender,1,0
+2025-12,Uttar Pradesh,Kanpur,18+,Male,1,0
+2025-12,Uttar Pradesh,Kanpur,5-18,Female,1,0
+2025-12,Uttar Pradesh,Lucknow,0-5,Female,2,1
+2025-12,Uttar Pradesh,Lucknow,0-5,Transgender,2,0
+2025-12,Uttar Pradesh,Lucknow,5-18,Male,2,0
+2025-12,Uttar Pradesh,Prayagraj,0-5,Female,2,0
+2025-12,Uttar Pradesh,Prayagraj,0-5,Male,1,0
+2025-12,Uttar Pradesh,Prayagraj,0-5,Transgender,1,0
+2025-12,Uttar Pradesh,Prayagraj,5-18,Female,1,0
+2025-12,Uttar Pradesh,Varanasi,0-5,Female,1,0
+2025-12,Uttar Pradesh,Varanasi,5-18,Female,1,0
