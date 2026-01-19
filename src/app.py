@@ -141,10 +141,24 @@ if st.sidebar.button("Generate Smart Insight"):
         # ... (AI Logic matches previous)
         insight_text = []
         avg_sat = df_sat['Saturation_Percentage'].mean()
-        if avg_sat > 100: insight_text.append(f"⚠️ **Anomaly**: High saturation ({avg_sat:.1f}%) detected.")
-        elif avg_sat > 90: insight_text.append(f"✅ **High Coverage**: ({avg_sat:.1f}%) saturation achived.")
-        
-        st.write(" ".join(insight_text))
+        if avg_sat > 100:
+            insight_text.append(f"⚠️ **Action Req**: Saturation > 100% ({avg_sat:.1f}%). **Rec**: Initiate deduplication audit & verify floating population.")
+        elif avg_sat > 90:
+            insight_text.append(f"✅ **High Coverage**: ({avg_sat:.1f}%) achieved. **Rec**: Shift focus to biometric updates & mobile number linkage.")
+            
+        # 2. Gender Gap
+        male_upd = df_upd[df_upd['Gender']=='Male']['Count'].sum()
+        female_upd = df_upd[df_upd['Gender']=='Female']['Count'].sum()
+        gap = abs(male_upd - female_upd) / (male_upd + female_upd)
+        if gap > 0.2:
+            insight_text.append(f"📉 **Gender Gap Alert**: High disparity ({gap:.1%}). **Rec**: Launch targeted 'Aadhaar for Her' camps in this district.")
+        else:
+            insight_text.append(f"⚖️ **Gender Parity**: Balanced access. **Rec**: Maintain current outreach levels.")
+            
+        # 3. Migration
+        addr_upd = df_upd[df_upd['Update_Type']=='Address']['Count'].sum()
+        if addr_upd > 5000: # Arbitrary threshold for mock data
+            insight_text.append(f"🚀 **Migration Surge**: {addr_upd:,} address updates. **Rec**: Allocate temporary enrolment centers to manage inflow.")
 
 # Tabs
 tab_trends, tab1, tab2, tab3 = st.tabs(["📊 Trends View", "🚀 Migration Monitor", "📱 Inclusion Tracker", "🔍 Anomaly Detection"])
@@ -361,8 +375,8 @@ with tab_trends:
         st.plotly_chart(fig_pie, width="stretch")
 
 with tab1:
-    st.header("Migration Velocity ($M_v$)")
-    st.info("Tracking 'Address Updates' as a proxy for internal migration pressure.")
+    st.header("Migration Pressure & Infrastructure Planning")
+    st.info("Policy Insight: High address updates often precede resource strain. Use $M_v$ to allocate new centers.")
     
     # Calculate Metric
     mv_df = calculate_migration_velocity(df_upd, df_sat)
@@ -398,8 +412,8 @@ with tab1:
         st.dataframe(top_districts[['District', 'State', 'Migration_Velocity']].style.format({"Migration_Velocity": "{:.2f}"}))
 
 with tab2:
-    st.header("Digital Gender Gap Index (DGGI)")
-    st.info("Ratio of Female-to-Male Mobile Updates. A clearer path to 0.5 indicates parity.")
+    st.header("Digital Inclusion Targets (Gender Parity)")
+    st.info("Policy Insight: Districts with < 0.4 Female Share require targeted enrolment camps.")
     
     dggi_df = calculate_dggi(df_upd, df_sat)
     
@@ -417,7 +431,7 @@ with tab2:
     st.plotly_chart(fig, width="stretch")
 
 with tab3:
-    st.header("Anomaly Detection & Forecasting")
+    st.header("System Integrity & Demand Forecasting")
     
     col1, col2 = st.columns(2)
     
