@@ -2,6 +2,7 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 import folium
+import random
 from streamlit_folium import st_folium
 from data_loader import load_data, merge_for_map
 from metrics import calculate_migration_velocity, calculate_dggi, detect_anomalies
@@ -42,6 +43,39 @@ if selected_state != "All":
     df_upd = df_upd[df_upd['State'] == selected_state]
     df_sat = df_sat[df_sat['State'] == selected_state]
     gdf = gdf[gdf['state'] == selected_state]
+
+# AI Analyst Section
+st.sidebar.markdown("---")
+st.sidebar.subheader("🤖 AI Analyst")
+if st.sidebar.button("Generate Smart Insight"):
+    with st.sidebar.chat_message("assistant"):
+        st.write("Analyzing patterns...")
+        
+        # Logic-based "GenAI" for Hackathon (Deterministic but smart)
+        insight_text = []
+        
+        # 1. Saturation Insight
+        avg_sat = df_sat['Saturation_Percentage'].mean()
+        if avg_sat > 100:
+            insight_text.append(f"⚠️ **Anomaly Detected**: Saturation is at {avg_sat:.1f}%, indicating extensive floating population or potential duplication in this region.")
+        elif avg_sat > 90:
+            insight_text.append(f"✅ **High Saturation**: This region has achieved {avg_sat:.1f}% coverage, suggesting a shift to 'Update-Correction' phase is priority.")
+            
+        # 2. Gender Gap
+        male_upd = df_upd[df_upd['Gender']=='Male']['Count'].sum()
+        female_upd = df_upd[df_upd['Gender']=='Female']['Count'].sum()
+        gap = abs(male_upd - female_upd) / (male_upd + female_upd)
+        if gap > 0.2:
+            insight_text.append(f"📉 **Gender Gap Alert**: High disparity ({gap:.1%}) in updates between genders. Targeted camps for women are recommended.")
+        else:
+            insight_text.append(f"⚖️ **Gender Parity**: Excellent balance in digital access between genders.")
+            
+        # 3. Migration
+        addr_upd = df_upd[df_upd['Update_Type']=='Address']['Count'].sum()
+        if addr_upd > 5000: # Arbitrary threshold for mock data
+            insight_text.append(f"🚀 **High Migration Flow**: {addr_upd:,} address updates detected. Infrastructure planning required for new residents.")
+            
+        st.write(" ".join(insight_text))
 
 # Tabs
 tab_trends, tab1, tab2, tab3 = st.tabs(["📊 Trends View", "🚀 Migration Monitor", "📱 Inclusion Tracker", "🔍 Anomaly Detection"])
