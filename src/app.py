@@ -242,7 +242,7 @@ if selected_state != "All":
 # AI Analyst Section
 st.sidebar.markdown("---")
 st.sidebar.subheader("🤖 AI Analyst")
-if st.sidebar.button("Generate Smart Insight"):
+if st.sidebar.button("Generate Smart Insight", key="ai_analyst_btn"):
     with st.sidebar.chat_message("assistant"):
         st.write("Analyzing patterns...")
         
