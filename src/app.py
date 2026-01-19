@@ -81,28 +81,41 @@ if st.sidebar.button("Generate Smart Insight"):
 tab_trends, tab1, tab2, tab3 = st.tabs(["📊 Trends View", "🚀 Migration Monitor", "📱 Inclusion Tracker", "🔍 Anomaly Detection"])
 
 with tab_trends:
-    st.header("National Trends (Reference View)")
+    st.header("National Trends (3D Analytical View)")
     
     col1, col2 = st.columns([2, 1])
     
     with col1:
-        st.subheader("Aadhaar Generation Trend (2023-2025)")
-        # Group by Month for Bar Chart
-        enr_trend = df_enr.groupby('Month')['Enrolment_Count'].sum().reset_index()
-        enr_trend['Month'] = enr_trend['Month'].astype(str)
-        fig_enr = px.bar(enr_trend, x='Month', y='Enrolment_Count', color_discrete_sequence=['#0083B8'])
-        st.plotly_chart(fig_enr, width="stretch")
+        st.subheader("Aadhaar Generation Dynamics (3D)")
+        # Prepare data for 3D: Group by Month and Gender to give Z-axis depth
+        enr_3d = df_enr.groupby(['Month', 'Gender'])[['Enrolment_Count', 'Rejection_Count']].sum().reset_index()
+        enr_3d['Month'] = enr_3d['Month'].astype(str)
         
-        st.subheader("Update Transaction Trend")
-        upd_trend = df_upd.groupby('Month')['Count'].sum().reset_index()
-        upd_trend['Month'] = upd_trend['Month'].astype(str)
-        fig_upd = px.bar(upd_trend, x='Month', y='Count', color_discrete_sequence=['#ff6c6c'])
-        st.plotly_chart(fig_upd, width="stretch")
+        # 3D Scatter: X=Month, Y=Enrolment, Z=Rejection
+        fig_enr_3d = px.scatter_3d(enr_3d, x='Month', y='Enrolment_Count', z='Rejection_Count',
+                                   color='Gender', size='Enrolment_Count', opacity=0.7,
+                                   title="Enrolment vs Rejection Volume (3D)",
+                                   color_discrete_sequence=px.colors.qualitative.Bold)
+        st.plotly_chart(fig_enr_3d, width="stretch", height=500)
+        
+        st.subheader("Update Transaction Landscape (3D)")
+        upd_3d = df_upd.groupby(['Month', 'Update_Type'])[['Count']].sum().reset_index()
+        upd_3d['Month'] = upd_3d['Month'].astype(str)
+        
+        # 3D Scatter: X=Month, Y=Count, Z=Type
+        fig_upd_3d = px.scatter_3d(upd_3d, x='Month', y='Count', z='Update_Type',
+                                   color='Update_Type', size='Count',
+                                   title="Update Transactions by Type (3D)",
+                                   color_discrete_sequence=px.colors.qualitative.Pastel)
+        st.plotly_chart(fig_upd_3d, width="stretch", height=500)
 
     with col2:
-        st.subheader("State-wise Saturation Distribution")
-        fig_pie = px.pie(df_sat, values='Projected_Pop_2025', names='State', hole=0.4, color_discrete_sequence=px.colors.sequential.RdBu)
-        st.plotly_chart(fig_pie, width="stretch")
+        st.subheader("State Saturation Hierarchy")
+        # Sunburst gives a '3D-like' drill-down experience which is better than Pie
+        fig_sun = px.sunburst(df_sat, path=['State', 'District'], values='Projected_Pop_2025',
+                              title="Population Distribution Hierarchy",
+                              color_discrete_sequence=px.colors.sequential.RdBu)
+        st.plotly_chart(fig_sun, width="stretch", height=600)
 
 with tab1:
     st.header("Migration Velocity ($M_v$)")
