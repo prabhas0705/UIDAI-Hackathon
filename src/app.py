@@ -3,6 +3,7 @@ import pandas as pd
 import plotly.express as px
 import folium
 import random
+import plotly.graph_objects as go
 from streamlit_folium import st_folium
 from data_loader import load_data, merge_for_map
 from metrics import calculate_migration_velocity, calculate_dggi, detect_anomalies
@@ -100,10 +101,6 @@ with tab_trends:
         fig_upd = px.bar(upd_trend, x='Month', y='Count', 
                          color_discrete_sequence=['#ff6c6c'], text_auto='.2s')
         st.plotly_chart(fig_upd, width="stretch")
-
-import plotly.graph_objects as go
-
-# ... (inside tab_trends) ...
 
     with col2:
         st.subheader("State Saturation Hierarchy")
