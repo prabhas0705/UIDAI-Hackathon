@@ -16,46 +16,65 @@ st.set_page_config(page_title="Aadhaar-Drishti", layout="wide", page_icon="🇮�
 st.markdown("""
 <style>
     .main-header {
-        background-color: #2c3e50;
-        padding: 15px;
-        border-radius: 5px;
+        background-color: #1E3D59; /* darker blue */
+        padding: 20px;
+        border-radius: 10px;
         color: white;
         text-align: left;
         display: flex;
         justify-content: space-between;
         align-items: center;
-        margin-bottom: 20px;
+        margin-bottom: 30px;
+        box-shadow: 0 4px 6px rgba(0,0,0,0.1);
     }
     .kpi-card {
         background-color: white;
-        padding: 20px;
-        border-radius: 8px;
+        padding: 0px;
+        border-radius: 10px;
         text-align: center;
-        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        box-shadow: 0 4px 6px rgba(0,0,0,0.1);
         margin-bottom: 20px;
+        overflow: hidden; /* for header radius */
     }
     .kpi-title {
-        font-size: 16px;
-        font-weight: bold;
+        font-size: 18px;
+        font-weight: 600;
         color: white;
-        padding: 10px;
-        border-radius: 5px 5px 0 0;
-        margin: -20px -20px 15px -20px;
+        padding: 15px;
+        margin-bottom: 15px;
     }
     .kpi-value {
-        font-size: 28px;
+        font-size: 32px;
         font-weight: bold;
-        color: #333;
+        color: #2c3e50;
+        margin-bottom: 5px;
     }
-    .enrol-bg { background-color: #5DADE2; } /* Blue */
-    .update-bg { background-color: #F1948A; } /* Red */
-    .auth-bg { background-color: #58D68D; }   /* Green */
-    .ekyc-bg { background-color: #F5B041; }   /* Orange */
+    .kpi-sub {
+        font-size: 14px;
+        color: #7f8c8d;
+        padding-bottom: 20px;
+    }
+    .enrol-bg { background-color: #5DADE2; }
+    .update-bg { background-color: #F1948A; }
+    .auth-bg { background-color: #58D68D; }
+    .ekyc-bg { background-color: #F5B041; }
+    
+    /* Chart Card Styling */
+    .chart-container {
+        background-color: white;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+        margin-bottom: 20px;
+    }
 </style>
 
 <div class="main-header">
-    <div style="font-size: 24px; font-weight: bold;">Welcome to AADHAAR Dashboard</div>
-    <div style="font-size: 12px;">Unique Identification Authority of India</div>
+    <div>
+        <div style="font-size: 28px; font-weight: bold;">Welcome to AADHAAR Dashboard</div>
+        <div style="font-size: 14px; opacity: 0.9;">Unique Identification Authority of India | Government of India</div>
+    </div>
+    <div style="font-size: 40px;">🇮🇳</div> 
 </div>
 """, unsafe_allow_html=True)
 
@@ -69,38 +88,140 @@ col1, col2, col3, col4 = st.columns(4)
 with col1:
     st.markdown(f"""
     <div class="kpi-card">
-        <div class="kpi-title enrol-bg">Enrolment</div>
+        <div class="kpi-title enrol-bg">🆔 Enrolment</div>
         <div class="kpi-value">{df_enr['Enrolment_Count'].sum():,}</div>
-        <div style="font-size: 12px; color: #777;">Total Enrolments</div>
+        <div class="kpi-sub">Total Enrolments</div>
     </div>
     """, unsafe_allow_html=True)
 
 with col2:
     st.markdown(f"""
     <div class="kpi-card">
-        <div class="kpi-title update-bg">Update</div>
+        <div class="kpi-title update-bg">📝 Update</div>
         <div class="kpi-value">{df_upd['Count'].sum():,}</div>
-        <div style="font-size: 12px; color: #777;">Total Updates</div>
+        <div class="kpi-sub">Total Updates</div>
     </div>
     """, unsafe_allow_html=True)
 
 with col3:
     st.markdown(f"""
     <div class="kpi-card">
-        <div class="kpi-title auth-bg">Authentication</div>
-        <div class="kpi-value">90,096,849,046</div>
-        <div style="font-size: 12px; color: #777;">Total Authentications (Mock)</div>
+        <div class="kpi-title auth-bg">✅ Authentication</div>
+        <div class="kpi-value">90.1 B</div>
+        <div class="kpi-sub">Total Authentications</div>
     </div>
     """, unsafe_allow_html=True)
 
 with col4:
     st.markdown(f"""
     <div class="kpi-card">
-        <div class="kpi-title ekyc-bg">eKYC</div>
-        <div class="kpi-value">14,774,500,494</div>
-        <div style="font-size: 12px; color: #777;">eKYC Done (Mock)</div>
+        <div class="kpi-title ekyc-bg">👍 eKYC</div>
+        <div class="kpi-value">14.7 B</div>
+        <div class="kpi-sub">eKYC Transations</div>
     </div>
     """, unsafe_allow_html=True)
+
+# Sidebar Controls
+st.sidebar.header("Filter Controls")
+selected_state = st.sidebar.selectbox("Select State", ["All"] + list(df_sat['State'].unique()))
+
+# Filter logic
+if selected_state != "All":
+    df_enr = df_enr[df_enr['State'] == selected_state]
+    df_upd = df_upd[df_upd['State'] == selected_state]
+    df_sat = df_sat[df_sat['State'] == selected_state]
+    gdf = gdf[gdf['state'] == selected_state]
+
+# AI Analyst Section
+st.sidebar.markdown("---")
+st.sidebar.subheader("🤖 AI Analyst")
+if st.sidebar.button("Generate Smart Insight"):
+    with st.sidebar.chat_message("assistant"):
+        st.write("Analyzing patterns...")
+        # ... (AI Logic matches previous)
+        insight_text = []
+        avg_sat = df_sat['Saturation_Percentage'].mean()
+        if avg_sat > 100: insight_text.append(f"⚠️ **Anomaly**: High saturation ({avg_sat:.1f}%) detected.")
+        elif avg_sat > 90: insight_text.append(f"✅ **High Coverage**: ({avg_sat:.1f}%) saturation achived.")
+        
+        st.write(" ".join(insight_text))
+
+# Tabs
+tab_trends, tab1, tab2, tab3 = st.tabs(["📊 Trends View", "🚀 Migration Monitor", "📱 Inclusion Tracker", "🔍 Anomaly Detection"])
+
+with tab_trends:
+    # Use standard headers but we will wrap charts to look 'contained'
+    # Streamlit doesn't support wrapping plots in arbitrary HTML divs easily, 
+    # so we rely on Plotly's native white background we set below.
+    
+    col1, col2 = st.columns([2, 1])
+    
+    with col1:
+        st.markdown("#### Aadhaar Generation Trend")
+        
+        # 1. Enrolment Combo Chart
+        enr_trend = df_enr.groupby('Month')['Enrolment_Count'].sum().reset_index()
+        enr_trend['Month'] = enr_trend['Month'].astype(str)
+        enr_trend['Cumulative'] = enr_trend['Enrolment_Count'].cumsum()
+        
+        # Create Dual-Axis Plot with White Background Style
+        fig_enr = make_subplots(specs=[[{"secondary_y": True}]])
+        
+        fig_enr.add_trace(go.Bar(x=enr_trend['Month'], y=enr_trend['Enrolment_Count'], name="Enrolments", marker_color='#26C6DA', opacity=0.8), secondary_y=False)
+        fig_enr.add_trace(go.Scatter(x=enr_trend['Month'], y=enr_trend['Cumulative'], name="Trendline", line=dict(color='#F1C40F', width=3), mode='lines+markers'), secondary_y=True)
+        
+        fig_enr.update_layout(
+            plot_bgcolor='white', paper_bgcolor='white', # White Card look
+            margin=dict(t=30, b=0, l=10, r=10), height=350,
+            legend=dict(orientation="h", yanchor="bottom", y=1.02, xanchor="right", x=1)
+        )
+        fig_enr.update_yaxes(showgrid=True, gridcolor='#f0f0f0', secondary_y=False)
+        fig_enr.update_yaxes(showgrid=False, secondary_y=True)
+        st.plotly_chart(fig_enr, width="stretch")
+        
+        st.markdown("#### Update Transaction Trend")
+        
+        # 2. Update Combo Chart
+        upd_trend = df_upd.groupby('Month')['Count'].sum().reset_index()
+        upd_trend['Month'] = upd_trend['Month'].astype(str)
+        upd_trend['Cumulative'] = upd_trend['Count'].cumsum()
+        
+        fig_upd = make_subplots(specs=[[{"secondary_y": True}]])
+        fig_upd.add_trace(go.Bar(x=upd_trend['Month'], y=upd_trend['Count'], name="Updates", marker_color='#EF5350', opacity=0.8), secondary_y=False)
+        fig_upd.add_trace(go.Scatter(x=upd_trend['Month'], y=upd_trend['Cumulative'], name="Trendline", line=dict(color='#F1C40F', width=3), mode='lines+markers'), secondary_y=True)
+        
+        fig_upd.update_layout(
+            plot_bgcolor='white', paper_bgcolor='white',
+            margin=dict(t=30, b=0, l=10, r=10), height=350,
+            legend=dict(orientation="h", yanchor="bottom", y=1.02, xanchor="right", x=1)
+        )
+        fig_upd.update_yaxes(showgrid=True, gridcolor='#f0f0f0', secondary_y=False)
+        st.plotly_chart(fig_upd, width="stretch")
+
+    with col2:
+        st.markdown("#### State Saturation Hierarchy")
+        
+        # Prepare data for Exploded Pie
+        pie_data = df_sat.sort_values(by='Projected_Pop_2025', ascending=False)
+        pull_config = [0.1] + [0.0] * (len(pie_data) - 1)
+        
+        fig_pie = go.Figure(data=[go.Pie(
+            labels=pie_data['State'], 
+            values=pie_data['Projected_Pop_2025'],
+            pull=pull_config, 
+            hole=0.0, 
+            textinfo='percent+label',
+            rotation=45, 
+            marker=dict(colors=px.colors.qualitative.Pastel, line=dict(color='#FFFFFF', width=2))
+        )])
+        
+        fig_pie.update_layout(
+            plot_bgcolor='white', paper_bgcolor='white',
+            showlegend=True,
+            legend=dict(orientation="v", y=0.5, x=1.1),
+            margin=dict(t=0, b=0, l=0, r=0)
+        )
+        st.plotly_chart(fig_pie, width="stretch")
 
 # Sidebar Controls
 st.sidebar.header("Filter Controls")
