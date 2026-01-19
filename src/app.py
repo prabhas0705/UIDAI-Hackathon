@@ -44,7 +44,31 @@ if selected_state != "All":
     gdf = gdf[gdf['state'] == selected_state]
 
 # Tabs
-tab1, tab2, tab3 = st.tabs(["🚀 Migration Monitor", "📱 Inclusion Tracker", "🔍 Anomaly Detection"])
+tab_trends, tab1, tab2, tab3 = st.tabs(["📊 Trends View", "🚀 Migration Monitor", "📱 Inclusion Tracker", "🔍 Anomaly Detection"])
+
+with tab_trends:
+    st.header("National Trends (Reference View)")
+    
+    col1, col2 = st.columns([2, 1])
+    
+    with col1:
+        st.subheader("Aadhaar Generation Trend (2023-2025)")
+        # Group by Month for Bar Chart
+        enr_trend = df_enr.groupby('Month')['Enrolment_Count'].sum().reset_index()
+        enr_trend['Month'] = enr_trend['Month'].astype(str)
+        fig_enr = px.bar(enr_trend, x='Month', y='Enrolment_Count', color_discrete_sequence=['#0083B8'])
+        st.plotly_chart(fig_enr, width="stretch")
+        
+        st.subheader("Update Transaction Trend")
+        upd_trend = df_upd.groupby('Month')['Count'].sum().reset_index()
+        upd_trend['Month'] = upd_trend['Month'].astype(str)
+        fig_upd = px.bar(upd_trend, x='Month', y='Count', color_discrete_sequence=['#ff6c6c'])
+        st.plotly_chart(fig_upd, width="stretch")
+
+    with col2:
+        st.subheader("State-wise Saturation Distribution")
+        fig_pie = px.pie(df_sat, values='Projected_Pop_2025', names='State', hole=0.4, color_discrete_sequence=px.colors.sequential.RdBu)
+        st.plotly_chart(fig_pie, width="stretch")
 
 with tab1:
     st.header("Migration Velocity ($M_v$)")
