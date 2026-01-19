@@ -12,28 +12,95 @@ from metrics import calculate_migration_velocity, calculate_dggi, detect_anomali
 # Page Config
 st.set_page_config(page_title="Aadhaar-Drishti", layout="wide", page_icon="🇮🇳")
 
-# Title and Context
-st.title("🇮🇳 Aadhaar-Drishti: Strategic Intelligence Dashboard")
+# Custom CSS for Dashboard Styling
 st.markdown("""
-> **Theme**: Unlocking Societal Trends in Aadhaar Enrolment and Updates  
-> **Mission**: Transforming administrative metadata into actionable governance insights.
-""")
+<style>
+    .main-header {
+        background-color: #2c3e50;
+        padding: 15px;
+        border-radius: 5px;
+        color: white;
+        text-align: left;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+    .kpi-card {
+        background-color: white;
+        padding: 20px;
+        border-radius: 8px;
+        text-align: center;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        margin-bottom: 20px;
+    }
+    .kpi-title {
+        font-size: 16px;
+        font-weight: bold;
+        color: white;
+        padding: 10px;
+        border-radius: 5px 5px 0 0;
+        margin: -20px -20px 15px -20px;
+    }
+    .kpi-value {
+        font-size: 28px;
+        font-weight: bold;
+        color: #333;
+    }
+    .enrol-bg { background-color: #5DADE2; } /* Blue */
+    .update-bg { background-color: #F1948A; } /* Red */
+    .auth-bg { background-color: #58D68D; }   /* Green */
+    .ekyc-bg { background-color: #F5B041; }   /* Orange */
+</style>
+
+<div class="main-header">
+    <div style="font-size: 24px; font-weight: bold;">Welcome to AADHAAR Dashboard</div>
+    <div style="font-size: 12px;">Unique Identification Authority of India</div>
+</div>
+""", unsafe_allow_html=True)
 
 # Load Data
 with st.spinner("Loading aggregated Aadhaar datasets..."):
     df_enr, df_upd, df_sat, gdf = load_data()
 
-# KPI Section
-kpi1, kpi2, kpi3, kpi4 = st.columns(4)
-with kpi1:
-    st.metric("Total Enrolments (2023-25)", f"{df_enr['Enrolment_Count'].sum():,}")
-with kpi2:
-    st.metric("Total Updates", f"{df_upd['Count'].sum():,}")
-with kpi3:
-    st.metric("Avg. Saturation", f"{df_sat['Saturation_Percentage'].mean():.1f}%")
-with kpi4:
-    st.metric("Avg. Rejection Rate", f"{(df_enr['Rejection_Count'].sum()/df_enr['Enrolment_Count'].sum())*100:.2f}%")
-st.markdown("---")
+# Custom KPI Cards Section
+col1, col2, col3, col4 = st.columns(4)
+
+with col1:
+    st.markdown(f"""
+    <div class="kpi-card">
+        <div class="kpi-title enrol-bg">Enrolment</div>
+        <div class="kpi-value">{df_enr['Enrolment_Count'].sum():,}</div>
+        <div style="font-size: 12px; color: #777;">Total Enrolments</div>
+    </div>
+    """, unsafe_allow_html=True)
+
+with col2:
+    st.markdown(f"""
+    <div class="kpi-card">
+        <div class="kpi-title update-bg">Update</div>
+        <div class="kpi-value">{df_upd['Count'].sum():,}</div>
+        <div style="font-size: 12px; color: #777;">Total Updates</div>
+    </div>
+    """, unsafe_allow_html=True)
+
+with col3:
+    st.markdown(f"""
+    <div class="kpi-card">
+        <div class="kpi-title auth-bg">Authentication</div>
+        <div class="kpi-value">90,096,849,046</div>
+        <div style="font-size: 12px; color: #777;">Total Authentications (Mock)</div>
+    </div>
+    """, unsafe_allow_html=True)
+
+with col4:
+    st.markdown(f"""
+    <div class="kpi-card">
+        <div class="kpi-title ekyc-bg">eKYC</div>
+        <div class="kpi-value">14,774,500,494</div>
+        <div style="font-size: 12px; color: #777;">eKYC Done (Mock)</div>
+    </div>
+    """, unsafe_allow_html=True)
 
 # Sidebar Controls
 st.sidebar.header("Filter Controls")
