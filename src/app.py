@@ -121,16 +121,7 @@ with col4:
     </div>
     """, unsafe_allow_html=True)
 
-# Sidebar Controls
-st.sidebar.header("Filter Controls")
-selected_state = st.sidebar.selectbox("Select State", ["All"] + list(df_sat['State'].unique()))
 
-# Filter logic
-if selected_state != "All":
-    df_enr = df_enr[df_enr['State'] == selected_state]
-    df_upd = df_upd[df_upd['State'] == selected_state]
-    df_sat = df_sat[df_sat['State'] == selected_state]
-    gdf = gdf[gdf['state'] == selected_state]
 
 # AI Analyst Section
 st.sidebar.markdown("---")
