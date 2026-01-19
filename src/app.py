@@ -18,7 +18,7 @@ st.markdown("""
 <style>
     /* Main Background adjustments if needed */
     .block-container {
-        padding-top: 1.5rem; /* Increased to prevent top clipping */
+        padding-top: 3rem; /* Increased to prevent top clipping */
         padding-bottom: 2rem;
         padding-left: 2rem;
         padding-right: 2rem;
@@ -31,7 +31,7 @@ st.markdown("""
         display: flex;
         justify-content: space-between;
         align-items: center;
-        margin-bottom: 10px;
+        margin-bottom: 15px;
         border-bottom: 1px solid #eee;
         border-radius: 5px; /* Soften edges */
     }
@@ -45,11 +45,11 @@ st.markdown("""
         line-height: 1.4;
     }
     .govt-title {
-        font-size: 16px;
+        font-size: 18px; /* Slightly larger */
         font-weight: bold;
     }
     .govt-subtitle {
-        font-size: 12px;
+        font-size: 13px;
     }
     
     /* BLUE SUB-HEADER: Title + Button Area */
@@ -61,10 +61,10 @@ st.markdown("""
         justify-content: space-between;
         align-items: center;
         border-radius: 0px 0px 5px 5px; /* Slight rounded bottom */
-        margin-bottom: 20px;
+        margin-bottom: 25px;
     }
     .dashboard-title {
-        font-size: 20px;
+        font-size: 22px;
         font-weight: 500;
         margin: 0;
     }
@@ -78,6 +78,10 @@ st.markdown("""
         box-shadow: 0 2px 4px rgba(0,0,0,0.1);
         margin-bottom: 10px;
         overflow: hidden;
+        transition: transform 0.2s;
+    }
+    .kpi-card:hover {
+        transform: translateY(-5px);
     }
     .kpi-title {
         font-size: 16px;
@@ -110,6 +114,15 @@ st.markdown("""
         box-shadow: 0 1px 3px rgba(0,0,0,0.1);
         margin-bottom: 15px;
     }
+    
+    /* Filter Box Styling */
+    .filter-box {
+        background-color: #F8F9FA;
+        padding: 15px;
+        border-radius: 8px;
+        border: 1px solid #E0E0E0;
+        margin-bottom: 20px;
+    }
 </style>
 
 <!-- Top Header Section -->
@@ -122,7 +135,7 @@ st.markdown("""
         </div>
     </div>
     <div>
-        <img src="https://upload.wikimedia.org/wikipedia/en/c/cf/Aadhaar_Logo.svg" style="height: 50px;">
+        <img src="https://upload.wikimedia.org/wikipedia/en/c/cf/Aadhaar_Logo.svg" style="height: 60px; object-fit: contain;">
     </div>
 </div>
 
@@ -217,19 +230,36 @@ with col4:
 # ---------------------------------------------------------
 # Filter Section (Moved below Stats Cards)
 # ---------------------------------------------------------
-with st.expander("🔍 Filter Dashboard Data", expanded=False):
-    col_f1, col_f2 = st.columns([1, 4])
+with st.expander("🔍 Filter Dashboard Data", expanded=True):
+    # Enhanced Filter Style using Columns
+    col_f1, col_f2, col_f3 = st.columns([2, 2, 4])
+    
     with col_f1:
-        # Use a unique key to avoid duplicate ID errors if necessary, though moving it is safe
-        # Use Enrolment Data for State List
+        # State Filter
         state_list = sorted(list(df_enr['State'].unique()))
-        selected_state = st.selectbox("Select State Region", ["All"] + state_list, key="state_filter_main")
+        selected_state = st.selectbox("1️⃣ Select State", ["All"] + state_list, key="state_filter_main")
+        
+    with col_f2:
+        # District Filter (Dynamic)
+        if selected_state != "All":
+            district_list = sorted(list(df_enr[df_enr['State'] == selected_state]['District'].unique()))
+            selected_district = st.selectbox("2️⃣ Select District", ["All"] + district_list, key="dist_filter_main")
+        else:
+            selected_district = "All"
+            st.selectbox("2️⃣ Select District", ["Select State First"], disabled=True)
 
 # Filter logic
 if selected_state != "All":
     df_enr = df_enr[df_enr['State'] == selected_state]
     df_upd = df_upd[df_upd['State'] == selected_state]
     gdf = gdf[gdf['state'] == selected_state]
+    
+    if selected_district != "All":
+        df_enr = df_enr[df_enr['District'] == selected_district]
+        df_upd = df_upd[df_upd['District'] == selected_district]
+        # map filter logic if district specific map needed, usually district map shows specific district highlighted
+        # For this hackathon, we keep map focused on state or filter down
+        gdf = gdf[gdf['district'] == selected_district]
 
 # Layout: Tabs
 tab_trends, tab1, tab2, tab3 = st.tabs(["📈 Overall Trends", "🏭 Operational Intensity", "👥 Demographics", "🛡️ System Integrity"])
@@ -297,27 +327,7 @@ with tab_trends:
 
 
 # AI Analyst Logic (Triggered by main button)
-if gen_ai_btn:
-    st.info("🤖 **AI Analyst Output**")
-    st.write("Analyzing patterns...")
-    
-    # Logic-based "GenAI" for Hackathon (Deterministic but smart)
-    insight_text = []
-    
-    # 1. Volume Insight
-    total_enr = df_enr['Enrolment_Count'].sum()
-    if total_enr > 1000000:
-        insight_text.append(f"📈 **High Volume**: Total enrolments exceed 1 Million ({total_enr:,}), indicating robust activity.")
-        
-    # 2. Update Ratio
-    total_upd = df_upd['Count'].sum() if not df_upd.empty else 0
-    ratio = total_upd / total_enr if total_enr > 0 else 0
-    if ratio > 0.5:
-        insight_text.append(f" **Maintenance Phase**: Updates ({total_upd:,}) are {ratio:.0%} of enrolments, suggesting a mature ecosystem.")
-    else:
-        insight_text.append(f"🆕 **Acquisition Phase**: Focus is still largely on new enrolments over updates.")
-        
-    st.success(" ".join(insight_text))
+
 
 
 with tab1:
