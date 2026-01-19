@@ -18,19 +18,22 @@ st.markdown("""
 <style>
     /* Main Background adjustments if needed */
     .block-container {
-        padding-top: 1rem;
+        padding-top: 1.5rem; /* Increased to prevent top clipping */
         padding-bottom: 2rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
     }
     
     /* TOP HEADER: White, Logos */
     .top-header {
         background-color: white;
-        padding: 10px 20px;
+        padding: 15px 25px; /* More breathing room */
         display: flex;
         justify-content: space-between;
         align-items: center;
-        margin-bottom: 0px;
+        margin-bottom: 10px;
         border-bottom: 1px solid #eee;
+        border-radius: 5px; /* Soften edges */
     }
     .header-logo-text {
         display: flex;
@@ -146,7 +149,10 @@ with col_header_2:
 with st.spinner("Loading aggregated Aadhaar datasets..."):
     df_enr, df_upd, df_sat, gdf = load_data()
 
-# Custom KPI Cards Section
+
+# ---------------------------------------------------------
+# KPI Cards Section
+# ---------------------------------------------------------
 col1, col2, col3, col4 = st.columns(4)
 
 with col1:
@@ -185,12 +191,23 @@ with col4:
     </div>
     """, unsafe_allow_html=True)
 
+# ---------------------------------------------------------
+# Filter Section (Moved below Stats Cards)
+# ---------------------------------------------------------
+with st.expander("🔍 Filter Dashboard Data", expanded=False):
+    col_f1, col_f2 = st.columns([1, 4])
+    with col_f1:
+        # Use a unique key to avoid duplicate ID errors if necessary, though moving it is safe
+        selected_state = st.selectbox("Select State Region", ["All"] + list(df_sat['State'].unique()), key="state_filter_main")
+
+# Filter logic
+if selected_state != "All":
+    df_enr = df_enr[df_enr['State'] == selected_state]
+    df_upd = df_upd[df_upd['State'] == selected_state]
+    df_sat = df_sat[df_sat['State'] == selected_state]
+    gdf = gdf[gdf['state'] == selected_state]
 
 
-
-
-# Tabs
-tab_trends, tab1, tab2, tab3 = st.tabs(["📊 Trends View", "🚀 Migration Monitor", "📱 Inclusion Tracker", "🔍 Anomaly Detection"])
 
 with tab_trends:
     # Use standard headers but we will wrap charts to look 'contained'
