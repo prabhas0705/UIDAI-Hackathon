@@ -4,6 +4,7 @@ import plotly.express as px
 import folium
 import random
 import plotly.graph_objects as go
+from plotly.subplots import make_subplots
 from streamlit_folium import st_folium
 from data_loader import load_data, merge_for_map
 from metrics import calculate_migration_velocity, calculate_dggi, detect_anomalies
@@ -87,19 +88,59 @@ with tab_trends:
     col1, col2 = st.columns([2, 1])
     
     with col1:
-        st.subheader("Aadhaar Generation Trend (2023-2025)")
-        # Group by Month for Bar Chart
+        st.subheader("Aadhaar Generation Trend")
+        
+        # 1. Enrolment Combo Chart
         enr_trend = df_enr.groupby('Month')['Enrolment_Count'].sum().reset_index()
         enr_trend['Month'] = enr_trend['Month'].astype(str)
-        fig_enr = px.bar(enr_trend, x='Month', y='Enrolment_Count', 
-                         color_discrete_sequence=['#0083B8'], text_auto='.2s')
+        enr_trend['Cumulative'] = enr_trend['Enrolment_Count'].cumsum()
+        
+        # Create Dual-Axis Plot
+        fig_enr = make_subplots(specs=[[{"secondary_y": True}]])
+        
+        # Bar Trace (Monthly)
+        fig_enr.add_trace(
+            go.Bar(x=enr_trend['Month'], y=enr_trend['Enrolment_Count'], name="Monthly Enrolment",
+                   marker_color='#26C6DA', opacity=0.8), # Teal color
+            secondary_y=False
+        )
+        
+        # Line Trace (Cumulative/Trend)
+        fig_enr.add_trace(
+            go.Scatter(x=enr_trend['Month'], y=enr_trend['Cumulative'], name="Cumulative Trend",
+                       line=dict(color='#FFCA28', width=3), mode='lines+markers'), # Yellow Line
+            secondary_y=True
+        )
+        
+        fig_enr.update_layout(title_text="", showlegend=True, height=350, margin=dict(t=10, b=0, l=0, r=0))
+        fig_enr.update_yaxes(title_text="Monthly Count", secondary_y=False, showgrid=False)
+        fig_enr.update_yaxes(title_text="Cumulative", secondary_y=True, showgrid=False)
         st.plotly_chart(fig_enr, width="stretch")
         
         st.subheader("Update Transaction Trend")
+        
+        # 2. Update Combo Chart
         upd_trend = df_upd.groupby('Month')['Count'].sum().reset_index()
         upd_trend['Month'] = upd_trend['Month'].astype(str)
-        fig_upd = px.bar(upd_trend, x='Month', y='Count', 
-                         color_discrete_sequence=['#ff6c6c'], text_auto='.2s')
+        upd_trend['Cumulative'] = upd_trend['Count'].cumsum()
+        
+        fig_upd = make_subplots(specs=[[{"secondary_y": True}]])
+        
+        fig_upd.add_trace(
+            go.Bar(x=upd_trend['Month'], y=upd_trend['Count'], name="Monthly Updates",
+                   marker_color='#EF5350', opacity=0.8), # Red/Pink color
+            secondary_y=False
+        )
+        
+        fig_upd.add_trace(
+            go.Scatter(x=upd_trend['Month'], y=upd_trend['Cumulative'], name="Cumulative Trend",
+                       line=dict(color='#FFCA28', width=3), mode='lines+markers'), # Yellow Line
+            secondary_y=True
+        )
+        
+        fig_upd.update_layout(title_text="", showlegend=True, height=350, margin=dict(t=10, b=0, l=0, r=0))
+        fig_upd.update_yaxes(title_text="Monthly Count", secondary_y=False, showgrid=False)
+        fig_upd.update_yaxes(title_text="Cumulative", secondary_y=True, showgrid=False)
         st.plotly_chart(fig_upd, width="stretch")
 
     with col2:
