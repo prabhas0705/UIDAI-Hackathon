@@ -107,21 +107,27 @@ with tab_trends:
         
         # Prepare data for Exploded Pie
         pie_data = df_sat.sort_values(by='Projected_Pop_2025', ascending=False)
-        # Create a 'pull' list: 0.2 for the first item (largest), 0 for others
+        
+        # Create a 'pull' list: 0.2 for the first item (largest)
         pull_config = [0.2] + [0.0] * (len(pie_data) - 1)
+        
+        # Custom Colors to match the reference (Yellow-Green, Blue, Orange, etc.)
+        custom_colors = ['#A2D9CE', '#AED6F1', '#F9E79F', '#F5B7B1', '#D2B4DE', '#FAD7A0'] * 3
         
         fig_pie = go.Figure(data=[go.Pie(
             labels=pie_data['State'], 
             values=pie_data['Projected_Pop_2025'],
-            pull=pull_config, # Explode the largest slice to give that "3D pop" look
-            hole=0.0, # Full pie (not donut) to match reference
+            pull=pull_config, 
+            hole=0.0, 
             textinfo='percent+label',
-            marker=dict(colors=px.colors.qualitative.Prism, line=dict(color='#000000', width=1))
+            rotation=45, # Rotate to position the exploded slice nicely
+            marker=dict(colors=px.colors.qualitative.Pastel, line=dict(color='#FFFFFF', width=2))
         )])
         
         fig_pie.update_layout(
             showlegend=True,
-            legend=dict(orientation="v", yanchor="top", y=1, xanchor="left", x=1.05) # Legend on right like reference
+            legend=dict(orientation="v", yanchor="top", y=1, xanchor="left", x=1.05),
+            margin=dict(t=0, b=0, l=0, r=0)
         )
         st.plotly_chart(fig_pie, width="stretch")
 
