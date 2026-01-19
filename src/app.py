@@ -149,6 +149,29 @@ with col_header_2:
 with st.spinner("Loading aggregated Aadhaar datasets..."):
     df_enr, df_upd, gdf = load_data()
 
+# AI Analyst Logic (Triggered by main button)
+if gen_ai_btn:
+    st.info("🤖 **AI Analyst Output**")
+    st.write("Analyzing patterns...")
+    
+    # Logic-based "GenAI" for Hackathon (Deterministic but smart)
+    insight_text = []
+    
+    # 1. Volume Insight
+    total_enr = df_enr['Enrolment_Count'].sum()
+    if total_enr > 1000000:
+        insight_text.append(f"📈 **High Volume**: Total enrolments exceed 1 Million ({total_enr:,}), indicating robust activity.")
+        
+    # 2. Update Ratio
+    total_upd = df_upd['Count'].sum() if not df_upd.empty else 0
+    ratio = total_upd / total_enr if total_enr > 0 else 0
+    if ratio > 0.5:
+        insight_text.append(f"🔄 **Maintenance Phase**: Updates ({total_upd:,}) are {ratio:.0%} of enrolments, suggesting a mature ecosystem.")
+    else:
+        insight_text.append(f"🆕 **Acquisition Phase**: Focus is still largely on new enrolments over updates.")
+        
+    st.success(" ".join(insight_text))
+
 
 # ---------------------------------------------------------
 # KPI Cards Section
@@ -290,12 +313,11 @@ if gen_ai_btn:
     total_upd = df_upd['Count'].sum() if not df_upd.empty else 0
     ratio = total_upd / total_enr if total_enr > 0 else 0
     if ratio > 0.5:
-        insight_text.append(f"� **Maintenance Phase**: Updates ({total_upd:,}) are {ratio:.0%} of enrolments, suggesting a mature ecosystem.")
+        insight_text.append(f" **Maintenance Phase**: Updates ({total_upd:,}) are {ratio:.0%} of enrolments, suggesting a mature ecosystem.")
     else:
         insight_text.append(f"🆕 **Acquisition Phase**: Focus is still largely on new enrolments over updates.")
         
     st.success(" ".join(insight_text))
-
 
 
 with tab1:
