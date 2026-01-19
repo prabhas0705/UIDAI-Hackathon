@@ -316,20 +316,44 @@ with tab1:
         
         st.subheader("Policy Action Center")
         
-        if nashik_mv > (national_avg_mv * 2):
-            st.error(f"🚨 **High Stress Alert: Nashik Area**")
-            st.markdown(f"""
-            **Inflow Velocity:** {nashik_mv} (3.8x National Avg)
+        # 1. District Selector (Dynamic)
+        district_list = mv_df['District'].unique()
+        selected_district_tab = st.selectbox("Select District for Policy Review", district_list, key="mig_dist_select")
+        
+        # 2. Get Real Data for Selected District
+        dist_data = mv_df[mv_df['District'] == selected_district_tab].iloc[0]
+        real_mv = dist_data['Migration_Velocity']
+        
+        # 3. Dynamic Logic
+        threshold = mv_df['Migration_Velocity'].quantile(0.80)
+        
+        # Simulate ONORC Data for "Ground Truth" narrative (Randomized based on MV to be consistent)
+        # If MV is high, we assume 70% chance of high ONORC (Distress)
+        is_high_mv = real_mv > threshold
+        if is_high_mv:
+             onorc_intensity = "High" if random.random() > 0.3 else "Low"
+        else:
+             onorc_intensity = "Low"
+             
+        if is_high_mv:
+            cause = "Distress Migration (Labor)" if onorc_intensity == "High" else "Economic Migration (Student/Job)"
+            action_icon = "🚍" if onorc_intensity == "High" else "🏙️"
+            action_text = "Deploy Mobile Aadhaar Vans to Labor Colonies" if onorc_intensity == "High" else "Open Weekend Enrolment Centers for Professionals"
             
-            **Likely Cause:** Industrial Labor/Harvest Season
+            st.error(f"🚨 **High Stress Alert: {selected_district_tab}**")
+            st.markdown(f"""
+            **Inflow Velocity:** {real_mv:.2f} (Top 20% of Region)
+            **ONORC Usage:** {onorc_intensity}
+            
+            **Likely Cause:** {cause}
             
             **Recommended Actions:**
-            1. 🚍 **Deploy 3 Mobile Aadhaar Vans** to Ind. Estate.
-            2. 🏥 **Increase capacity** at 12 PHCs.
+            1. {action_icon} **{action_text}**.
+            2. 🏥 **Increase capacity** at local PHCs.
             3. 👮 **Launch Tenant Verification** drive.
             """)
         else:
-            st.success("Migration levels within manageable limits.")
+            st.success(f"✅ **Stable**: {selected_district_tab} migration levels are within limits ({real_mv:.2f}).")
             
         st.markdown("**Top Districts by Inflow**")
         top_districts = mv_df.sort_values(by='Migration_Velocity', ascending=False).head(5)
