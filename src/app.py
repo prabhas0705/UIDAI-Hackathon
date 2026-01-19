@@ -123,4 +123,4 @@ with tab3:
 
 # Footer
 st.markdown("---")
-st.caption("UIDAI Data Hackathon 2026 | Team Antigravity")
+st.caption("UIDAI Data Hackathon 2026 | Team Arya")
