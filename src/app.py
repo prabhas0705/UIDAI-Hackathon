@@ -7,7 +7,13 @@ import plotly.graph_objects as go
 from plotly.subplots import make_subplots
 from streamlit_folium import st_folium
 from data_loader import load_data, merge_for_map
-from metrics import calculate_update_intensity, calculate_age_distribution, detect_anomalies
+from metrics import (
+    calculate_update_intensity, calculate_age_distribution, detect_anomalies,
+    get_seasonal_patterns, get_demographic_vs_biometric_seasonal,
+    detect_migration_spikes, get_district_update_velocity, detect_geographic_clusters,
+    analyze_age_transitions, get_age_group_update_patterns, calculate_mbu_demand_forecast,
+    trivariate_analysis, get_state_month_heatmap_data, get_enrollment_update_correlation
+)
 
 # Page Config
 st.set_page_config(page_title="Aadhaar-Drishti", layout="wide", page_icon="🇮🇳")
@@ -156,11 +162,15 @@ with col_header_2:
     # To make it look "inside", we'd need negative margins or layout hacks. 
     # For now, we place it cleanly right below or we accept standard flow.
     # Let's just place the button here for functionality.
-    gen_ai_btn = st.button("✨ Generate AI Insight", type="primary", use_container_width=True)
+    gen_ai_btn = st.button("✨ Generate AI Insight", type="primary", width='stretch')
 
 # Load Data
 with st.spinner("Loading aggregated Aadhaar datasets..."):
     df_enr, df_upd, gdf = load_data()
+
+# Store original unfiltered data for societal trends analysis
+df_enr_full = df_enr.copy()
+df_upd_full = df_upd.copy()
 
 # AI Analyst Logic (Triggered by main button)
 if gen_ai_btn:
@@ -261,8 +271,17 @@ if selected_state != "All":
         # For this hackathon, we keep map focused on state or filter down
         gdf = gdf[gdf['district'] == selected_district]
 
-# Layout: Tabs
-tab_trends, tab1, tab2, tab3 = st.tabs(["📈 Overall Trends", "🏭 Operational Intensity", "👥 Demographics", "🛡️ System Integrity"])
+# Layout: Tabs - Extended for Societal Trends Analysis
+tab_trends, tab_seasonal, tab_migration, tab_age18, tab1, tab2, tab3, tab_trivar = st.tabs([
+    "📈 Overall Trends",
+    "💒 Seasonal Patterns",
+    "🚚 Migration Detection",
+    "🎓 Age-18 Milestone",
+    "🏭 Operational Intensity",
+    "👥 Demographics",
+    "🛡️ System Integrity",
+    "🔬 Trivariate Analysis"
+])
 with tab_trends:
     # Use standard headers but we will wrap charts to look 'contained'
     # Streamlit doesn't support wrapping plots in arbitrary HTML divs easily, 
@@ -326,9 +345,404 @@ with tab_trends:
 
 
 
-# AI Analyst Logic (Triggered by main button)
+# =============================================================================
+# NEW TAB: SEASONAL PATTERNS (Wedding Seasons, School Admissions)
+# =============================================================================
+with tab_seasonal:
+    st.header("💒 Seasonal Patterns in Aadhaar Updates")
+    st.markdown("""
+    **Hypothesis**: Demographic updates spike during wedding seasons (Nov-Feb, Apr-May) due to name/address changes after marriage.
+    School admission seasons (Apr-Jun) may also show enrollment spikes for children.
+    """)
 
+    # Use full data for societal trends analysis
+    st.caption("📊 Analyzing all-India data for societal patterns")
 
+    col1, col2 = st.columns([2, 1])
+
+    with col1:
+        st.subheader("Monthly Update Patterns")
+        seasonal_data = get_seasonal_patterns(df_upd_full, df_enr_full)
+
+        if not seasonal_data.empty:
+            # Color by season
+            color_map = {
+                'Wedding Season (Nov-Feb)': '#E91E63',
+                'Wedding Season (Apr-May)': '#FF5722',
+                'School Admission (Jun)': '#2196F3',
+                'Regular Period': '#9E9E9E'
+            }
+            seasonal_data['Color'] = seasonal_data['Season'].map(color_map)
+
+            fig_seasonal = go.Figure()
+
+            for season in seasonal_data['Season'].unique():
+                season_df = seasonal_data[seasonal_data['Season'] == season]
+                fig_seasonal.add_trace(go.Bar(
+                    x=season_df['Month_Name'],
+                    y=season_df['Total_Updates'],
+                    name=season,
+                    marker_color=color_map.get(season, '#9E9E9E')
+                ))
+
+            fig_seasonal.update_layout(
+                title="Updates by Month (Color-coded by Season)",
+                xaxis_title="Month",
+                yaxis_title="Total Updates",
+                plot_bgcolor='white',
+                paper_bgcolor='white',
+                barmode='group',
+                height=400
+            )
+            st.plotly_chart(fig_seasonal, width='stretch')
+
+            # Deviation chart
+            st.subheader("Deviation from Average")
+            fig_dev = px.bar(seasonal_data, x='Month_Name', y='Deviation_Pct',
+                            color='Season', color_discrete_map=color_map,
+                            title="% Deviation from Average Monthly Updates")
+            fig_dev.add_hline(y=0, line_dash="dash", line_color="gray")
+            fig_dev.update_layout(plot_bgcolor='white', paper_bgcolor='white', height=300)
+            st.plotly_chart(fig_dev, width='stretch')
+        else:
+            st.warning("Insufficient data for seasonal analysis.")
+
+    with col2:
+        st.subheader("📊 Key Insights")
+
+        if not seasonal_data.empty:
+            # Wedding season analysis
+            wedding_months = seasonal_data[seasonal_data['Season'].str.contains('Wedding')]
+            regular_months = seasonal_data[seasonal_data['Season'] == 'Regular Period']
+
+            if not wedding_months.empty and not regular_months.empty:
+                wedding_avg = wedding_months['Total_Updates'].mean()
+                regular_avg = regular_months['Total_Updates'].mean()
+                wedding_increase = ((wedding_avg - regular_avg) / regular_avg * 100) if regular_avg > 0 else 0
+
+                st.metric("Wedding Season Avg", f"{wedding_avg:,.0f}", f"{wedding_increase:+.1f}% vs regular")
+
+            # Peak month
+            peak_month = seasonal_data.loc[seasonal_data['Total_Updates'].idxmax()]
+            st.metric("Peak Month", peak_month['Month_Name'], f"{peak_month['Total_Updates']:,.0f} updates")
+
+            st.info("""
+            **Marriage-Related Updates Pattern:**
+            - Women typically update name after marriage
+            - Address changes when relocating to spouse's home
+            - Mobile number updates common
+            - Peak expected: Nov-Feb (wedding season)
+            """)
+
+        st.subheader("Demographic vs Biometric by Season")
+        demo_bio_seasonal = get_demographic_vs_biometric_seasonal(df_upd_full)
+        if not demo_bio_seasonal.empty:
+            fig_type_season = px.line(demo_bio_seasonal, x='Month_Num', y='Count',
+                                      color='Type', markers=True,
+                                      title="Update Type Trend by Month")
+            fig_type_season.update_layout(height=250, plot_bgcolor='white')
+            st.plotly_chart(fig_type_season, width='stretch')
+
+# =============================================================================
+# NEW TAB: MIGRATION DETECTION (Disaster/Event-driven updates)
+# =============================================================================
+with tab_migration:
+    st.header("🚚 Migration & Event-Driven Update Detection")
+    st.markdown("""
+    **Hypothesis**: Sudden spikes in address updates in specific districts may indicate:
+    - Migration after natural disasters (floods, earthquakes)
+    - Mass relocation due to industrial changes
+    - Seasonal labor migration patterns
+    """)
+
+    # Use full data for migration analysis
+    st.caption("📊 Analyzing all-India data for migration patterns")
+
+    col1, col2 = st.columns([3, 2])
+
+    with col1:
+        st.subheader("District Update Velocity (High = Potential Migration)")
+        velocity_data = get_district_update_velocity(df_upd_full)
+
+        if not velocity_data.empty:
+            # Top 20 by velocity
+            top_velocity = velocity_data.nlargest(20, 'Daily_Velocity')
+
+            fig_velocity = px.bar(top_velocity, x='District', y='Daily_Velocity',
+                                  color='State', title="Top 20 Districts by Daily Update Velocity",
+                                  hover_data=['Total_Updates', 'Days_Active'])
+            fig_velocity.update_layout(
+                plot_bgcolor='white', paper_bgcolor='white',
+                xaxis_tickangle=-45, height=400
+            )
+            st.plotly_chart(fig_velocity, width='stretch')
+
+            # Spike detection
+            st.subheader("⚠️ Month-over-Month Spike Detection")
+            spike_data = detect_migration_spikes(df_upd_full)
+
+            if not spike_data.empty:
+                spikes = spike_data[spike_data['Is_Spike'] == True].dropna()
+                if not spikes.empty:
+                    st.error(f"**{len(spikes)} potential migration events detected!**")
+
+                    # Show top spikes
+                    top_spikes = spikes.nlargest(10, 'MoM_Change_Pct')[['District', 'State', 'Year_Month', 'MoM_Change_Pct', 'Count']]
+                    top_spikes.columns = ['District', 'State', 'Month', 'Change %', 'Updates']
+                    st.dataframe(top_spikes, width='stretch')
+
+                    # Visualization
+                    fig_spikes = px.scatter(spikes.head(50), x='Year_Month', y='MoM_Change_Pct',
+                                           size='Count', color='State', hover_name='District',
+                                           title="Detected Spikes (>100% MoM Increase)")
+                    fig_spikes.update_layout(plot_bgcolor='white', height=350)
+                    st.plotly_chart(fig_spikes, width='stretch')
+                else:
+                    st.success("No significant migration spikes detected in current data.")
+
+    with col2:
+        st.subheader("📍 Geographic Cluster Analysis")
+
+        state_updates, district_high = detect_geographic_clusters(df_upd_full)
+
+        if not state_updates.empty:
+            # High activity states
+            high_activity = state_updates[state_updates['Is_High_Activity']]
+
+            st.markdown("**States with Unusually High Update Activity:**")
+            if not high_activity.empty:
+                for _, row in high_activity.iterrows():
+                    st.warning(f"🔴 **{row['State']}**: {row['Total_Updates']:,.0f} updates")
+            else:
+                st.info("No states with unusually high activity detected.")
+
+            # State-wise distribution
+            fig_state = px.treemap(state_updates, path=['State'], values='Total_Updates',
+                                   title="State-wise Update Distribution",
+                                   color='Total_Updates', color_continuous_scale='Reds')
+            fig_state.update_layout(height=350)
+            st.plotly_chart(fig_state, width='stretch')
+
+        st.subheader("🔍 Interpretation Guide")
+        st.info("""
+        **High Velocity Districts** may indicate:
+        - Post-disaster address updates
+        - Migrant worker hubs
+        - Urban centers with high mobility
+
+        **Sudden Spikes** (>100% MoM) suggest:
+        - Mass migration event
+        - Disaster recovery period
+        - Policy-driven update campaigns
+        """)
+
+# =============================================================================
+# NEW TAB: AGE-18 MILESTONE TRACKING
+# =============================================================================
+with tab_age18:
+    st.header("🎓 Age-18 Milestone & Lifecycle Tracking")
+    st.markdown("""
+    **Key Milestones in Aadhaar Lifecycle:**
+    - **Age 5**: First Mandatory Biometric Update (MBU)
+    - **Age 15**: Second MBU
+    - **Age 18**: Adult transition - often needs update for voting, college, employment
+    """)
+
+    # Use full data for lifecycle analysis
+    st.caption("📊 Analyzing all-India data for age-based patterns")
+
+    col1, col2 = st.columns(2)
+
+    with col1:
+        st.subheader("Enrollment to Update Transition Analysis")
+        transition_data = analyze_age_transitions(df_enr_full, df_upd_full)
+
+        if not transition_data.empty:
+            # Update rate by state
+            fig_transition = px.bar(transition_data.nlargest(15, 'Update_Rate'),
+                                   x='State', y='Update_Rate',
+                                   color='Adult_Enrollment_Share',
+                                   color_continuous_scale='Viridis',
+                                   title="Update Rate vs Adult Enrollment Share by State")
+            fig_transition.update_layout(plot_bgcolor='white', height=400, xaxis_tickangle=-45)
+            st.plotly_chart(fig_transition, width='stretch')
+
+            # Scatter plot: Enrollment vs Updates
+            fig_scatter = px.scatter(transition_data, x='Enrolment_Count', y='Count',
+                                    size='age_18_greater', color='Update_Rate',
+                                    hover_name='State',
+                                    title="Enrollment vs Updates (Bubble size = 18+ Enrollments)",
+                                    color_continuous_scale='RdYlGn')
+            fig_scatter.update_layout(plot_bgcolor='white', height=400)
+            st.plotly_chart(fig_scatter, width='stretch')
+
+    with col2:
+        st.subheader("MBU Demand Forecast by State")
+        mbu_forecast = calculate_mbu_demand_forecast(df_enr_full)
+
+        if not mbu_forecast.empty:
+            # Top states by MBU demand
+            top_mbu = mbu_forecast.nlargest(10, 'Total_MBU_Demand')
+
+            fig_mbu = go.Figure()
+            fig_mbu.add_trace(go.Bar(name='Immediate (Age 5)', x=top_mbu['State'], y=top_mbu['MBU_Immediate'], marker_color='#E53935'))
+            fig_mbu.add_trace(go.Bar(name='Short-term (Age 15)', x=top_mbu['State'], y=top_mbu['MBU_ShortTerm'], marker_color='#FB8C00'))
+            fig_mbu.add_trace(go.Bar(name='Long-term (Adult)', x=top_mbu['State'], y=top_mbu['MBU_LongTerm'], marker_color='#43A047'))
+
+            fig_mbu.update_layout(
+                title="Projected MBU Demand by State",
+                barmode='stack',
+                plot_bgcolor='white', paper_bgcolor='white',
+                height=400, xaxis_tickangle=-45
+            )
+            st.plotly_chart(fig_mbu, width='stretch')
+
+            # Key metrics
+            total_immediate = mbu_forecast['MBU_Immediate'].sum()
+            total_shortterm = mbu_forecast['MBU_ShortTerm'].sum()
+            total_longterm = mbu_forecast['MBU_LongTerm'].sum()
+
+            st.metric("Immediate MBU Demand (Age 5)", f"{total_immediate:,.0f}")
+            st.metric("Short-term MBU Demand (Age 15)", f"{total_shortterm:,.0f}")
+            st.metric("Long-term Adult Updates", f"{total_longterm:,.0f}")
+
+        st.subheader("📋 Age-18 Specific Insights")
+
+        # Calculate 17+ updates (proxy for 18+)
+        if 'Age_17_Plus' in df_upd_full.columns:
+            adult_updates = df_upd_full['Age_17_Plus'].sum()
+            total_updates = df_upd_full['Count'].sum()
+            adult_share = (adult_updates / total_updates * 100) if total_updates > 0 else 0
+
+            st.metric("17+ Age Updates", f"{adult_updates:,.0f}", f"{adult_share:.1f}% of total")
+
+        st.info("""
+        **Age-18 Update Drivers:**
+        - Voter ID linkage requirement
+        - College admission documentation
+        - First job/employment verification
+        - Bank account opening (KYC)
+        - Driving license application
+        """)
+
+# =============================================================================
+# NEW TAB: TRIVARIATE ANALYSIS (Age × Geography × Time)
+# =============================================================================
+with tab_trivar:
+    st.header("🔬 Trivariate Analysis: Age × Geography × Time")
+    st.markdown("Multi-dimensional analysis combining age groups, geographic regions, and temporal patterns.")
+
+    # Use full data for trivariate analysis
+    st.caption("📊 Analyzing all-India data for multi-dimensional patterns")
+
+    col1, col2 = st.columns(2)
+
+    with col1:
+        st.subheader("State × Month Heatmap (Updates)")
+        heatmap_data = get_state_month_heatmap_data(df_upd_full)
+
+        if not heatmap_data.empty:
+            # Limit to top 15 states for readability
+            top_states = df_upd_full.groupby('State')['Count'].sum().nlargest(15).index
+            heatmap_filtered = heatmap_data.loc[heatmap_data.index.isin(top_states)]
+
+            fig_heatmap = px.imshow(heatmap_filtered,
+                                    labels=dict(x="Month", y="State", color="Updates"),
+                                    x=['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun',
+                                       'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'][:len(heatmap_filtered.columns)],
+                                    y=heatmap_filtered.index,
+                                    color_continuous_scale='YlOrRd',
+                                    title="Update Intensity Heatmap (Top 15 States)")
+            fig_heatmap.update_layout(height=500)
+            st.plotly_chart(fig_heatmap, width='stretch')
+        else:
+            st.warning("Insufficient data for heatmap.")
+
+    with col2:
+        st.subheader("Enrollment vs Update Correlation")
+        correlation_data, corr_value = get_enrollment_update_correlation(df_enr_full, df_upd_full)
+
+        if not correlation_data.empty:
+            st.metric("Correlation Coefficient", f"{corr_value:.3f}")
+
+            if corr_value > 0.7:
+                st.success("Strong positive correlation: Updates follow enrollment patterns (lifecycle-driven)")
+            elif corr_value > 0.4:
+                st.info("Moderate correlation: Mix of lifecycle and event-driven updates")
+            else:
+                st.warning("Weak correlation: Updates may be event-driven (migration, disasters)")
+
+            fig_corr = px.scatter(correlation_data, x='Enrollments', y='Updates',
+                                  size='Update_to_Enrollment_Ratio', hover_name='State',
+                                  title="Enrollment vs Update Correlation by State")
+            fig_corr.update_layout(plot_bgcolor='white', height=400)
+            st.plotly_chart(fig_corr, width='stretch')
+
+    # Trivariate: Age × State × Month
+    st.subheader("Age Group × State × Time Analysis")
+    trivar_enr, trivar_upd = trivariate_analysis(df_enr_full, df_upd_full)
+
+    if not trivar_enr.empty:
+        col3, col4 = st.columns(2)
+
+        with col3:
+            # Age group trend over time (aggregated)
+            age_time = trivar_enr.groupby('Year_Month').agg({
+                'age_0_5': 'sum',
+                'age_5_17': 'sum',
+                'age_18_greater': 'sum'
+            }).reset_index()
+
+            fig_age_time = go.Figure()
+            fig_age_time.add_trace(go.Scatter(x=age_time['Year_Month'], y=age_time['age_0_5'],
+                                              name='0-5 Years', mode='lines+markers', line=dict(color='#4CAF50')))
+            fig_age_time.add_trace(go.Scatter(x=age_time['Year_Month'], y=age_time['age_5_17'],
+                                              name='5-17 Years', mode='lines+markers', line=dict(color='#2196F3')))
+            fig_age_time.add_trace(go.Scatter(x=age_time['Year_Month'], y=age_time['age_18_greater'],
+                                              name='18+ Years', mode='lines+markers', line=dict(color='#F44336')))
+
+            fig_age_time.update_layout(
+                title="Enrollment by Age Group Over Time",
+                plot_bgcolor='white', paper_bgcolor='white',
+                height=350, xaxis_tickangle=-45
+            )
+            st.plotly_chart(fig_age_time, width='stretch')
+
+        with col4:
+            # Update type trend over time
+            if not trivar_upd.empty:
+                fig_upd_time = px.line(trivar_upd, x='Year_Month', y='Count',
+                                       color='Type', markers=True,
+                                       title="Update Type Over Time")
+                fig_upd_time.update_layout(plot_bgcolor='white', height=350, xaxis_tickangle=-45)
+                st.plotly_chart(fig_upd_time, width='stretch')
+
+    st.subheader("🎯 Multi-Dimensional Insights Summary")
+    col5, col6, col7 = st.columns(3)
+
+    with col5:
+        st.markdown("**Temporal Patterns**")
+        st.info("""
+        - Wedding seasons show demographic update spikes
+        - School admission periods show child enrollment peaks
+        - Year-end shows administrative backlogs
+        """)
+
+    with col6:
+        st.markdown("**Geographic Patterns**")
+        st.info("""
+        - Urban centers: Higher update velocity
+        - Disaster-prone areas: Spike patterns
+        - Migrant destinations: Address update clusters
+        """)
+
+    with col7:
+        st.markdown("**Age-based Patterns**")
+        st.info("""
+        - 0-5: New child enrollments
+        - 5-17: MBU at milestones
+        - 18+: Life event updates (marriage, job)
+        """)
 
 with tab1:
     st.header("Operational Intensity (Updates vs Enrolments)")
@@ -357,7 +771,7 @@ with tab1:
                 line_opacity=0.2,
                 legend_name="Update Intensity (Updates per 1k Enrolments)"
             ).add_to(m)
-            st_folium(m, width=None, height=400, returned_objects=[], use_container_width=True)
+            st_folium(m, height=400, returned_objects=[], use_container_width=True)
         else:
             st.warning("No geospatial data available for the selected filters.")
             

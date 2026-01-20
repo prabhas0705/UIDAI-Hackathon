@@ -42,6 +42,8 @@ def load_data():
         df_demo['Count'] = df_demo['demo_age_5_17'] + df_demo['demo_age_17_']
         df_demo.rename(columns={'state': 'State', 'district': 'District', 'date': 'Month'}, inplace=True)
         df_demo['Type'] = 'Demographic'
+        # Preserve age columns for detailed analysis
+        df_demo.rename(columns={'demo_age_5_17': 'Age_5_17', 'demo_age_17_': 'Age_17_Plus'}, inplace=True)
     else:
         df_demo = pd.DataFrame()
 
@@ -54,6 +56,8 @@ def load_data():
         df_bio['Count'] = df_bio['bio_age_5_17'] + df_bio['bio_age_17_']
         df_bio.rename(columns={'state': 'State', 'district': 'District', 'date': 'Month'}, inplace=True)
         df_bio['Type'] = 'Biometric'
+        # Preserve age columns for detailed analysis
+        df_bio.rename(columns={'bio_age_5_17': 'Age_5_17', 'bio_age_17_': 'Age_17_Plus'}, inplace=True)
     else:
         df_bio = pd.DataFrame()
 
@@ -73,6 +77,10 @@ def merge_for_map(gdf, df_metrics, metric_col):
     """
     Merges metric dataframe with GeoDataFrame for plotting.
     """
+    # Handle empty GeoDataFrame (no GeoJSON file)
+    if gdf.empty or 'district' not in gdf.columns:
+        return gpd.GeoDataFrame()
+
     # Ensure district names match or use ID
     # In our mock data, names match perfectly.
     merged = gdf.merge(df_metrics, left_on='district', right_on='District', how='left')
