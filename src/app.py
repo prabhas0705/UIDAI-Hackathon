@@ -177,6 +177,7 @@ with st.spinner("Loading aggregated Aadhaar datasets..."):
 # Store original unfiltered data for societal trends analysis
 df_enr_full = df_enr.copy()
 df_upd_full = df_upd.copy()
+gdf_full = gdf.copy()  # Keep full GeoJSON for map visualization
 
 # AI Analyst Logic (Triggered by main button)
 if gen_ai_btn:
@@ -761,8 +762,8 @@ with tab1:
     
     with col1:
         st.subheader("District-wise Update Intensity")
-        # Merge for map
-        map_df = merge_for_map(gdf, intensity_df, 'Update_Intensity')
+        # Merge for map - use full GeoJSON for all-India visualization
+        map_df = merge_for_map(gdf_full, intensity_df, 'Update_Intensity')
 
         if not map_df.empty:
             m = folium.Map(location=[20, 78], zoom_start=5)
