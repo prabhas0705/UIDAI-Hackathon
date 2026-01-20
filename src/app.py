@@ -6,6 +6,12 @@ import random
 import plotly.graph_objects as go
 from plotly.subplots import make_subplots
 from streamlit_folium import st_folium
+import sys
+import os
+
+# Add src directory to path for both local and cloud deployment
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+
 from data_loader import load_data, merge_for_map
 from metrics import (
     calculate_update_intensity, calculate_age_distribution, detect_anomalies,
@@ -757,7 +763,7 @@ with tab1:
         st.subheader("District-wise Update Intensity")
         # Merge for map
         map_df = merge_for_map(gdf, intensity_df, 'Update_Intensity')
-        
+
         if not map_df.empty:
             m = folium.Map(location=[20, 78], zoom_start=5)
             folium.Choropleth(
@@ -773,7 +779,15 @@ with tab1:
             ).add_to(m)
             st_folium(m, height=400, returned_objects=[], use_container_width=True)
         else:
-            st.warning("No geospatial data available for the selected filters.")
+            # Alternative visualization when no GeoJSON available
+            st.info("📊 Showing bar chart (GeoJSON map data not available)")
+            if not intensity_df.empty:
+                top_20 = intensity_df.nlargest(20, 'Update_Intensity')
+                fig_intensity = px.bar(top_20, x='District', y='Update_Intensity',
+                                      color='State', title="Top 20 Districts by Update Intensity",
+                                      labels={'Update_Intensity': 'Updates per 1k Enrollments'})
+                fig_intensity.update_layout(plot_bgcolor='white', height=400, xaxis_tickangle=-45)
+                st.plotly_chart(fig_intensity, width='stretch')
             
     with col2:
         st.subheader("Priority Actions")
