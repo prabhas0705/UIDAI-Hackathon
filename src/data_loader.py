@@ -81,7 +81,18 @@ def merge_for_map(gdf, df_metrics, metric_col):
     if gdf.empty or 'district' not in gdf.columns:
         return gpd.GeoDataFrame()
 
-    # Ensure district names match or use ID
-    # In our mock data, names match perfectly.
-    merged = gdf.merge(df_metrics, left_on='district', right_on='District', how='left')
+    # Create copies for case-insensitive matching
+    gdf_copy = gdf.copy()
+    df_copy = df_metrics.copy()
+
+    # Normalize district names for better matching
+    gdf_copy['district_lower'] = gdf_copy['district'].str.lower().str.strip()
+    df_copy['District_lower'] = df_copy['District'].str.lower().str.strip()
+
+    # Merge on normalized names
+    merged = gdf_copy.merge(df_copy, left_on='district_lower', right_on='District_lower', how='left')
+
+    # Drop helper columns
+    merged = merged.drop(columns=['district_lower', 'District_lower'], errors='ignore')
+
     return merged
